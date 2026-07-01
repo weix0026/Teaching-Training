@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>F422 Lab 2 - Ponderosa Pine Forest LP</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="app.js"></script>
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">F422 Lab 2</p>
+          <h1>Managing a ponderosa pine forest with linear programming</h1>
+        </div>
+        <a class="download-link" href="assets/downloads/PonderosaForestTemplate.xlsx" download>
+          Download Excel template
+        </a>
+      </header>
+
+      <div class="main-grid">
+        <aside class="sidebar" aria-label="Lesson steps">
+          <section class="sidebar-section">
+            <h2>Steps</h2>
+            <ol class="step-list" id="stepList"></ol>
+          </section>
+          <section class="sidebar-section source-box">
+            <h2>Lab source</h2>
+            <p>
+              Build a four-variable LP model that maximizes recreation while meeting timber,
+              sediment, and land-area limits.
+            </p>
+            <button class="ghost-button" type="button" id="toggleSources">Open references</button>
+          </section>
+        </aside>
+
+        <main class="lesson-panel" id="lessonPanel" tabindex="-1"></main>
+
+        <aside class="workspace-panel" aria-label="Model workspace">
+          <div class="workspace-head">
+            <div>
+              <p class="eyebrow">Model workspace</p>
+              <h2>Test a management plan</h2>
+            </div>
+            <span class="status-pill">Max</span>
+          </div>
+
+          <div class="metric-grid" id="metricGrid"></div>
+          <div class="allocation-bars" id="allocationBars"></div>
+          <div class="decision-controls" id="decisionControls"></div>
+          <div class="check-panel" id="constraintCheck"></div>
+        </aside>
+      </div>
+    </div>
+
+    <dialog class="source-dialog" id="sourceDialog">
+      <div class="dialog-head">
+        <div>
+          <p class="eyebrow">References</p>
+          <h2>Lab 2 source files</h2>
+        </div>
+        <button class="icon-button" type="button" id="closeSources" aria-label="Close references">X</button>
+      </div>
+      <div class="reference-grid">
+        <article class="reference-item">
+          <figure>
+            <img src="assets/references/lab2-page-1.png" alt="Lab 2 handout page 1">
+            <figcaption>Handout page 1: problem statement and LP formulation.</figcaption>
+          </figure>
+        </article>
+        <article class="reference-item">
+          <figure>
+            <img src="assets/references/lab2-page-2.png" alt="Lab 2 handout page 2">
+            <figcaption>Handout page 2: Solver setup and submission instructions.</figcaption>
+          </figure>
+        </article>
+      </div>
+    </dialog>
+  </body>
+</html>

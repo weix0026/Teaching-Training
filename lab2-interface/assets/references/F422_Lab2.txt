@@ -1,0 +1,64 @@
+    Lab Handout: Managing a Ponderosa Pine Forest with Linear
+                         Programming
+
+
+
+1     Introduction
+This lab involves managing a ponderosa pine forest using linear programming (LP) to maximize recreation
+while meeting timber and sediment constraints. The forest consists of 1,600 ha of high-site land and
+2,400 ha of low-site land.
+
+
+2     Problem Statement
+The forest can be managed as a multiple-use area (recreation and timber) or wilderness (recreation only).
+Expected outputs per hectare are provided. The goal is to:
+    • Maximize recreation (visitor-days per year).
+    • Produce at least 1,400 m3/year of timber.
+    • Keep sediment below 200 m3/year.
+
+
+3     LP Formulation
+Decision variables:
+    • Xhw : Hectares of high-site land as wilderness.
+
+    • Xhm : Hectares of high-site land for multiple use.
+    • Xlw : Hectares of low-site land as wilderness.
+    • Xlm : Hectares of low-site land for multiple use.
+    Objective function:
+                             Max Z = Xhw + 0.25Xhm + 0.6Xlw + 0.15Xlm
+    Constraints:
+
+                                              Xhw + Xhm ≤ 1600      (high-site land limit)
+                                               Xlw + Xlm ≤ 2400     (low-site land limit)
+                0.06Xhw + 0.12Xhm + 0.03Xlw + 0.06Xlm ≤ 200       (sediment limit)
+                                         3.5Xhm + 1.2Xlm ≥ 1400     (timber requirement)
+                                      Xhw , Xhm , Xlw , Xlm ≥ 0
+
+
+4     Setting Up the Excel Spreadsheet and Solver
+Please use the attached Excel template to set up the model.
+
+
+
+
+                                                       1
+5     Using Solver
+    1. Fill formulas in cells F 6 : F 9 to track the results from management. This is we called Left Hand
+       Side.
+    2. Enable the Solver add-in via Excel options.
+    3. Open Solver, set target cell F11 to Max, by changing cells B3:E3.
+
+    4. Add constraints: F 6 : F 8 ≤ H6 : H8, F 9 ≥ H9, and B3 : E3 ≥ 0.
+    5. Select Simplex LP method, solve, and keep the solution.
+
+
+6     Submission
+Submit:
+
+    • Upload the Excel model with the correct optimal solution and solver.
+
+
+
+
+                                                     2
+
