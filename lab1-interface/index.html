@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>F422 Lab 1 - Graphical Linear Programming</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="app.js"></script>
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">F422 Lab 1</p>
+          <h1>Solving simple LP models with graphs and Excel Solver</h1>
+        </div>
+        <a class="download-link" href="assets/downloads/Lab_1_template.xlsx" download>
+          Download Excel template
+        </a>
+      </header>
+
+      <div class="problem-tabs" role="tablist" aria-label="Lab problems">
+        <button class="tab-button active" type="button" data-problem="poet" role="tab" aria-selected="true">
+          Poet-forester
+        </button>
+        <button class="tab-button" type="button" data-problem="river" role="tab" aria-selected="false">
+          River pollution
+        </button>
+      </div>
+
+      <div class="main-grid">
+        <aside class="sidebar" aria-label="Lesson steps">
+          <div class="sidebar-section">
+            <h2>Steps</h2>
+            <ol class="step-list" id="stepList"></ol>
+          </div>
+          <div class="sidebar-section source-box">
+            <h2>Lab source</h2>
+            <p id="sourceSummary"></p>
+            <button class="ghost-button" type="button" id="toggleSources">Open references</button>
+          </div>
+        </aside>
+
+        <main class="lesson-panel" id="lessonPanel" tabindex="-1"></main>
+
+        <aside class="workspace-panel" aria-label="Graph workspace">
+          <div class="workspace-head">
+            <div>
+              <p class="eyebrow">Graph workspace</p>
+              <h2 id="graphTitle">Problem graph</h2>
+            </div>
+            <span class="status-pill" id="sensePill">Max</span>
+          </div>
+          <div class="graph-wrap" id="graphWrap"></div>
+          <div class="graph-legend" id="graphLegend"></div>
+          <div class="point-controls">
+            <label>
+              x1
+              <input type="number" id="x1Input" step="1" min="0">
+            </label>
+            <label>
+              x2
+              <input type="number" id="x2Input" step="1" min="0">
+            </label>
+          </div>
+          <div class="slider-grid">
+            <input type="range" id="x1Slider" min="0" value="0">
+            <input type="range" id="x2Slider" min="0" value="0">
+          </div>
+          <div class="check-panel" id="pointCheck"></div>
+        </aside>
+      </div>
+    </div>
+
+    <dialog class="source-dialog" id="sourceDialog">
+      <div class="dialog-head">
+        <div>
+          <p class="eyebrow">References</p>
+          <h2 id="dialogTitle">Lab source files</h2>
+        </div>
+        <button class="icon-button" type="button" id="closeSources" aria-label="Close references">X</button>
+      </div>
+      <div class="reference-grid" id="referenceGrid"></div>
+    </dialog>
+  </body>
+</html>
