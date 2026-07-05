@@ -12564,18 +12564,6 @@ window.NR444_QUESTIONS = [
     "cleaning_note": "expanded to standalone exam-style prompt using source title"
   },
   {
-    "clean_id": 1062,
-    "old_id": "2465",
-    "prompt": "According to the reading \"Mod06 Fire policy: 2012DOIPolicyReview\", how does economic efficiency relate to BCA when evaluating policies?",
-    "response": "Economic efficiency is an important consideration in evaluating policies, but it is not the only criterion. BCA recognizes that one group may receive most benefits while another bears most costs, thus requiring a broader analysis that includes both efficiency and equity in the policymaking process.",
-    "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod06_Fire_policy\\2012DOIPolicyReview.pdf",
-    "source_rel": "Mod06_Fire_policy\\2012DOIPolicyReview.pdf",
-    "source_label": "2012DOIPolicyReview",
-    "module": "Mod06_Fire_policy",
-    "original_prompt": "How does economic efficiency relate to BCA when evaluating policies?",
-    "cleaning_note": "expanded to standalone exam-style prompt using source title"
-  },
-  {
     "clean_id": 1063,
     "old_id": "2467",
     "prompt": "According to the reading \"Mod06 Fire policy: RMNP fire management plan 2012\", what kinds of monitoring data does the fire effects monitoring program incorporate?",
@@ -12585,18 +12573,6 @@ window.NR444_QUESTIONS = [
     "source_label": "RMNP fire management plan 2012",
     "module": "Mod06_Fire_policy",
     "original_prompt": "What kinds of monitoring data does the fire effects monitoring program incorporate?",
-    "cleaning_note": "expanded to standalone exam-style prompt using source title"
-  },
-  {
-    "clean_id": 1064,
-    "old_id": "2468",
-    "prompt": "According to the reading \"Mod06 Fire policy: RMNP fire management plan 2012\", what factors influence the decision to create a programmatic plan for fire management?",
-    "response": "The decision to create a programmatic plan is based on factors such as the size and diversity of ecosystems involved, fire history, resource values, and resource management objectives outlined in land use plans.",
-    "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod06_Fire_policy\\RMNP_fire_management_plan_2012.pdf",
-    "source_rel": "Mod06_Fire_policy\\RMNP_fire_management_plan_2012.pdf",
-    "source_label": "RMNP fire management plan 2012",
-    "module": "Mod06_Fire_policy",
-    "original_prompt": "What factors influence the decision to create a programmatic plan for fire management?",
     "cleaning_note": "expanded to standalone exam-style prompt using source title"
   },
   {
@@ -12768,18 +12744,6 @@ window.NR444_QUESTIONS = [
     "cleaning_note": "expanded to standalone exam-style prompt using source title"
   },
   {
-    "clean_id": 1079,
-    "old_id": "2493",
-    "prompt": "According to the reading \"Mod06 Fire policy: Policy History I Intro\", what are the challenges associated with integrating traditional ecological knowledge into current fire policies?",
-    "response": "Challenges in integrating traditional ecological knowledge can include skepticism from scientific communities, lack of formal recognition of such knowledge, and difficulties in communication and collaboration between indigenous communities and fire management agencies. Overcoming these challenges requires mutual respect, dialogue, and inclusivity.",
-    "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod06_Fire_policy\\Policy History I Intro.pptx",
-    "source_rel": "Mod06_Fire_policy\\Policy History I Intro.pptx",
-    "source_label": "Policy History I Intro",
-    "module": "Mod06_Fire_policy",
-    "original_prompt": "What are the challenges associated with integrating traditional ecological knowledge into current fire policies?",
-    "cleaning_note": "expanded to standalone exam-style prompt using source title"
-  },
-  {
     "clean_id": 1080,
     "old_id": "2494",
     "prompt": "According to the reading \"PRINCIPLES OF FOREST ECONOMICS\", describe a scenario illustrating how scarcity can influence economic choices.",
@@ -12948,18 +12912,6 @@ window.NR444_QUESTIONS = [
     "cleaning_note": "expanded to standalone exam-style prompt using source title"
   },
   {
-    "clean_id": 1097,
-    "old_id": "2524",
-    "prompt": "According to the reading \"Mod06 Fire policy: Managing the Impact of Wildfires on Communities and the Environment\", how have wildfire incidents changed over the last few decades?",
-    "response": "Over the last few decades, the incidence and impact of wildfires have increased. The National Fire Protection Association (NFPA) estimates that wildfires destroyed over 9,000 homes from 1985 to 1995, with the number of homes damaged in the 1990s being six times that of the previous decade. Recent summers have seen vast losses of homes and increased fire intensity.",
-    "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod06_Fire_policy\\Managing the Impact of Wildfires on Communities and the Environment.pdf",
-    "source_rel": "Mod06_Fire_policy\\Managing the Impact of Wildfires on Communities and the Environment.pdf",
-    "source_label": "Managing the Impact of Wildfires on Communities and the Environment",
-    "module": "Mod06_Fire_policy",
-    "original_prompt": "How have wildfire incidents changed over the last few decades?",
-    "cleaning_note": "expanded to standalone exam-style prompt using source title"
-  },
-  {
     "clean_id": 1098,
     "old_id": "2525",
     "prompt": "According to the reading \"Mod07 BenefitCost: c11-2 8 01\", what does the term 'shadow price' refer to in this context?",
@@ -13065,18 +13017,6 @@ window.NR444_QUESTIONS = [
     "source_label": "Policy History I Intro",
     "module": "Mod06_Fire_policy",
     "original_prompt": "Can you provide an example of a historical paradigm shift in science?",
-    "cleaning_note": "expanded to standalone exam-style prompt using source title"
-  },
-  {
-    "clean_id": 1107,
-    "old_id": "2537",
-    "prompt": "According to the reading \"Mod06 Fire policy: WildfirePolicyCh10\", what key contributions can economists make to wildfire risk management?",
-    "response": "Economists can contribute by analyzing behavioral responses to risk management policies, establishing causal links, and recommending evidence-based strategies to improve wildfire mitigation efforts.",
-    "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod06_Fire_policy\\WildfirePolicyCh10.pdf",
-    "source_rel": "Mod06_Fire_policy\\WildfirePolicyCh10.pdf",
-    "source_label": "WildfirePolicyCh10",
-    "module": "Mod06_Fire_policy",
-    "original_prompt": "What key contributions can economists make to wildfire risk management?",
     "cleaning_note": "expanded to standalone exam-style prompt using source title"
   },
   {
@@ -13416,30 +13356,6 @@ window.NR444_QUESTIONS = [
     "cleaning_note": "expanded to standalone exam-style prompt using source title"
   },
   {
-    "clean_id": 1138,
-    "old_id": "2612",
-    "prompt": "According to the reading \"Mod06 Fire policy: WildfirePolicyCh10\", how might behavioral responses to information disclosure policies be characterized?",
-    "response": "Behavioral responses may vary widely; if the information is perceived as relevant and useful, homeowners may change their risk-reducing behaviors, but if deemed irrelevant, such disclosures may not evoke any change.",
-    "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod06_Fire_policy\\WildfirePolicyCh10.pdf",
-    "source_rel": "Mod06_Fire_policy\\WildfirePolicyCh10.pdf",
-    "source_label": "WildfirePolicyCh10",
-    "module": "Mod06_Fire_policy",
-    "original_prompt": "How might behavioral responses to information disclosure policies be characterized?",
-    "cleaning_note": "expanded to standalone exam-style prompt using source title"
-  },
-  {
-    "clean_id": 1139,
-    "old_id": "2619",
-    "prompt": "According to the reading \"Mod06 Fire policy: Sedjo 2017\", how has the perspective on federal ownership of national forests shifted in recent decades?",
-    "response": "In recent decades, perspectives have shifted toward questioning the efficacy of federal ownership and management, with many proposing alternative arrangements that emphasize local or market-based management solutions.",
-    "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod06_Fire_policy\\Sedjo 2017.pdf",
-    "source_rel": "Mod06_Fire_policy\\Sedjo 2017.pdf",
-    "source_label": "Sedjo 2017",
-    "module": "Mod06_Fire_policy",
-    "original_prompt": "How has the perspective on federal ownership of national forests shifted in recent decades?",
-    "cleaning_note": "expanded to standalone exam-style prompt using source title"
-  },
-  {
     "clean_id": 1140,
     "old_id": "2620",
     "prompt": "According to the reading \"Mod02 FIRE Economics: Toward a Unified Economic Theory of Fire Program A\", what evidence does the text provide to support the notion of component complementarity?",
@@ -13473,18 +13389,6 @@ window.NR444_QUESTIONS = [
     "source_label": "Module6 notes",
     "module": "Mod07_BenefitCost",
     "original_prompt": "Can you summarize the main idea behind chaining investments together?",
-    "cleaning_note": "expanded to standalone exam-style prompt using source title"
-  },
-  {
-    "clean_id": 1143,
-    "old_id": "2627",
-    "prompt": "According to the reading \"Mod06 Fire policy: 2012DOIPolicyReview\", what are the main factors that influence annual wildland fire management expenditures?",
-    "response": "Annual wildland fire management expenditures are influenced by factors such as new policies and congressional actions, the number of acres burned driven by weather and climate, and the expansion of the wildland urban interface which increases risk and costs for protection.",
-    "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod06_Fire_policy\\2012DOIPolicyReview.pdf",
-    "source_rel": "Mod06_Fire_policy\\2012DOIPolicyReview.pdf",
-    "source_label": "2012DOIPolicyReview",
-    "module": "Mod06_Fire_policy",
-    "original_prompt": "What are the main factors that influence annual wildland fire management expenditures?",
     "cleaning_note": "expanded to standalone exam-style prompt using source title"
   },
   {
@@ -13701,18 +13605,6 @@ window.NR444_QUESTIONS = [
     "source_label": "Suppresion firing",
     "module": "Mod04_Fire_Mgmt_Behavior_Econ",
     "original_prompt": "How did the average size of fires with mapped suppression firing compare to those without?",
-    "cleaning_note": "expanded to standalone exam-style prompt using source title"
-  },
-  {
-    "clean_id": 1164,
-    "old_id": "2674",
-    "prompt": "According to the reading \"Mod06 Fire policy: 2012DOIPolicyReview\", discuss the significance of hazardous fuel reduction in the context of federal fire management programs",
-    "response": "Hazardous fuel reduction is significant as it constitutes 19% to 29% of total DOI obligations since FY 2001, contributing to efforts to lower suppression costs and manage fire risks.",
-    "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod06_Fire_policy\\2012DOIPolicyReview.pdf",
-    "source_rel": "Mod06_Fire_policy\\2012DOIPolicyReview.pdf",
-    "source_label": "2012DOIPolicyReview",
-    "module": "Mod06_Fire_policy",
-    "original_prompt": "Discuss the significance of hazardous fuel reduction in the context of federal fire management programs.",
     "cleaning_note": "expanded to standalone exam-style prompt using source title"
   },
   {
