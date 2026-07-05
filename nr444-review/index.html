@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>NR444 Review Library</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="data/questions.js"></script>
+    <script defer src="app.js"></script>
+  </head>
+  <body>
+    <div class="bg-orb bg-orb-a"></div>
+    <div class="bg-orb bg-orb-b"></div>
+
+    <header class="hero">
+      <div>
+        <p class="eyebrow">NR444 course review</p>
+        <h1>Prompt and response library</h1>
+        <p class="hero-copy">
+          Search the revised database, filter by module, and review each prompt with its full response and source details.
+        </p>
+      </div>
+      <div class="hero-stats" id="heroStats"></div>
+    </header>
+
+    <main class="layout">
+      <aside class="panel sidebar">
+        <div class="sidebar-block">
+          <label class="search-box">
+            <span>Search</span>
+            <input id="searchInput" type="search" placeholder="Search prompts, responses, or source files">
+          </label>
+          <div class="button-row">
+            <button class="chip active" data-mode="student" type="button">Student mode</button>
+            <button class="chip" data-mode="teacher" type="button">Teacher mode</button>
+          </div>
+        </div>
+
+        <div class="sidebar-block">
+          <div class="section-title">
+            <h2>Modules</h2>
+            <span id="moduleCount"></span>
+          </div>
+          <div class="module-list" id="moduleList"></div>
+        </div>
+
+        <div class="sidebar-block">
+          <div class="section-title">
+            <h2>Sorted by</h2>
+          </div>
+          <select id="sortSelect">
+            <option value="recent">Newest revised first</option>
+            <option value="module">Module</option>
+            <option value="source">Source file</option>
+          </select>
+        </div>
+      </aside>
+
+      <section class="panel results">
+        <div class="results-head">
+          <div>
+            <h2 id="resultsTitle">All questions</h2>
+            <p id="resultsMeta"></p>
+          </div>
+          <div class="results-actions">
+            <button class="secondary" id="randomButton" type="button">Jump to random</button>
+            <button class="secondary" id="clearButton" type="button">Clear filters</button>
+          </div>
+        </div>
+
+        <div class="card-list" id="questionList"></div>
+        <div class="results-footer">
+          <button class="secondary" id="loadMoreButton" type="button">Load more</button>
+        </div>
+      </section>
+
+      <aside class="panel detail teacher-side" id="teacherSidebar" hidden>
+        <section class="teacher-panel" id="teacherPanel" hidden>
+          <div class="teacher-panel-head">
+            <div>
+              <p class="eyebrow">Teacher editor</p>
+              <h3>Edit record</h3>
+            </div>
+            <div class="teacher-actions">
+              <button class="secondary" id="newRecordButton" type="button">New record</button>
+              <button class="secondary" id="exportButton" type="button">Export JS</button>
+            </div>
+          </div>
+
+          <form id="teacherForm" class="teacher-form">
+            <div class="field-grid">
+              <label class="field"><span>clean_id</span><input id="cleanIdField" type="text" readonly></label>
+              <label class="field"><span>old_id</span><input id="oldIdField" type="text" placeholder="legacy id"></label>
+              <label class="field"><span>module</span><input id="moduleField" type="text" placeholder="Module name"></label>
+              <label class="field"><span>source_label</span><input id="sourceLabelField" type="text" placeholder="Source label"></label>
+              <label class="field"><span>source_rel</span><input id="sourceRelField" type="text" placeholder="Relative source path"></label>
+              <label class="field"><span>source_file</span><input id="sourceFileField" type="text" placeholder="Full source path"></label>
+              <label class="field field-wide"><span>original_prompt</span><textarea id="originalPromptField" rows="4" placeholder="Original prompt"></textarea></label>
+              <label class="field field-wide"><span>prompt</span><textarea id="promptField" rows="5" placeholder="Standalone prompt"></textarea></label>
+              <label class="field field-wide"><span>response</span><textarea id="responseField" rows="7" placeholder="Stored response"></textarea></label>
+              <label class="field field-wide"><span>cleaning_note</span><textarea id="cleaningNoteField" rows="3" placeholder="Revision note"></textarea></label>
+            </div>
+
+            <div class="editor-actions">
+              <button class="primary" id="saveRecordButton" type="submit">Save record</button>
+              <button class="danger" id="deleteRecordButton" type="button">Delete record</button>
+              <button class="secondary" id="resetSessionButton" type="button">Reset session</button>
+            </div>
+          </form>
+        </section>
+      </aside>
+    </main>
+
+    <template id="questionCardTemplate">
+      <article class="question-card">
+        <div class="card-top">
+          <span class="module-pill"></span>
+          <span class="source-pill"></span>
+        </div>
+        <h3 class="question-prompt"></h3>
+        <p class="question-snippet"></p>
+      </article>
+    </template>
+  </body>
+</html>
