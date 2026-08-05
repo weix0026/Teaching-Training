@@ -96,18 +96,6 @@ window.NR444_QUESTIONS = [
     "cleaning_note": "expanded to standalone exam-style prompt using source title"
   },
   {
-    "clean_id": 10,
-    "old_id": "26",
-    "prompt": "According to the reading \"Mod06 Fire policy: Managing the Impact of Wildfires on Communities and the Environment\", what are the anticipated long-term environmental impacts of the wildfires?",
-    "response": "The long-term environmental impacts of the wildfires are expected to be significant, affecting natural resources across burned lands. The fires have dramatically altered ecosystems, leading to slow recovery, potential flooding, mudslides, and the proliferation of invasive species like cheatgrass, which disrupts native vegetation and increases future fire risks.",
-    "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod06_Fire_policy\\Managing the Impact of Wildfires on Communities and the Environment.pdf",
-    "source_rel": "Mod06_Fire_policy\\Managing the Impact of Wildfires on Communities and the Environment.pdf",
-    "source_label": "Managing the Impact of Wildfires on Communities and the Environment",
-    "module": "Mod06_Fire_policy",
-    "original_prompt": "What are the anticipated long-term environmental impacts of the wildfires?",
-    "cleaning_note": "expanded to standalone exam-style prompt using source title"
-  },
-  {
     "clean_id": 11,
     "old_id": "28",
     "prompt": "According to the reading \"Mod04 Fire Mgmt Behavior Econ: Mod4 FireMgmtBehaviorEconomics\", what role does behavioral science play in enhancing economic decision-making?",
@@ -732,18 +720,6 @@ window.NR444_QUESTIONS = [
     "cleaning_note": "expanded to standalone exam-style prompt using source title"
   },
   {
-    "clean_id": 64,
-    "old_id": "156",
-    "prompt": "According to the reading \"Mod06 Fire policy: WildfirePolicyCh10\", what challenges are associated with data availability in empirical wildfire policy research?",
-    "response": "Researchers in wildfire policy face challenges due to insufficient availability of historical data on land use changes and wildfire impacts. Comprehensive land cover and land use data only began to improve in the satellite era, with significant gaps in data prior to 1970. Moreover, even post-1970 data often lack the granularity needed to assess specific policy impacts effectively.",
-    "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod06_Fire_policy\\WildfirePolicyCh10.pdf",
-    "source_rel": "Mod06_Fire_policy\\WildfirePolicyCh10.pdf",
-    "source_label": "WildfirePolicyCh10",
-    "module": "Mod06_Fire_policy",
-    "original_prompt": "What challenges are associated with data availability in empirical wildfire policy research?",
-    "cleaning_note": "expanded to standalone exam-style prompt using source title"
-  },
-  {
     "clean_id": 65,
     "old_id": "157",
     "prompt": "According to the reading \"Mod06 Fire policy: Implemenation Guide 2014\", why is coordination with smoke management regulatory agencies important?",
@@ -912,18 +888,6 @@ window.NR444_QUESTIONS = [
     "cleaning_note": "expanded to standalone exam-style prompt using source title"
   },
   {
-    "clean_id": 79,
-    "old_id": "199",
-    "prompt": "According to the reading \"Mod06 Fire policy: Managing the Impact of Wildfires on Communities and the Environment\", what type of funding is required for future fiscal years to address wildfire risks?",
-    "response": "To address wildfire risks adequately, future fiscal years will require sustained funding for fire management programs. The report indicates a need for additional resources beyond the initial requested amounts, totaling approximately $1.6 billion to meet the objectives of enhancing fire preparedness and community resilience.",
-    "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod06_Fire_policy\\Managing the Impact of Wildfires on Communities and the Environment.pdf",
-    "source_rel": "Mod06_Fire_policy\\Managing the Impact of Wildfires on Communities and the Environment.pdf",
-    "source_label": "Managing the Impact of Wildfires on Communities and the Environment",
-    "module": "Mod06_Fire_policy",
-    "original_prompt": "What type of funding is required for future fiscal years to address wildfire risks?",
-    "cleaning_note": "expanded to standalone exam-style prompt using source title"
-  },
-  {
     "clean_id": 80,
     "old_id": "201",
     "prompt": "According to the reading \"Recent literatures on fire economic related subjects\", what might be the economic benefits of establishing a biomass plant in rural areas?",
@@ -972,18 +936,6 @@ window.NR444_QUESTIONS = [
     "cleaning_note": "expanded to standalone exam-style prompt using source title"
   },
   {
-    "clean_id": 84,
-    "old_id": "210",
-    "prompt": "According to the reading \"Mod06 Fire policy: WildfirePolicyCh10\", how do existing research challenges hinder progress in wildfire economics?",
-    "response": "Challenges such as endogeneity, limited data availability, and sample selection complicate empirical research, leading to a relatively small body of literature on wildfire economics despite its importance.",
-    "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod06_Fire_policy\\WildfirePolicyCh10.pdf",
-    "source_rel": "Mod06_Fire_policy\\WildfirePolicyCh10.pdf",
-    "source_label": "WildfirePolicyCh10",
-    "module": "Mod06_Fire_policy",
-    "original_prompt": "How do existing research challenges hinder progress in wildfire economics?",
-    "cleaning_note": "expanded to standalone exam-style prompt using source title"
-  },
-  {
     "clean_id": 85,
     "old_id": "214",
     "prompt": "According to the reading \"Mod06 Fire policy: National Prescribed Fire Program Review-2022\", what are some unforeseen events that can lead to the suspension of prescribed burning?",
@@ -1029,18 +981,6 @@ window.NR444_QUESTIONS = [
     "source_label": "Constructing a Correct C+NVC Model voice",
     "module": "Mod02_FIRE_Economics",
     "original_prompt": "How does understanding the C+NVC model contribute to fire management practices?",
-    "cleaning_note": "expanded to standalone exam-style prompt using source title"
-  },
-  {
-    "clean_id": 89,
-    "old_id": "220",
-    "prompt": "According to the reading \"Mod07 BenefitCost: HWK Mod6\", what does it mean for an investment to be mutually exclusive in tenure comparison?",
-    "response": "Mutually exclusive investment scenarios mean that choosing one investment prevents the selection of another. In Fred's context, understanding which project to invest in becomes crucial as the chosen project dictates which returns and benefits will be realized.",
-    "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod07_BenefitCost\\HWK Mod6.docx",
-    "source_rel": "Mod07_BenefitCost\\HWK Mod6.docx",
-    "source_label": "HWK Mod6",
-    "module": "Mod07_BenefitCost",
-    "original_prompt": "What does it mean for an investment to be mutually exclusive in tenure comparison?",
     "cleaning_note": "expanded to standalone exam-style prompt using source title"
   },
   {
@@ -1329,18 +1269,6 @@ window.NR444_QUESTIONS = [
     "source_label": "Carbon Credit Possibilities and Economic",
     "module": "Mod08_Fire_Carbon",
     "original_prompt": "What prices were discussed as thresholds for carbon credit revenues?",
-    "cleaning_note": "expanded to standalone exam-style prompt using source title"
-  },
-  {
-    "clean_id": 116,
-    "old_id": "284",
-    "prompt": "According to the reading \"Mod07 BenefitCost: Mod6HW2020 answerkay\", what relevance does the term 'net present value (NPV)' have in the context of Ethan’s project?",
-    "response": "Net present value (NPV) reflects the profitability of Ethan’s project by measuring the difference between the present value of cash inflows (benefits) and the initial investment cost.",
-    "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod07_BenefitCost\\Mod6HW2020_answerkay.docx",
-    "source_rel": "Mod07_BenefitCost\\Mod6HW2020_answerkay.docx",
-    "source_label": "Mod6HW2020 answerkay",
-    "module": "Mod07_BenefitCost",
-    "original_prompt": "What relevance does the term 'net present value (NPV)' have in the context of Ethan’s project?",
     "cleaning_note": "expanded to standalone exam-style prompt using source title"
   },
   {
@@ -1737,18 +1665,6 @@ window.NR444_QUESTIONS = [
     "source_label": "C13-7-24-01abb2",
     "module": "Mod01_NR_Economics_Fundation",
     "original_prompt": "What factors contribute to the growing complexity in wildfire management?",
-    "cleaning_note": "expanded to standalone exam-style prompt using source title"
-  },
-  {
-    "clean_id": 150,
-    "old_id": "366",
-    "prompt": "According to the reading \"Mod06 Fire policy: WildfirePolicyCh10\", how can selection bias affect empirical estimates of the impact of risk disclosure on development?",
-    "response": "If selection bias exists regarding disclosure into land development patterns, empirical estimates may be biased unless the analysis controls for this selection problem.",
-    "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod06_Fire_policy\\WildfirePolicyCh10.pdf",
-    "source_rel": "Mod06_Fire_policy\\WildfirePolicyCh10.pdf",
-    "source_label": "WildfirePolicyCh10",
-    "module": "Mod06_Fire_policy",
-    "original_prompt": "How can selection bias affect empirical estimates of the impact of risk disclosure on development?",
     "cleaning_note": "expanded to standalone exam-style prompt using source title"
   },
   {
@@ -2304,18 +2220,6 @@ window.NR444_QUESTIONS = [
     "cleaning_note": "expanded to standalone exam-style prompt using source title"
   },
   {
-    "clean_id": 197,
-    "old_id": "473",
-    "prompt": "According to the reading \"Mod06 Fire policy: WildfirePolicyCh10\", can you provide an example of a high-impact wildfire event?",
-    "response": "One significant example is the Station Fire north of Los Angeles that started in August 2009, resulting in fire suppression costs exceeding $100 million, claiming the lives of two firefighters, injuring many civilians, and destroying around 90 homes. Another example is the 1991 Oakland/Berkeley Hills fire, which was the costliest in California's history, resulting in 25 fatalities, 150 injuries, and estimated damages of approximately $1.5 billion.",
-    "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod06_Fire_policy\\WildfirePolicyCh10.pdf",
-    "source_rel": "Mod06_Fire_policy\\WildfirePolicyCh10.pdf",
-    "source_label": "WildfirePolicyCh10",
-    "module": "Mod06_Fire_policy",
-    "original_prompt": "Can you provide an example of a high-impact wildfire event?",
-    "cleaning_note": "expanded to standalone exam-style prompt using source title"
-  },
-  {
     "clean_id": 198,
     "old_id": "474",
     "prompt": "According to the reading \"Mod02 FIRE Economics: Constructing a Correct C+NVC Model voice\", what is the significance of the x-axis in the original Sparhawk model versus the corrected model?",
@@ -2580,18 +2484,6 @@ window.NR444_QUESTIONS = [
     "cleaning_note": "expanded to standalone exam-style prompt using source title"
   },
   {
-    "clean_id": 220,
-    "old_id": "528",
-    "prompt": "According to the reading \"Mod07 BenefitCost: Solved Finance Problems to Accompany Chapter 9\", how do you calculate the present value of prescribed burns planned to start in 5 years costing $500 each for 12 burns?",
-    "response": "To calculate the present value of the prescribed burns costing $500 each for 12 burns, starting in 5 years and using a 4% discount rate, we set up the equation v0 = a[(1 - (1+i)^-n1)/(i)]1/(1+i)^-n2, where a is $500, n1 is the number of burns (12), and n2 is the time until the first burn (4 years), yielding a present value of $4011.20.",
-    "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod07_BenefitCost\\Solved Finance Problems to Accompany Chapter 9.pdf",
-    "source_rel": "Mod07_BenefitCost\\Solved Finance Problems to Accompany Chapter 9.pdf",
-    "source_label": "Solved Finance Problems to Accompany Chapter 9",
-    "module": "Mod07_BenefitCost",
-    "original_prompt": "How do you calculate the present value of prescribed burns planned to start in 5 years costing $500 each for 12 burns?",
-    "cleaning_note": "expanded to standalone exam-style prompt using source title"
-  },
-  {
     "clean_id": 221,
     "old_id": "529",
     "prompt": "According to the reading \"Mod03 FIRE Risk Uncertainty: Kouskynotes\", what is the potential impact of government fire suppression efforts on homeowner behavior?",
@@ -2739,12 +2631,12 @@ window.NR444_QUESTIONS = [
     "clean_id": 233,
     "old_id": "558",
     "prompt": "According to the reading \"Mod07 BenefitCost: Solved Finance Problems to Accompany Chapter 9\", what formula would you use for calculating the present value of an infinite series of cash flows?",
-    "response": "For calculating the present value of an infinite series of cash flows, the formula used is v0 = a/i, where a is the annual cash flow and i is the discount rate.",
+    "response": "For calculating the present value of an infinite series of annual cash flows, the formula used is v0 = a/i, where a is the annual cash flow and i is the discount rate.",
     "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod07_BenefitCost\\Solved Finance Problems to Accompany Chapter 9.pdf",
     "source_rel": "Mod07_BenefitCost\\Solved Finance Problems to Accompany Chapter 9.pdf",
     "source_label": "Solved Finance Problems to Accompany Chapter 9",
     "module": "Mod07_BenefitCost",
-    "original_prompt": "What formula would you use for calculating the present value of an infinite series of cash flows?",
+    "original_prompt": "What formula would you use for calculating the present value of an infinite series of annual cash flows?",
     "cleaning_note": "expanded to standalone exam-style prompt using source title"
   },
   {
@@ -2769,18 +2661,6 @@ window.NR444_QUESTIONS = [
     "source_label": "Schwarz and Herron - Natural Resource Economics",
     "module": "Mod01_NR_Economics_Fundation",
     "original_prompt": "How does recycling impact the economics of nonrenewable resources?",
-    "cleaning_note": "expanded to standalone exam-style prompt using source title"
-  },
-  {
-    "clean_id": 237,
-    "old_id": "569",
-    "prompt": "According to the reading \"Mod06 Fire policy: WildfirePolicyCh10\", how do empirical findings affect policy formulation in wildfire management?",
-    "response": "Empirical findings can shed light on the effectiveness of wildfire management policies and allow policymakers to adapt strategies that align incentives with the common good, ultimately leading to better risk management outcomes.",
-    "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod06_Fire_policy\\WildfirePolicyCh10.pdf",
-    "source_rel": "Mod06_Fire_policy\\WildfirePolicyCh10.pdf",
-    "source_label": "WildfirePolicyCh10",
-    "module": "Mod06_Fire_policy",
-    "original_prompt": "How do empirical findings affect policy formulation in wildfire management?",
     "cleaning_note": "expanded to standalone exam-style prompt using source title"
   },
   {
@@ -2949,18 +2829,6 @@ window.NR444_QUESTIONS = [
     "source_label": "California fire carbon",
     "module": "Mod08_Fire_Carbon",
     "original_prompt": "What does the buffer pool design fail to account for in terms of natural risks?",
-    "cleaning_note": "expanded to standalone exam-style prompt using source title"
-  },
-  {
-    "clean_id": 252,
-    "old_id": "609",
-    "prompt": "According to the reading \"Mod06 Fire policy: WildfirePolicyCh10\", what methods have researchers suggested to overcome endogeneity challenges in wildfire policy analysis?",
-    "response": "To address endogeneity challenges in wildfire policy analysis, researchers have suggested implementing statistical natural experiments and quasi-experimental techniques. These approaches would utilize exogenous variations in suppression efforts or shifts in policy to analyze their impacts on land development and homeowner behavior.",
-    "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod06_Fire_policy\\WildfirePolicyCh10.pdf",
-    "source_rel": "Mod06_Fire_policy\\WildfirePolicyCh10.pdf",
-    "source_label": "WildfirePolicyCh10",
-    "module": "Mod06_Fire_policy",
-    "original_prompt": "What methods have researchers suggested to overcome endogeneity challenges in wildfire policy analysis?",
     "cleaning_note": "expanded to standalone exam-style prompt using source title"
   },
   {
@@ -3324,18 +3192,6 @@ window.NR444_QUESTIONS = [
     "cleaning_note": "expanded to standalone exam-style prompt using source title"
   },
   {
-    "clean_id": 285,
-    "old_id": "695",
-    "prompt": "According to the reading \"Mod06 Fire policy: Managing the Impact of Wildfires on Communities and the Environment\", what actions are suggested for restoring landscapes after wildfires?",
-    "response": "To restore landscapes affected by wildfires, actions suggested include stabilization and restoration projects, such as planting native species, preventing the introduction of invasive species, and improving water quality. These efforts should involve local communities and contractors for maximum benefit.",
-    "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod06_Fire_policy\\Managing the Impact of Wildfires on Communities and the Environment.pdf",
-    "source_rel": "Mod06_Fire_policy\\Managing the Impact of Wildfires on Communities and the Environment.pdf",
-    "source_label": "Managing the Impact of Wildfires on Communities and the Environment",
-    "module": "Mod06_Fire_policy",
-    "original_prompt": "What actions are suggested for restoring landscapes after wildfires?",
-    "cleaning_note": "expanded to standalone exam-style prompt using source title"
-  },
-  {
     "clean_id": 286,
     "old_id": "696",
     "prompt": "According to the reading \"Mod02 FIRE Economics: Dean Lueck and Jonathan Yoder\", what are the implications of land ownership on fire suppression decisions?",
@@ -3597,18 +3453,6 @@ window.NR444_QUESTIONS = [
     "source_label": "C13-1-31-01",
     "module": "Mod02_FIRE_Economics",
     "original_prompt": "What investment analysis perspective can be beneficial for fuels treatment in forest fire management?",
-    "cleaning_note": "expanded to standalone exam-style prompt using source title"
-  },
-  {
-    "clean_id": 308,
-    "old_id": "760",
-    "prompt": "According to the reading \"Mod06 Fire policy: WildfirePolicyCh10\", what are the limitations of relying on observational data in economic analyses?",
-    "response": "Relying on observational data may limit the clarity of causal relationships and can result in less descriptive power regarding other influential factors not included in econometric models.",
-    "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod06_Fire_policy\\WildfirePolicyCh10.pdf",
-    "source_rel": "Mod06_Fire_policy\\WildfirePolicyCh10.pdf",
-    "source_label": "WildfirePolicyCh10",
-    "module": "Mod06_Fire_policy",
-    "original_prompt": "What are the limitations of relying on observational data in economic analyses?",
     "cleaning_note": "expanded to standalone exam-style prompt using source title"
   },
   {
@@ -4716,18 +4560,6 @@ window.NR444_QUESTIONS = [
     "cleaning_note": "expanded to standalone exam-style prompt using source title"
   },
   {
-    "clean_id": 403,
-    "old_id": "950",
-    "prompt": "According to the reading \"Mod07 BenefitCost: c11-2 8 01\", what implications does budget constraint have on BCA?",
-    "response": "Budget constraints can limit the scope of a BCA by restricting the number of projects that can be evaluated and possibly excluding more desirable projects due to funding limitations. This can lead to suboptimal project selection that doesn't maximize potential benefits or efficiency.",
-    "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod07_BenefitCost\\c11-2_8_01.pdf",
-    "source_rel": "Mod07_BenefitCost\\c11-2_8_01.pdf",
-    "source_label": "c11-2 8 01",
-    "module": "Mod07_BenefitCost",
-    "original_prompt": "What implications does budget constraint have on BCA?",
-    "cleaning_note": "expanded to standalone exam-style prompt using source title"
-  },
-  {
     "clean_id": 404,
     "old_id": "951",
     "prompt": "According to the reading \"Mod02 FIRE Economics: CA seminar Calkin\", what are the three schools of thought on natural resource economics mentioned in the outline?",
@@ -4898,14 +4730,14 @@ window.NR444_QUESTIONS = [
   {
     "clean_id": 418,
     "old_id": "976",
-    "prompt": "According to the reading \"Mod07 BenefitCost: Module6 notes\", how is the future cash flow from investment (a) assessed?",
-    "response": "The future cash flow from investment (a) is assessed using the formula 100/0.04, which calculates the present value of the anticipated benefits generated by the investment over time.",
+    "prompt": "How to calculate the present value for a perpetual annual return of $100 with an annual discount rate of 0.04?",
+    "response": "100/0.04 = 2500",
     "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod07_BenefitCost\\Module6 notes.docx",
     "source_rel": "Mod07_BenefitCost\\Module6 notes.docx",
     "source_label": "Module6 notes",
     "module": "Mod07_BenefitCost",
     "original_prompt": "How is the future cash flow from investment (a) assessed?",
-    "cleaning_note": "expanded to standalone exam-style prompt using source title"
+    "cleaning_note": ""
   },
   {
     "clean_id": 419,
@@ -5001,18 +4833,6 @@ window.NR444_QUESTIONS = [
     "source_label": "Rideout et al 2017 Sage Grouse",
     "module": "Mod05_Integrated_System",
     "original_prompt": "Why is the sagebrush-steppe ecosystem considered imperiled despite its vast size?",
-    "cleaning_note": "expanded to standalone exam-style prompt using source title"
-  },
-  {
-    "clean_id": 427,
-    "old_id": "991",
-    "prompt": "According to the reading \"Mod06 Fire policy: Managing the Impact of Wildfires on Communities and the Environment\", what issues arise from the competitiveness of invasive species after wildfires?",
-    "response": "Invasive species become particularly problematic after wildfires, as they can proliferate and outcompete native plants in burned areas. This creates additional fire hazards and disrupts natural ecosystems, with species like cheatgrass dominating landscapes across the West, exacerbating the risk of future wildfires.",
-    "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod06_Fire_policy\\Managing the Impact of Wildfires on Communities and the Environment.pdf",
-    "source_rel": "Mod06_Fire_policy\\Managing the Impact of Wildfires on Communities and the Environment.pdf",
-    "source_label": "Managing the Impact of Wildfires on Communities and the Environment",
-    "module": "Mod06_Fire_policy",
-    "original_prompt": "What issues arise from the competitiveness of invasive species after wildfires?",
     "cleaning_note": "expanded to standalone exam-style prompt using source title"
   },
   {
@@ -5244,18 +5064,6 @@ window.NR444_QUESTIONS = [
     "cleaning_note": "expanded to standalone exam-style prompt using source title"
   },
   {
-    "clean_id": 447,
-    "old_id": "1033",
-    "prompt": "According to the reading \"Mod07 BenefitCost: c11-2 8 01\", in what scenario might the Cost-Effectiveness Analysis (CEA) yield unreliable results?",
-    "response": "CEA might yield unreliable results if the benefit information it relies upon is not adequately gathered, deemed too expensive, or simply unreliable.",
-    "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod07_BenefitCost\\c11-2_8_01.pdf",
-    "source_rel": "Mod07_BenefitCost\\c11-2_8_01.pdf",
-    "source_label": "c11-2 8 01",
-    "module": "Mod07_BenefitCost",
-    "original_prompt": "In what scenario might the Cost-Effectiveness Analysis (CEA) yield unreliable results?",
-    "cleaning_note": "expanded to standalone exam-style prompt using source title"
-  },
-  {
     "clean_id": 448,
     "old_id": "1035",
     "prompt": "According to the reading \"NR444 Fire Economics and policy\", why is biodiversity important in the context of fire management practices like suppression firing?",
@@ -5325,18 +5133,6 @@ window.NR444_QUESTIONS = [
     "source_label": "Mod4HW",
     "module": "Mod05_Integrated_System",
     "original_prompt": "What is the expected outcome of prioritizing fuel treatments in the landscape?",
-    "cleaning_note": "expanded to standalone exam-style prompt using source title"
-  },
-  {
-    "clean_id": 454,
-    "old_id": "1046",
-    "prompt": "According to the reading \"Mod07 BenefitCost: c11-2 8 01\", what might be inferred from the shadow price on the budget constraint?",
-    "response": "The shadow price on the budget constraint reveals the potential value of effectiveness that can be inferred from the limits of the budget.",
-    "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod07_BenefitCost\\c11-2_8_01.pdf",
-    "source_rel": "Mod07_BenefitCost\\c11-2_8_01.pdf",
-    "source_label": "c11-2 8 01",
-    "module": "Mod07_BenefitCost",
-    "original_prompt": "What might be inferred from the shadow price on the budget constraint?",
     "cleaning_note": "expanded to standalone exam-style prompt using source title"
   },
   {
@@ -6108,18 +5904,6 @@ window.NR444_QUESTIONS = [
     "cleaning_note": "expanded to standalone exam-style prompt using source title"
   },
   {
-    "clean_id": 520,
-    "old_id": "1196",
-    "prompt": "According to the reading \"Mod06 Fire policy: WildfirePolicyCh10\", what type of data is available for earlier periods pertaining to land use, and how does its temporal resolution compare to that of housing density maps?",
-    "response": "Land use data is available for much earlier periods than housing density data, although both have a 10-year temporal resolution that is somewhat coarse.",
-    "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod06_Fire_policy\\WildfirePolicyCh10.pdf",
-    "source_rel": "Mod06_Fire_policy\\WildfirePolicyCh10.pdf",
-    "source_label": "WildfirePolicyCh10",
-    "module": "Mod06_Fire_policy",
-    "original_prompt": "What type of data is available for earlier periods pertaining to land use, and how does its temporal resolution compare to that of housing density maps?",
-    "cleaning_note": "expanded to standalone exam-style prompt using source title"
-  },
-  {
     "clean_id": 521,
     "old_id": "1198",
     "prompt": "According to the reading \"Mod06 Fire policy: WildfirePolicyCh10\", what are the implications of current fire management policies for development patterns?",
@@ -6453,18 +6237,6 @@ window.NR444_QUESTIONS = [
     "source_label": "2012DOIPolicyReview",
     "module": "Mod06_Fire_policy",
     "original_prompt": "How has the expansion of the WUI contributed to rising wildland fire management costs?",
-    "cleaning_note": "expanded to standalone exam-style prompt using source title"
-  },
-  {
-    "clean_id": 550,
-    "old_id": "1271",
-    "prompt": "According to the reading \"Mod07 BenefitCost: Mod6HW2020 answerkay\", what happens if students only submit their final answers without showing work?",
-    "response": "Students will lose points if they only submit final answers without showing their work or including cash flow diagrams where needed.",
-    "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod07_BenefitCost\\Mod6HW2020_answerkay.docx",
-    "source_rel": "Mod07_BenefitCost\\Mod6HW2020_answerkay.docx",
-    "source_label": "Mod6HW2020 answerkay",
-    "module": "Mod07_BenefitCost",
-    "original_prompt": "What happens if students only submit their final answers without showing work?",
     "cleaning_note": "expanded to standalone exam-style prompt using source title"
   },
   {
@@ -8112,18 +7884,6 @@ window.NR444_QUESTIONS = [
     "cleaning_note": "expanded to standalone exam-style prompt using source title"
   },
   {
-    "clean_id": 689,
-    "old_id": "1629",
-    "prompt": "According to the reading \"Mod07 BenefitCost: Module6 notes\", in what scenarios might one choose to ignore discounting for cash flows?",
-    "response": "One might choose to ignore discounting for cash flows when those cash flows occur in the immediate present, as there is no time value consideration, making the calculation straightforward without the need for adjustment.",
-    "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod07_BenefitCost\\Module6 notes.docx",
-    "source_rel": "Mod07_BenefitCost\\Module6 notes.docx",
-    "source_label": "Module6 notes",
-    "module": "Mod07_BenefitCost",
-    "original_prompt": "In what scenarios might one choose to ignore discounting for cash flows?",
-    "cleaning_note": "expanded to standalone exam-style prompt using source title"
-  },
-  {
     "clean_id": 690,
     "old_id": "1630",
     "prompt": "According to the reading \"Mod03 FIRE Risk Uncertainty: Nick's presentation of Australia fire\", how did the pod system enhance fire management?",
@@ -8172,18 +7932,6 @@ window.NR444_QUESTIONS = [
     "cleaning_note": "expanded to standalone exam-style prompt using source title"
   },
   {
-    "clean_id": 694,
-    "old_id": "1638",
-    "prompt": "According to the reading \"Mod06 Fire policy: Managing the Impact of Wildfires on Communities and the Environment\", what economic impacts did the wildfires in 2000 have on local communities?",
-    "response": "The wildfires of 2000 had significant economic impacts on local communities. For instance, businesses in Montana were reportedly losing about $3 million a day due to fire, while Idaho faced losses estimated at $54.1 million, including $15 million from small businesses. The fires disrupted local economies, particularly in tourism and agriculture.",
-    "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod06_Fire_policy\\Managing the Impact of Wildfires on Communities and the Environment.pdf",
-    "source_rel": "Mod06_Fire_policy\\Managing the Impact of Wildfires on Communities and the Environment.pdf",
-    "source_label": "Managing the Impact of Wildfires on Communities and the Environment",
-    "module": "Mod06_Fire_policy",
-    "original_prompt": "What economic impacts did the wildfires in 2000 have on local communities?",
-    "cleaning_note": "expanded to standalone exam-style prompt using source title"
-  },
-  {
     "clean_id": 695,
     "old_id": "1641",
     "prompt": "According to the reading \"Mod06 Fire policy: WildfirePolicyCh10\", how does development in wildland-urban interfaces relate to wildfire suppression costs?",
@@ -8193,18 +7941,6 @@ window.NR444_QUESTIONS = [
     "source_label": "WildfirePolicyCh10",
     "module": "Mod06_Fire_policy",
     "original_prompt": "How does development in wildland-urban interfaces relate to wildfire suppression costs?",
-    "cleaning_note": "expanded to standalone exam-style prompt using source title"
-  },
-  {
-    "clean_id": 696,
-    "old_id": "1644",
-    "prompt": "According to the reading \"Mod06 Fire policy: WildfirePolicyCh10\", what opportunities exist for further research in wildfire economics?",
-    "response": "With advancements in GIS data and econometric methods, there is significant potential for progress in understanding the behavioral aspects of wildfire risk management and informing effective public policies.",
-    "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod06_Fire_policy\\WildfirePolicyCh10.pdf",
-    "source_rel": "Mod06_Fire_policy\\WildfirePolicyCh10.pdf",
-    "source_label": "WildfirePolicyCh10",
-    "module": "Mod06_Fire_policy",
-    "original_prompt": "What opportunities exist for further research in wildfire economics?",
     "cleaning_note": "expanded to standalone exam-style prompt using source title"
   },
   {
@@ -8976,18 +8712,6 @@ window.NR444_QUESTIONS = [
     "cleaning_note": "expanded to standalone exam-style prompt using source title"
   },
   {
-    "clean_id": 761,
-    "old_id": "1773",
-    "prompt": "According to the reading \"Mod07 BenefitCost: Solved Finance Problems to Accompany Chapter 9\", in what scenario would you use a mixed terminable annuity calculation?",
-    "response": "A mixed terminable annuity calculation is used when there are both immediate costs and future benefits that are structured over variable time frames. An example would be costs incurred now for benefits realized over several years starting in the future.",
-    "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod07_BenefitCost\\Solved Finance Problems to Accompany Chapter 9.pdf",
-    "source_rel": "Mod07_BenefitCost\\Solved Finance Problems to Accompany Chapter 9.pdf",
-    "source_label": "Solved Finance Problems to Accompany Chapter 9",
-    "module": "Mod07_BenefitCost",
-    "original_prompt": "In what scenario would you use a mixed terminable annuity calculation?",
-    "cleaning_note": "expanded to standalone exam-style prompt using source title"
-  },
-  {
     "clean_id": 762,
     "old_id": "1774",
     "prompt": "According to the reading \"Mod06 Fire policy: bil-5-year-wildfire-risk-mmt-plan.04.2022.owf .final\", what are the primary goals of the National Cohesive Wildland Fire Management Strategy?",
@@ -9057,18 +8781,6 @@ window.NR444_QUESTIONS = [
     "source_label": "MavsarEtAl2013",
     "module": "Mod05_Integrated_System",
     "original_prompt": "What are the major impacts of forest fires as mentioned in the text?",
-    "cleaning_note": "expanded to standalone exam-style prompt using source title"
-  },
-  {
-    "clean_id": 768,
-    "old_id": "1791",
-    "prompt": "According to the reading \"Mod06 Fire policy: WildfirePolicyCh10\", why might land values or home values be more beneficial for research on fire suppression policies compared to land cover data?",
-    "response": "Land values or home values can be observed much more frequently than land cover data, often on a monthly basis, making them a more fruitful source of data for research on fire suppression policies.",
-    "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod06_Fire_policy\\WildfirePolicyCh10.pdf",
-    "source_rel": "Mod06_Fire_policy\\WildfirePolicyCh10.pdf",
-    "source_label": "WildfirePolicyCh10",
-    "module": "Mod06_Fire_policy",
-    "original_prompt": "Why might land values or home values be more beneficial for research on fire suppression policies compared to land cover data?",
     "cleaning_note": "expanded to standalone exam-style prompt using source title"
   },
   {
@@ -9456,18 +9168,6 @@ window.NR444_QUESTIONS = [
     "cleaning_note": "expanded to standalone exam-style prompt using source title"
   },
   {
-    "clean_id": 801,
-    "old_id": "1856",
-    "prompt": "According to the reading \"Mod06 Fire policy: Managing the Impact of Wildfires on Communities and the Environment\", how does the wildland fire policy recommend coordinating with local communities?",
-    "response": "The Administration's wildland fire policy emphasizes that effective fire management requires close coordination with local communities, especially those in the wildland-urban interface. It recognizes the role of private land management in fire risk and stresses the need for outreach, education, and support to help local communities reduce fire hazards.",
-    "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod06_Fire_policy\\Managing the Impact of Wildfires on Communities and the Environment.pdf",
-    "source_rel": "Mod06_Fire_policy\\Managing the Impact of Wildfires on Communities and the Environment.pdf",
-    "source_label": "Managing the Impact of Wildfires on Communities and the Environment",
-    "module": "Mod06_Fire_policy",
-    "original_prompt": "How does the wildland fire policy recommend coordinating with local communities?",
-    "cleaning_note": "expanded to standalone exam-style prompt using source title"
-  },
-  {
     "clean_id": 802,
     "old_id": "1859",
     "prompt": "According to the reading \"NR444 Fire Economics and policy\", identify a possible consequence of mechanized logging on the rural workforce",
@@ -9684,18 +9384,6 @@ window.NR444_QUESTIONS = [
     "cleaning_note": "expanded to standalone exam-style prompt using source title"
   },
   {
-    "clean_id": 820,
-    "old_id": "1902",
-    "prompt": "According to the reading \"Mod02 FIRE Economics: Introduction\", what is the significance of understanding economics in fire management?",
-    "response": "Understanding economics is significant in fire management because it equips professionals with the analytical tools needed to evaluate costs and benefits, guiding decision-making processes about resource allocation, risk management, and the effectiveness of fire suppression strategies.",
-    "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod02_FIRE_Economics\\Introduction.docx",
-    "source_rel": "Mod02_FIRE_Economics\\Introduction.docx",
-    "source_label": "Introduction",
-    "module": "Mod02_FIRE_Economics",
-    "original_prompt": "What is the significance of understanding economics in fire management?",
-    "cleaning_note": "expanded to standalone exam-style prompt using source title"
-  },
-  {
     "clean_id": 821,
     "old_id": "1905",
     "prompt": "According to the reading \"Mod01 NR Economics Fundation: Schwarz and Herron - Natural Resource Economics\", what does the term 'sustainable development' typically refer to?",
@@ -9864,30 +9552,6 @@ window.NR444_QUESTIONS = [
     "cleaning_note": "expanded to standalone exam-style prompt using source title"
   },
   {
-    "clean_id": 835,
-    "old_id": "1940",
-    "prompt": "According to the reading \"Mod02 FIRE Economics: CA seminar Calkin\", what does the term 'quantitative risk' refer to in relation to wildland fire management?",
-    "response": "Quantitative risk refers to the measurable aspect of risk that can be assessed and analyzed using numerical data and models, particularly in the context of future fire scenarios.",
-    "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod02_FIRE_Economics\\CA seminar Calkin.pptx",
-    "source_rel": "Mod02_FIRE_Economics\\CA seminar Calkin.pptx",
-    "source_label": "CA seminar Calkin",
-    "module": "Mod02_FIRE_Economics",
-    "original_prompt": "What does the term 'quantitative risk' refer to in relation to wildland fire management?",
-    "cleaning_note": "expanded to standalone exam-style prompt using source title"
-  },
-  {
-    "clean_id": 836,
-    "old_id": "1942",
-    "prompt": "According to the reading \"Mod02 FIRE Economics: Dean Lueck and Jonathan Yoder\", what are the different types of fire-fighting organizations mentioned in the text?",
-    "response": "Firefighting institutions range substantially from private individual and cooperative actions to large-scale centralized government interventions. They involve military-style organization, specialization, and prepositioned investments, illustrating a diverse array of operational structures.",
-    "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod02_FIRE_Economics\\Dean Lueck and Jonathan Yoder.pdf",
-    "source_rel": "Mod02_FIRE_Economics\\Dean Lueck and Jonathan Yoder.pdf",
-    "source_label": "Dean Lueck and Jonathan Yoder",
-    "module": "Mod02_FIRE_Economics",
-    "original_prompt": "What are the different types of fire-fighting organizations mentioned in the text?",
-    "cleaning_note": "expanded to standalone exam-style prompt using source title"
-  },
-  {
     "clean_id": 837,
     "old_id": "1943",
     "prompt": "According to the reading \"Mod01 NR Economics Fundation: c2 R&H\", what role does exclusivity play in valuing property rights?",
@@ -9933,30 +9597,6 @@ window.NR444_QUESTIONS = [
     "source_label": "2012DOIPolicyReview",
     "module": "Mod06_Fire_policy",
     "original_prompt": "Why is climate variability a focus of research regarding wildland fire activity?",
-    "cleaning_note": "expanded to standalone exam-style prompt using source title"
-  },
-  {
-    "clean_id": 841,
-    "old_id": "1952",
-    "prompt": "According to the reading \"Mod02 FIRE Economics: Dean Lueck and Jonathan Yoder\", what contributions did Coase make to the understanding of economic implications regarding fire management?",
-    "response": "R.H. Coase's writings, particularly 'The Problem of Social Cost,' provide foundational ideas in economic theory that can be applied to understand the allocation of resources and the establishment of property rights, which are also relevant in the context of wildfire management and the associated risks.",
-    "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod02_FIRE_Economics\\Dean Lueck and Jonathan Yoder.pdf",
-    "source_rel": "Mod02_FIRE_Economics\\Dean Lueck and Jonathan Yoder.pdf",
-    "source_label": "Dean Lueck and Jonathan Yoder",
-    "module": "Mod02_FIRE_Economics",
-    "original_prompt": "What contributions did Coase make to the understanding of economic implications regarding fire management?",
-    "cleaning_note": "expanded to standalone exam-style prompt using source title"
-  },
-  {
-    "clean_id": 842,
-    "old_id": "1956",
-    "prompt": "According to the reading \"Mod02 FIRE Economics: Introduction\", what practical applications rely on sound economic theory in wildland fire management?",
-    "response": "Practical applications in wildland fire management that rely on sound economic theory include formulating effective fire management strategies, determining resource allocation for suppression efforts, and assessing the cost-benefit aspects of various fuel treatments.",
-    "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod02_FIRE_Economics\\Introduction.docx",
-    "source_rel": "Mod02_FIRE_Economics\\Introduction.docx",
-    "source_label": "Introduction",
-    "module": "Mod02_FIRE_Economics",
-    "original_prompt": "What practical applications rely on sound economic theory in wildland fire management?",
     "cleaning_note": "expanded to standalone exam-style prompt using source title"
   },
   {
@@ -10008,18 +9648,6 @@ window.NR444_QUESTIONS = [
     "cleaning_note": "expanded to standalone exam-style prompt using source title"
   },
   {
-    "clean_id": 847,
-    "old_id": "1967",
-    "prompt": "According to the reading \"Mod02 FIRE Economics: C13-7-24-01abb\", what impact have recent wildfires had on public awareness regarding fire management?",
-    "response": "Recent catastrophic wildfires in states like Montana, New Mexico, Florida, and California have heightened public awareness and concern regarding fire management practices and policies, prompting a greater discourse on how to manage wildfire risks.",
-    "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod02_FIRE_Economics\\C13-7-24-01abb.pdf",
-    "source_rel": "Mod02_FIRE_Economics\\C13-7-24-01abb.pdf",
-    "source_label": "C13-7-24-01abb",
-    "module": "Mod02_FIRE_Economics",
-    "original_prompt": "What impact have recent wildfires had on public awareness regarding fire management?",
-    "cleaning_note": "expanded to standalone exam-style prompt using source title"
-  },
-  {
     "clean_id": 848,
     "old_id": "1968",
     "prompt": "According to the reading \"Mod06 Fire policy: WildfirePolicyCh10\", how important is the clear communication of empirical results to policy formulation about fire risk management?",
@@ -10029,18 +9657,6 @@ window.NR444_QUESTIONS = [
     "source_label": "WildfirePolicyCh10",
     "module": "Mod06_Fire_policy",
     "original_prompt": "How important is the clear communication of empirical results to policy formulation about fire risk management?",
-    "cleaning_note": "expanded to standalone exam-style prompt using source title"
-  },
-  {
-    "clean_id": 849,
-    "old_id": "1970",
-    "prompt": "According to the reading \"Mod02 FIRE Economics: CA seminar Calkin\", what challenges are associated with translating analytics into effective strategies for wildfire management?",
-    "response": "The text indicates that it is difficult to translate analytics to strategy, although specific challenges are not elaborated upon.",
-    "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod02_FIRE_Economics\\CA seminar Calkin.pptx",
-    "source_rel": "Mod02_FIRE_Economics\\CA seminar Calkin.pptx",
-    "source_label": "CA seminar Calkin",
-    "module": "Mod02_FIRE_Economics",
-    "original_prompt": "What challenges are associated with translating analytics into effective strategies for wildfire management?",
     "cleaning_note": "expanded to standalone exam-style prompt using source title"
   },
   {
@@ -10188,18 +9804,6 @@ window.NR444_QUESTIONS = [
     "cleaning_note": "expanded to standalone exam-style prompt using source title"
   },
   {
-    "clean_id": 863,
-    "old_id": "1993",
-    "prompt": "According to the reading \"Mod02 FIRE Economics: C13-1-31-01\", discuss the risks associated with investment decisions in forest fire management",
-    "response": "Investment decisions in forest fire management are fraught with risks related to uncertainty, including the likelihood and potential severity of wildfires, market fluctuations, and ecological conditions. The challenge lies in balancing expected returns against possible catastrophic losses when implementing management programs.",
-    "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod02_FIRE_Economics\\C13-1-31-01.pdf",
-    "source_rel": "Mod02_FIRE_Economics\\C13-1-31-01.pdf",
-    "source_label": "C13-1-31-01",
-    "module": "Mod02_FIRE_Economics",
-    "original_prompt": "Discuss the risks associated with investment decisions in forest fire management.",
-    "cleaning_note": "expanded to standalone exam-style prompt using source title"
-  },
-  {
     "clean_id": 864,
     "old_id": "1998",
     "prompt": "According to the reading \"Mod02 FIRE Economics: Mod2HW\", in what ways can fire departments evaluate the effectiveness of their investments?",
@@ -10209,18 +9813,6 @@ window.NR444_QUESTIONS = [
     "source_label": "Mod2HW",
     "module": "Mod02_FIRE_Economics",
     "original_prompt": "In what ways can fire departments evaluate the effectiveness of their investments?",
-    "cleaning_note": "expanded to standalone exam-style prompt using source title"
-  },
-  {
-    "clean_id": 865,
-    "old_id": "1999",
-    "prompt": "According to the reading \"Mod02 FIRE Economics: Introduction\", what is the primary focus of this module regarding wildland fire economics?",
-    "response": "This module focuses on establishing the basic concepts of the wildland fire economics model, particularly the Cost Plus Net Value Change (C+NVC) model, which serves as a foundational framework for wildfire management programs.",
-    "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod02_FIRE_Economics\\Introduction.docx",
-    "source_rel": "Mod02_FIRE_Economics\\Introduction.docx",
-    "source_label": "Introduction",
-    "module": "Mod02_FIRE_Economics",
-    "original_prompt": "What is the primary focus of this module regarding wildland fire economics?",
     "cleaning_note": "expanded to standalone exam-style prompt using source title"
   },
   {
@@ -10281,18 +9873,6 @@ window.NR444_QUESTIONS = [
     "source_label": "NR444 Definitions",
     "module": "Mod02_FIRE_Economics",
     "original_prompt": "What does 'ordinal' mean in the context of fire classifications?",
-    "cleaning_note": "expanded to standalone exam-style prompt using source title"
-  },
-  {
-    "clean_id": 871,
-    "old_id": "2011",
-    "prompt": "According to the reading \"Mod02 FIRE Economics: Dean Lueck and Jonathan Yoder\", what are the financial implications of wildland fire suppression costs?",
-    "response": "Federal wildland fire suppression spending has been around $1 billion per year over the last decade, with specific fires, such as the Biscuit Fire, incurring costs as high as $150 million for suppression efforts.",
-    "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod02_FIRE_Economics\\Dean Lueck and Jonathan Yoder.pdf",
-    "source_rel": "Mod02_FIRE_Economics\\Dean Lueck and Jonathan Yoder.pdf",
-    "source_label": "Dean Lueck and Jonathan Yoder",
-    "module": "Mod02_FIRE_Economics",
-    "original_prompt": "What are the financial implications of wildland fire suppression costs?",
     "cleaning_note": "expanded to standalone exam-style prompt using source title"
   },
   {
@@ -10377,18 +9957,6 @@ window.NR444_QUESTIONS = [
     "source_label": "Mod7Presentation",
     "module": "Mod09_Regional_Econ",
     "original_prompt": "What components are essential for successful suppression firing operations?",
-    "cleaning_note": "expanded to standalone exam-style prompt using source title"
-  },
-  {
-    "clean_id": 879,
-    "old_id": "2036",
-    "prompt": "According to the reading \"Mod02 FIRE Economics: Mod2HW\", what is the LCPL model in fire loss mitigation?",
-    "response": "The LCPL model, or Loss Control and Prevention Loss model, embodies the core economic theory of fire loss mitigation. It emphasizes the relationship between investment in fire prevention measures and the resultant reduction in fire loss. The model illustrates how optimal investment efforts can be determined by balancing the costs of investment with the expected reduction in losses due to fires.",
-    "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod02_FIRE_Economics\\Mod2HW.docx",
-    "source_rel": "Mod02_FIRE_Economics\\Mod2HW.docx",
-    "source_label": "Mod2HW",
-    "module": "Mod02_FIRE_Economics",
-    "original_prompt": "What is the LCPL model in fire loss mitigation?",
     "cleaning_note": "expanded to standalone exam-style prompt using source title"
   },
   {
@@ -10560,18 +10128,6 @@ window.NR444_QUESTIONS = [
     "cleaning_note": "expanded to standalone exam-style prompt using source title"
   },
   {
-    "clean_id": 895,
-    "old_id": "2070",
-    "prompt": "According to the reading \"Mod02 FIRE Economics: CA seminar Calkin\", why is defining the problem a critical step in wildfire risk management?",
-    "response": "Defining the problem is critical because it sets the foundation for understanding the dynamics of wildfire risks and guides subsequent management strategies.",
-    "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod02_FIRE_Economics\\CA seminar Calkin.pptx",
-    "source_rel": "Mod02_FIRE_Economics\\CA seminar Calkin.pptx",
-    "source_label": "CA seminar Calkin",
-    "module": "Mod02_FIRE_Economics",
-    "original_prompt": "Why is defining the problem a critical step in wildfire risk management?",
-    "cleaning_note": "expanded to standalone exam-style prompt using source title"
-  },
-  {
     "clean_id": 896,
     "old_id": "2074",
     "prompt": "According to the reading \"Mod06 Fire policy: WildfirePolicyCh10\", what is the concept of 'free riding' in the context of fire risk mitigation?",
@@ -10581,18 +10137,6 @@ window.NR444_QUESTIONS = [
     "source_label": "WildfirePolicyCh10",
     "module": "Mod06_Fire_policy",
     "original_prompt": "What is the concept of 'free riding' in the context of fire risk mitigation?",
-    "cleaning_note": "expanded to standalone exam-style prompt using source title"
-  },
-  {
-    "clean_id": 897,
-    "old_id": "2077",
-    "prompt": "According to the reading \"Mod06 Fire policy: WildfirePolicyCh10\", why might traditional ecological research neglect important behavioral aspects of wildfire policy?",
-    "response": "Ecological research often focuses on physical and biological systems and may overlook the economic behaviors of individuals, which are crucial for understanding and managing wildfire risks effectively.",
-    "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod06_Fire_policy\\WildfirePolicyCh10.pdf",
-    "source_rel": "Mod06_Fire_policy\\WildfirePolicyCh10.pdf",
-    "source_label": "WildfirePolicyCh10",
-    "module": "Mod06_Fire_policy",
-    "original_prompt": "Why might traditional ecological research neglect important behavioral aspects of wildfire policy?",
     "cleaning_note": "expanded to standalone exam-style prompt using source title"
   },
   {
@@ -10653,18 +10197,6 @@ window.NR444_QUESTIONS = [
     "source_label": "Kouskynotes",
     "module": "Mod03_FIRE_Risk_Uncertainty",
     "original_prompt": "How does the concept of 'crowding out' relate to public spending on fire suppression?",
-    "cleaning_note": "expanded to standalone exam-style prompt using source title"
-  },
-  {
-    "clean_id": 903,
-    "old_id": "2095",
-    "prompt": "According to the reading \"Mod02 FIRE Economics: C13-1-31-01\", what factors could alter the assumption of second order conditions not holding?",
-    "response": "Factors such as significant changes in environmental conditions, economic downturns, or unexpected changes in fire behavior could lead to scenarios where second order conditions do not hold, necessitating a reevaluation of the models and strategies used in fire management.",
-    "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod02_FIRE_Economics\\C13-1-31-01.pdf",
-    "source_rel": "Mod02_FIRE_Economics\\C13-1-31-01.pdf",
-    "source_label": "C13-1-31-01",
-    "module": "Mod02_FIRE_Economics",
-    "original_prompt": "What factors could alter the assumption of second order conditions not holding?",
     "cleaning_note": "expanded to standalone exam-style prompt using source title"
   },
   {
@@ -10749,18 +10281,6 @@ window.NR444_QUESTIONS = [
     "source_label": "Dean Lueck and Jonathan Yoder",
     "module": "Mod02_FIRE_Economics",
     "original_prompt": "What challenges arise from the division of land ownership in relation to wildfire suppression?",
-    "cleaning_note": "expanded to standalone exam-style prompt using source title"
-  },
-  {
-    "clean_id": 911,
-    "old_id": "2122",
-    "prompt": "According to the reading \"Mod06 Fire policy: 2012DOIPolicyReview\", what are some benefits of fuel reduction as mentioned in the text?",
-    "response": "Benefits of fuel reduction include community values related to fire-risk reduction, costs associated with firefighting being minimized, potential enhancements in local economic benefits, forest regeneration, and the prevention of more severe fires. Additionally, it can lead to improved habitat conditions.",
-    "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod06_Fire_policy\\2012DOIPolicyReview.pdf",
-    "source_rel": "Mod06_Fire_policy\\2012DOIPolicyReview.pdf",
-    "source_label": "2012DOIPolicyReview",
-    "module": "Mod06_Fire_policy",
-    "original_prompt": "What are some benefits of fuel reduction as mentioned in the text?",
     "cleaning_note": "expanded to standalone exam-style prompt using source title"
   },
   {
@@ -11028,42 +10548,6 @@ window.NR444_QUESTIONS = [
     "cleaning_note": "expanded to standalone exam-style prompt using source title"
   },
   {
-    "clean_id": 934,
-    "old_id": "2177",
-    "prompt": "According to the reading \"Mod06 Fire policy: WildfirePolicyCh10\", what challenges do researchers face when trying to obtain parcel-level data for housing prices?",
-    "response": "Obtaining parcel-level data for housing prices can be costly, as such data often comes from private sources and may not include vital information on mitigating actions homeowners have adopted or whether they possess wildfire insurance.",
-    "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod06_Fire_policy\\WildfirePolicyCh10.pdf",
-    "source_rel": "Mod06_Fire_policy\\WildfirePolicyCh10.pdf",
-    "source_label": "WildfirePolicyCh10",
-    "module": "Mod06_Fire_policy",
-    "original_prompt": "What challenges do researchers face when trying to obtain parcel-level data for housing prices?",
-    "cleaning_note": "expanded to standalone exam-style prompt using source title"
-  },
-  {
-    "clean_id": 935,
-    "old_id": "2180",
-    "prompt": "According to the reading \"Mod06 Fire policy: RMNP fire management plan 2012\", what are the main objectives of prescribed fire activities in the park?",
-    "response": "The main objectives of prescribed fire activities in the park include effective communication about these activities within the park and the local community, as well as monitoring programs to determine if specific resource management objectives are being met.",
-    "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod06_Fire_policy\\RMNP_fire_management_plan_2012.pdf",
-    "source_rel": "Mod06_Fire_policy\\RMNP_fire_management_plan_2012.pdf",
-    "source_label": "RMNP fire management plan 2012",
-    "module": "Mod06_Fire_policy",
-    "original_prompt": "What are the main objectives of prescribed fire activities in the park?",
-    "cleaning_note": "expanded to standalone exam-style prompt using source title"
-  },
-  {
-    "clean_id": 936,
-    "old_id": "2181",
-    "prompt": "According to the reading \"Mod02 FIRE Economics: Constructing a Correct C+NVC Model voice\", what role does preparedness play in the NVC function?",
-    "response": "Preparedness is a decision variable influencing the NVC function. Its application is directly tied to reducing fire damage, and the function's shape demonstrates how its effectiveness decreases with increasing levels of preparedness investment.",
-    "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod02_FIRE_Economics\\Constructing a Correct C+NVC Model voice.pptx",
-    "source_rel": "Mod02_FIRE_Economics\\Constructing a Correct C+NVC Model voice.pptx",
-    "source_label": "Constructing a Correct C+NVC Model voice",
-    "module": "Mod02_FIRE_Economics",
-    "original_prompt": "What role does preparedness play in the NVC function?",
-    "cleaning_note": "expanded to standalone exam-style prompt using source title"
-  },
-  {
     "clean_id": 937,
     "old_id": "2183",
     "prompt": "According to the reading \"Mod02 FIRE Economics: Mod2HW\", what might be a consequence of failing to recognize the diminishing returns in fire investment?",
@@ -11100,18 +10584,6 @@ window.NR444_QUESTIONS = [
     "cleaning_note": "expanded to standalone exam-style prompt using source title"
   },
   {
-    "clean_id": 940,
-    "old_id": "2189",
-    "prompt": "According to the reading \"Mod02 FIRE Economics: C13-1-31-01\", how does the least-cost-plus-loss (LCPL) model relate to fire management?",
-    "response": "The LCPL model, which has its roots in economic theory, seeks to explain the tradeoff between the costs of fire damage and the costs of fire management strategies. It aims to minimize the total costs associated with fire by balancing the expenditure on fire management against the potential losses from wildfire damage.",
-    "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod02_FIRE_Economics\\C13-1-31-01.pdf",
-    "source_rel": "Mod02_FIRE_Economics\\C13-1-31-01.pdf",
-    "source_label": "C13-1-31-01",
-    "module": "Mod02_FIRE_Economics",
-    "original_prompt": "How does the least-cost-plus-loss (LCPL) model relate to fire management?",
-    "cleaning_note": "expanded to standalone exam-style prompt using source title"
-  },
-  {
     "clean_id": 941,
     "old_id": "2190",
     "prompt": "According to the reading \"Mod01 NR Economics Fundation: Schwarz and Herron - Natural Resource Economics\", how does the text suggest energy production can impact the environment?",
@@ -11124,18 +10596,6 @@ window.NR444_QUESTIONS = [
     "cleaning_note": "expanded to standalone exam-style prompt using source title"
   },
   {
-    "clean_id": 942,
-    "old_id": "2191",
-    "prompt": "According to the reading \"Mod06 Fire policy: RMNP fire management plan 2012\", what are the levels of fire monitoring, and what do they entail?",
-    "response": "The NPS Fire Monitoring Handbook identifies four levels of fire monitoring: Level 1 involves collecting baseline environmental data; Level 2 focuses on observations during fire events; Level 3 assesses short-term changes post-fire; Level 4 involves documenting long-term effects of management activities.",
-    "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod06_Fire_policy\\RMNP_fire_management_plan_2012.pdf",
-    "source_rel": "Mod06_Fire_policy\\RMNP_fire_management_plan_2012.pdf",
-    "source_label": "RMNP fire management plan 2012",
-    "module": "Mod06_Fire_policy",
-    "original_prompt": "What are the levels of fire monitoring, and what do they entail?",
-    "cleaning_note": "expanded to standalone exam-style prompt using source title"
-  },
-  {
     "clean_id": 943,
     "old_id": "2193",
     "prompt": "According to the reading \"Mod06 Fire policy: Confronting-Wildfire-Crisis\", what can Federal agencies do to enhance wildfire management capacity?",
@@ -11145,18 +10605,6 @@ window.NR444_QUESTIONS = [
     "source_label": "Confronting-Wildfire-Crisis",
     "module": "Mod06_Fire_policy",
     "original_prompt": "What can Federal agencies do to enhance wildfire management capacity?",
-    "cleaning_note": "expanded to standalone exam-style prompt using source title"
-  },
-  {
-    "clean_id": 944,
-    "old_id": "2194",
-    "prompt": "According to the reading \"Mod02 FIRE Economics: Dean Lueck and Jonathan Yoder\", what does the concept of 'fireshed assessment' entail?",
-    "response": "Fireshed assessment, as discussed in the work by Bahro and Barber, involves an integrated approach to landscape planning aimed at evaluating wildfire risks and developing strategies for wildfire and land management in order to enhance community resilience against wildfires.",
-    "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod02_FIRE_Economics\\Dean Lueck and Jonathan Yoder.pdf",
-    "source_rel": "Mod02_FIRE_Economics\\Dean Lueck and Jonathan Yoder.pdf",
-    "source_label": "Dean Lueck and Jonathan Yoder",
-    "module": "Mod02_FIRE_Economics",
-    "original_prompt": "What does the concept of 'fireshed assessment' entail?",
     "cleaning_note": "expanded to standalone exam-style prompt using source title"
   },
   {
@@ -11208,18 +10656,6 @@ window.NR444_QUESTIONS = [
     "cleaning_note": "expanded to standalone exam-style prompt using source title"
   },
   {
-    "clean_id": 949,
-    "old_id": "2202",
-    "prompt": "According to the reading \"Mod06 Fire policy: WildfirePolicyCh10\", what is the challenge of selection bias in empirical research regarding land development patterns?",
-    "response": "Selection bias in empirical research occurs when attempts to estimate the effects of risk disclosure on land development patterns do not account for the choice communities have in adopting or rejecting maps that define high fire hazard areas.",
-    "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod06_Fire_policy\\WildfirePolicyCh10.pdf",
-    "source_rel": "Mod06_Fire_policy\\WildfirePolicyCh10.pdf",
-    "source_label": "WildfirePolicyCh10",
-    "module": "Mod06_Fire_policy",
-    "original_prompt": "What is the challenge of selection bias in empirical research regarding land development patterns?",
-    "cleaning_note": "expanded to standalone exam-style prompt using source title"
-  },
-  {
     "clean_id": 950,
     "old_id": "2204",
     "prompt": "According to the reading \"Mod06 Fire policy: Implemenation Guide 2014\", what is the minimum implementation organization described in the approved Prescribed Fire Plan?",
@@ -11229,18 +10665,6 @@ window.NR444_QUESTIONS = [
     "source_label": "Implemenation Guide 2014",
     "module": "Mod06_Fire_policy",
     "original_prompt": "What is the minimum implementation organization described in the approved Prescribed Fire Plan?",
-    "cleaning_note": "expanded to standalone exam-style prompt using source title"
-  },
-  {
-    "clean_id": 951,
-    "old_id": "2206",
-    "prompt": "According to the reading \"Mod02 FIRE Economics: C13-1-31-01\", how do fire managers determine the optimal amount of resource protection?",
-    "response": "Fire managers determine the optimal amount of resource protection by evaluating the value of the timber lands and assessing the amount of protection needed similar to insurance coverage. This process involves weighing potential losses against the costs of implementing various fire management strategies, all influenced by economic considerations.",
-    "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod02_FIRE_Economics\\C13-1-31-01.pdf",
-    "source_rel": "Mod02_FIRE_Economics\\C13-1-31-01.pdf",
-    "source_label": "C13-1-31-01",
-    "module": "Mod02_FIRE_Economics",
-    "original_prompt": "How do fire managers determine the optimal amount of resource protection?",
     "cleaning_note": "expanded to standalone exam-style prompt using source title"
   },
   {
@@ -11265,18 +10689,6 @@ window.NR444_QUESTIONS = [
     "source_label": "Kouskynotes",
     "module": "Mod03_FIRE_Risk_Uncertainty",
     "original_prompt": "In summary, what are the four key issues identified that could improve wildland fire policy effectiveness?",
-    "cleaning_note": "expanded to standalone exam-style prompt using source title"
-  },
-  {
-    "clean_id": 954,
-    "old_id": "2212",
-    "prompt": "According to the reading \"Mod02 FIRE Economics: Introduction\", what role does economic theory play in the understanding of fire management?",
-    "response": "Economic theory provides a foundational framework for thinking about fire management. It helps in analyzing the trade-offs between costs and benefits associated with fire management practices, including mitigation strategies and fire suppression.",
-    "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod02_FIRE_Economics\\Introduction.docx",
-    "source_rel": "Mod02_FIRE_Economics\\Introduction.docx",
-    "source_label": "Introduction",
-    "module": "Mod02_FIRE_Economics",
-    "original_prompt": "What role does economic theory play in the understanding of fire management?",
     "cleaning_note": "expanded to standalone exam-style prompt using source title"
   },
   {
@@ -11328,18 +10740,6 @@ window.NR444_QUESTIONS = [
     "cleaning_note": "expanded to standalone exam-style prompt using source title"
   },
   {
-    "clean_id": 959,
-    "old_id": "2223",
-    "prompt": "According to the reading \"Mod02 FIRE Economics: C13-1-31-01\", what does the term 'program level' refer to in fire management budgeting?",
-    "response": "In fire management budgeting, 'program level' refers to the specific budget allocated for presuppression activities aimed at forest protection. It reflects the total resources devoted to prevention and preparedness efforts before a wildfire occurs, ultimately seeking to minimize suppression costs and overall fire management expenses.",
-    "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod02_FIRE_Economics\\C13-1-31-01.pdf",
-    "source_rel": "Mod02_FIRE_Economics\\C13-1-31-01.pdf",
-    "source_label": "C13-1-31-01",
-    "module": "Mod02_FIRE_Economics",
-    "original_prompt": "What does the term 'program level' refer to in fire management budgeting?",
-    "cleaning_note": "expanded to standalone exam-style prompt using source title"
-  },
-  {
     "clean_id": 960,
     "old_id": "2225",
     "prompt": "According to the reading \"Mod04 Fire Mgmt Behavior Econ: Suppresion firing\", what evidence was found regarding the geographical mapping of suppression firing in the studied fires?",
@@ -11349,18 +10749,6 @@ window.NR444_QUESTIONS = [
     "source_label": "Suppresion firing",
     "module": "Mod04_Fire_Mgmt_Behavior_Econ",
     "original_prompt": "What evidence was found regarding the geographical mapping of suppression firing in the studied fires?",
-    "cleaning_note": "expanded to standalone exam-style prompt using source title"
-  },
-  {
-    "clean_id": 961,
-    "old_id": "2231",
-    "prompt": "According to the reading \"Mod02 FIRE Economics: Dean Lueck and Jonathan Yoder\", what role do community externalities play in wildland fire hazard mitigation?",
-    "response": "The research by Butry and Donovan investigates how the spatial externalities of community actions regarding wildland fire hazard mitigation can affect neighboring properties, emphasizing the interconnectedness of land management decisions within a community.",
-    "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod02_FIRE_Economics\\Dean Lueck and Jonathan Yoder.pdf",
-    "source_rel": "Mod02_FIRE_Economics\\Dean Lueck and Jonathan Yoder.pdf",
-    "source_label": "Dean Lueck and Jonathan Yoder",
-    "module": "Mod02_FIRE_Economics",
-    "original_prompt": "What role do community externalities play in wildland fire hazard mitigation?",
     "cleaning_note": "expanded to standalone exam-style prompt using source title"
   },
   {
@@ -11421,18 +10809,6 @@ window.NR444_QUESTIONS = [
     "source_label": "Schwarz and Herron - Natural Resource Economics",
     "module": "Mod01_NR_Economics_Fundation",
     "original_prompt": "Which book discusses the economics of climate change?",
-    "cleaning_note": "expanded to standalone exam-style prompt using source title"
-  },
-  {
-    "clean_id": 967,
-    "old_id": "2246",
-    "prompt": "According to the reading \"Mod02 FIRE Economics: psw 2013 gonzalez-caban001 mavsar\", what key factors are considered in modeling fire behavior?",
-    "response": "Models of fire behavior typically incorporate data on fuel behavior, weather conditions, and the deployment of suppression resources. These factors are vital for simulations and analyses in fire management planning and decision-making.",
-    "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod02_FIRE_Economics\\psw_2013_gonzalez-caban001_mavsar.pdf",
-    "source_rel": "Mod02_FIRE_Economics\\psw_2013_gonzalez-caban001_mavsar.pdf",
-    "source_label": "psw 2013 gonzalez-caban001 mavsar",
-    "module": "Mod02_FIRE_Economics",
-    "original_prompt": "What key factors are considered in modeling fire behavior?",
     "cleaning_note": "expanded to standalone exam-style prompt using source title"
   },
   {
@@ -11520,18 +10896,6 @@ window.NR444_QUESTIONS = [
     "cleaning_note": "expanded to standalone exam-style prompt using source title"
   },
   {
-    "clean_id": 975,
-    "old_id": "2263",
-    "prompt": "According to the reading \"Mod02 FIRE Economics: C13-7-24-01abb\", what implications do resource allocation decisions have in wildfire management?",
-    "response": "Resource allocation decisions in wildfire management have significant implications, as they affect not only firefighting capabilities but also the long-term ecological integrity of forests and the sustainability of public resources.",
-    "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod02_FIRE_Economics\\C13-7-24-01abb.pdf",
-    "source_rel": "Mod02_FIRE_Economics\\C13-7-24-01abb.pdf",
-    "source_label": "C13-7-24-01abb",
-    "module": "Mod02_FIRE_Economics",
-    "original_prompt": "What implications do resource allocation decisions have in wildfire management?",
-    "cleaning_note": "expanded to standalone exam-style prompt using source title"
-  },
-  {
     "clean_id": 976,
     "old_id": "2265",
     "prompt": "According to the reading \"Mod01 NR Economics Fundation: Schwarz and Herron - Natural Resource Economics\", what are some examples of revealed preference methods in resource valuation?",
@@ -11541,18 +10905,6 @@ window.NR444_QUESTIONS = [
     "source_label": "Schwarz and Herron - Natural Resource Economics",
     "module": "Mod01_NR_Economics_Fundation",
     "original_prompt": "What are some examples of revealed preference methods in resource valuation?",
-    "cleaning_note": "expanded to standalone exam-style prompt using source title"
-  },
-  {
-    "clean_id": 977,
-    "old_id": "2266",
-    "prompt": "According to the reading \"Mod02 FIRE Economics: C13-1-31-01\", what types of data might be necessary to apply these models effectively?",
-    "response": "To apply these models effectively, one would need data related to fire incidence rates, costs of suppression, economic value estimates of land/resources, and ecological impact assessments to inform the relationships modeled.",
-    "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod02_FIRE_Economics\\C13-1-31-01.pdf",
-    "source_rel": "Mod02_FIRE_Economics\\C13-1-31-01.pdf",
-    "source_label": "C13-1-31-01",
-    "module": "Mod02_FIRE_Economics",
-    "original_prompt": "What types of data might be necessary to apply these models effectively?",
     "cleaning_note": "expanded to standalone exam-style prompt using source title"
   },
   {
@@ -11604,18 +10956,6 @@ window.NR444_QUESTIONS = [
     "cleaning_note": "expanded to standalone exam-style prompt using source title"
   },
   {
-    "clean_id": 982,
-    "old_id": "2282",
-    "prompt": "According to the reading \"Mod02 FIRE Economics: C13-7-24-01abb\", how does public awareness influence fire management practices?",
-    "response": "Recent catastrophic wildfires in states like Montana, New Mexico, Florida, and California have heightened public awareness and concern regarding fire management practices. This public concern can influence policy and practices, driving agencies to reconsider their fire management strategies.",
-    "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod02_FIRE_Economics\\C13-7-24-01abb.pdf",
-    "source_rel": "Mod02_FIRE_Economics\\C13-7-24-01abb.pdf",
-    "source_label": "C13-7-24-01abb",
-    "module": "Mod02_FIRE_Economics",
-    "original_prompt": "How does public awareness influence fire management practices?",
-    "cleaning_note": "expanded to standalone exam-style prompt using source title"
-  },
-  {
     "clean_id": 983,
     "old_id": "2284",
     "prompt": "According to the reading \"Mod06 Fire policy: Policy History I Intro\", what thematic contents are included in the evolution of fire policy?",
@@ -11637,18 +10977,6 @@ window.NR444_QUESTIONS = [
     "source_label": "Dean Lueck and Jonathan Yoder",
     "module": "Mod02_FIRE_Economics",
     "original_prompt": "How does asset distribution affect wildfire suppression strategies?",
-    "cleaning_note": "expanded to standalone exam-style prompt using source title"
-  },
-  {
-    "clean_id": 985,
-    "old_id": "2294",
-    "prompt": "According to the reading \"Mod02 FIRE Economics: C13-7-24-01abb\", what is the importance of interagency cooperation in fire management?",
-    "response": "Interagency cooperation is vital in fire management as it allows for coordinated efforts to address the complexities of wildfire management. Combining resources, expertise, and strategies from multiple agencies can lead to more effective fire management and improved outcomes.",
-    "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod02_FIRE_Economics\\C13-7-24-01abb.pdf",
-    "source_rel": "Mod02_FIRE_Economics\\C13-7-24-01abb.pdf",
-    "source_label": "C13-7-24-01abb",
-    "module": "Mod02_FIRE_Economics",
-    "original_prompt": "What is the importance of interagency cooperation in fire management?",
     "cleaning_note": "expanded to standalone exam-style prompt using source title"
   },
   {
@@ -11688,30 +11016,6 @@ window.NR444_QUESTIONS = [
     "cleaning_note": "expanded to standalone exam-style prompt using source title"
   },
   {
-    "clean_id": 989,
-    "old_id": "2300",
-    "prompt": "According to the reading \"Mod02 FIRE Economics: C13-1-31-01\", how does the LCPL model apply to individual fire situations?",
-    "response": "The LCPL model is applied to individual fire situations by evaluating the cost-effectiveness of various suppression and management strategies. It guides decisions about resource allocation on a case-by-case basis, utilizing cost-benefit analyses to determine the most efficient approach to fire management for specific incidents.",
-    "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod02_FIRE_Economics\\C13-1-31-01.pdf",
-    "source_rel": "Mod02_FIRE_Economics\\C13-1-31-01.pdf",
-    "source_label": "C13-1-31-01",
-    "module": "Mod02_FIRE_Economics",
-    "original_prompt": "How does the LCPL model apply to individual fire situations?",
-    "cleaning_note": "expanded to standalone exam-style prompt using source title"
-  },
-  {
-    "clean_id": 990,
-    "old_id": "2303",
-    "prompt": "According to the reading \"Mod02 FIRE Economics: C13-1-31-01\", how does the net value change (NVC) function relate to fire management?",
-    "response": "The net value change (NVC) function evaluates the economic gains or losses associated with fire management decisions. It helps assess the impact of various fire management strategies on the overall value of the land or resources.",
-    "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod02_FIRE_Economics\\C13-1-31-01.pdf",
-    "source_rel": "Mod02_FIRE_Economics\\C13-1-31-01.pdf",
-    "source_label": "C13-1-31-01",
-    "module": "Mod02_FIRE_Economics",
-    "original_prompt": "How does the net value change (NVC) function relate to fire management?",
-    "cleaning_note": "expanded to standalone exam-style prompt using source title"
-  },
-  {
     "clean_id": 991,
     "old_id": "2307",
     "prompt": "According to the reading \"Mod03 FIRE Risk Uncertainty: The influence of incident management teams on the\", how do institutional factors influence resource order decisions during wildfire incidents?",
@@ -11745,18 +11049,6 @@ window.NR444_QUESTIONS = [
     "source_label": "Mod 4 homework",
     "module": "Mod04_Fire_Mgmt_Behavior_Econ",
     "original_prompt": "How can understanding loss aversion help businesses market their products?",
-    "cleaning_note": "expanded to standalone exam-style prompt using source title"
-  },
-  {
-    "clean_id": 994,
-    "old_id": "2316",
-    "prompt": "According to the reading \"Mod07 BenefitCost: Mod6HW2020 answerkay\", how can losing points for incorrect submission impact a student’s overall grade?",
-    "response": "Losing points for not providing necessary documentation like cash flow diagrams can significantly impact a student's overall grade, especially if these assignments contribute a substantial portion of total course points.",
-    "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod07_BenefitCost\\Mod6HW2020_answerkay.docx",
-    "source_rel": "Mod07_BenefitCost\\Mod6HW2020_answerkay.docx",
-    "source_label": "Mod6HW2020 answerkay",
-    "module": "Mod07_BenefitCost",
-    "original_prompt": "How can losing points for incorrect submission impact a student’s overall grade?",
     "cleaning_note": "expanded to standalone exam-style prompt using source title"
   },
   {
@@ -11871,7 +11163,7 @@ window.NR444_QUESTIONS = [
     "clean_id": 1004,
     "old_id": "2334",
     "prompt": "According to the reading \"Mod02 FIRE Economics: Dean Lueck and Jonathan Yoder\", what economic theory is referenced regarding contract efficiency in wildfire suppression?",
-    "response": "The article references Ronald Coase's theory, which suggests that efficient outcomes can arise from well-specified contracts even across multiple landholdings, provided that transaction costs are low.",
+    "response": "The reading references Ronald Coase's transaction cost theory to explain why organizing wildfire suppression is challenging. Coase argued that private contracts can produce efficient outcomes when property rights are clear and the costs of negotiating and coordinating agreements are low. However, wildfire suppression rarely meets these conditions. Wildfires often spread across multiple landownerships and jurisdictions, requiring many landowners, agencies, and organizations to work together under rapidly changing conditions. The time and effort needed to coordinate decisions, share information, assign responsibilities, and organize resources create high transaction costs. As a result, relying solely on private contracts is often inefficient. Instead, governments use formal organizations, interagency agreements, and systems such as the Incident Command System (ICS) to reduce coordination costs and improve the efficiency of wildfire suppression. This illustrates Coase's idea that when transaction costs are high, organizations often become a more efficient way to coordinate activities than individual contracts.",
     "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod02_FIRE_Economics\\Dean Lueck and Jonathan Yoder.pdf",
     "source_rel": "Mod02_FIRE_Economics\\Dean Lueck and Jonathan Yoder.pdf",
     "source_label": "Dean Lueck and Jonathan Yoder",
@@ -11955,24 +11247,12 @@ window.NR444_QUESTIONS = [
     "clean_id": 1011,
     "old_id": "2350",
     "prompt": "According to the reading \"Mod02 FIRE Economics: Mod2HW\", what role do fuel treatments play in increasing optimal firefighting investments?",
-    "response": "Fuel treatments play a crucial role in increasing optimal firefighting investments by reducing the amount of combustible material in the landscape. By conducting treatments, such as controlled burns or mechanical thinning, the overall risk of severe fire events decreases. This reduction in risk can justify higher investment levels in firefighting since the potential losses from fire incidents are lowered, leading to a more favorable cost-benefit scenario.",
+    "response": "Fuel treatments can increase optimal firefighting investment when they make suppression safer and more effective. By reducing fuel loads, changing fuel structure, lowering flame length, or slowing fire spread, treatments can create better opportunities for crews, engines, aircraft, or fireline construction to successfully contain a fire. In economic terms, fuel treatment is a form of presuppression investment that can change the marginal effectiveness of suppression. If each additional dollar spent on firefighting now produces a larger reduction in expected damage because the treated landscape is easier to control, then the marginal return to suppression increases. As a result, the economically optimal level of suppression investment may rise, because more firefighting effort is justified up to the point where the marginal cost of suppression again equals the marginal reduction in expected net value change. This reflects the idea that presuppression and suppression are separate decision variables, but presuppression can affect the optimal level of suppression through the net value change function",
     "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod02_FIRE_Economics\\Mod2HW.docx",
     "source_rel": "Mod02_FIRE_Economics\\Mod2HW.docx",
     "source_label": "Mod2HW",
     "module": "Mod02_FIRE_Economics",
     "original_prompt": "What role do fuel treatments play in increasing optimal firefighting investments?",
-    "cleaning_note": "expanded to standalone exam-style prompt using source title"
-  },
-  {
-    "clean_id": 1012,
-    "old_id": "2351",
-    "prompt": "According to the reading \"Mod02 FIRE Economics: Dean Lueck and Jonathan Yoder\", explain the challenges of coordinating fire suppression efforts among multiple landowners",
-    "response": "Coordinating fire suppression among multiple landowners is challenging due to transaction costs, uncertainty about fire behavior, and the heterogeneous nature of landownership. This can lead to uneven investment in suppression efforts and complicate collective action when facing a wildfire.",
-    "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod02_FIRE_Economics\\Dean Lueck and Jonathan Yoder.pdf",
-    "source_rel": "Mod02_FIRE_Economics\\Dean Lueck and Jonathan Yoder.pdf",
-    "source_label": "Dean Lueck and Jonathan Yoder",
-    "module": "Mod02_FIRE_Economics",
-    "original_prompt": "Explain the challenges of coordinating fire suppression efforts among multiple landowners.",
     "cleaning_note": "expanded to standalone exam-style prompt using source title"
   },
   {
@@ -12120,18 +11400,6 @@ window.NR444_QUESTIONS = [
     "cleaning_note": "expanded to standalone exam-style prompt using source title"
   },
   {
-    "clean_id": 1025,
-    "old_id": "2376",
-    "prompt": "According to the reading \"Mod02 FIRE Economics: CA seminar Calkin\", what might effective organizations look like in the context of wildfire management?",
-    "response": "Effective organizations in wildfire management would likely be those that have clear strategies based on economic principles and collaborative frameworks for addressing wildfires.",
-    "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod02_FIRE_Economics\\CA seminar Calkin.pptx",
-    "source_rel": "Mod02_FIRE_Economics\\CA seminar Calkin.pptx",
-    "source_label": "CA seminar Calkin",
-    "module": "Mod02_FIRE_Economics",
-    "original_prompt": "What might effective organizations look like in the context of wildfire management?",
-    "cleaning_note": "expanded to standalone exam-style prompt using source title"
-  },
-  {
     "clean_id": 1026,
     "old_id": "2377",
     "prompt": "According to the reading \"Mod06 Fire policy: Policy History I Intro\", what does a paradigm shift entail?",
@@ -12153,18 +11421,6 @@ window.NR444_QUESTIONS = [
     "source_label": "Mod2HW",
     "module": "Mod02_FIRE_Economics",
     "original_prompt": "What is the concept of diminishing return of investment in fire economics?",
-    "cleaning_note": "expanded to standalone exam-style prompt using source title"
-  },
-  {
-    "clean_id": 1028,
-    "old_id": "2386",
-    "prompt": "According to the reading \"Mod07 BenefitCost: Mod6HW2020 answerkay\", what will happen if there is no cash flow diagram for the problems?",
-    "response": "Points will be deducted if there is no cash flow diagram, and partial credit cannot be awarded if the answer is incorrect and no diagram or work is provided.",
-    "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod07_BenefitCost\\Mod6HW2020_answerkay.docx",
-    "source_rel": "Mod07_BenefitCost\\Mod6HW2020_answerkay.docx",
-    "source_label": "Mod6HW2020 answerkay",
-    "module": "Mod07_BenefitCost",
-    "original_prompt": "What will happen if there is no cash flow diagram for the problems?",
     "cleaning_note": "expanded to standalone exam-style prompt using source title"
   },
   {
@@ -12288,18 +11544,6 @@ window.NR444_QUESTIONS = [
     "cleaning_note": "expanded to standalone exam-style prompt using source title"
   },
   {
-    "clean_id": 1039,
-    "old_id": "2409",
-    "prompt": "According to the reading \"Mod07 BenefitCost: c11-2 8 01\", what does the equation for maximum total effectiveness signify about treatment costs?",
-    "response": "The equation indicates that the effectiveness derived from treatments should be efficiently balanced against the costs incurred in achieving that effectiveness within the budget.",
-    "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod07_BenefitCost\\c11-2_8_01.pdf",
-    "source_rel": "Mod07_BenefitCost\\c11-2_8_01.pdf",
-    "source_label": "c11-2 8 01",
-    "module": "Mod07_BenefitCost",
-    "original_prompt": "What does the equation for maximum total effectiveness signify about treatment costs?",
-    "cleaning_note": "expanded to standalone exam-style prompt using source title"
-  },
-  {
     "clean_id": 1040,
     "old_id": "2413",
     "prompt": "According to the reading \"Mod03 FIRE Risk Uncertainty: Uncertainty and probability\", what is the focus of this text regarding wildfire management?",
@@ -12309,18 +11553,6 @@ window.NR444_QUESTIONS = [
     "source_label": "Uncertainty and probability",
     "module": "Mod03_FIRE_Risk_Uncertainty",
     "original_prompt": "What is the focus of this text regarding wildfire management?",
-    "cleaning_note": "expanded to standalone exam-style prompt using source title"
-  },
-  {
-    "clean_id": 1041,
-    "old_id": "2415",
-    "prompt": "According to the reading \"Mod02 FIRE Economics: Bayham Yoder WFE2021 share\", how do homeowners’ decisions affect wildfire risk management?",
-    "response": "Homeowners’ decisions significantly affect wildfire risk management as their personal mitigation efforts, such as creating defensible space around properties and installing fire-resistant materials, contribute to overall community resilience. Individual behavior directly influences fire risk levels and informs broader public policy and resource allocation in fire-prone areas.",
-    "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod02_FIRE_Economics\\Bayham_Yoder_WFE2021_share.pdf",
-    "source_rel": "Mod02_FIRE_Economics\\Bayham_Yoder_WFE2021_share.pdf",
-    "source_label": "Bayham Yoder WFE2021 share",
-    "module": "Mod02_FIRE_Economics",
-    "original_prompt": "How do homeowners’ decisions affect wildfire risk management?",
     "cleaning_note": "expanded to standalone exam-style prompt using source title"
   },
   {
@@ -12345,18 +11577,6 @@ window.NR444_QUESTIONS = [
     "source_label": "psw 2013 gonzalez-caban001 mavsar",
     "module": "Mod02_FIRE_Economics",
     "original_prompt": "How do simulation models help fire managers?",
-    "cleaning_note": "expanded to standalone exam-style prompt using source title"
-  },
-  {
-    "clean_id": 1044,
-    "old_id": "2422",
-    "prompt": "According to the reading \"Mod02 FIRE Economics: C13-1-31-01\", how might changes in the slope of the suppression function affect net value change?",
-    "response": "If the slope of the suppression function increases, indicating higher costs for suppression efforts, it would typically lead to a decrease in net value change, reflecting the trade-off. Conversely, if suppression is more effective or less costly, the net value change might increase.",
-    "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod02_FIRE_Economics\\C13-1-31-01.pdf",
-    "source_rel": "Mod02_FIRE_Economics\\C13-1-31-01.pdf",
-    "source_label": "C13-1-31-01",
-    "module": "Mod02_FIRE_Economics",
-    "original_prompt": "How might changes in the slope of the suppression function affect net value change?",
     "cleaning_note": "expanded to standalone exam-style prompt using source title"
   },
   {
@@ -12444,18 +11664,6 @@ window.NR444_QUESTIONS = [
     "cleaning_note": "expanded to standalone exam-style prompt using source title"
   },
   {
-    "clean_id": 1052,
-    "old_id": "2442",
-    "prompt": "According to the reading \"Mod02 FIRE Economics: C13-1-31-01\", what insights can be drawn from the assumption that second order conditions hold?",
-    "response": "The assumption that second order conditions hold provides reassurance that the models being used are reliable for decision-making. It suggests that the solutions derived from these models will lead to stable and predictable outcomes, essential for effective fire management.",
-    "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod02_FIRE_Economics\\C13-1-31-01.pdf",
-    "source_rel": "Mod02_FIRE_Economics\\C13-1-31-01.pdf",
-    "source_label": "C13-1-31-01",
-    "module": "Mod02_FIRE_Economics",
-    "original_prompt": "What insights can be drawn from the assumption that second order conditions hold?",
-    "cleaning_note": "expanded to standalone exam-style prompt using source title"
-  },
-  {
     "clean_id": 1053,
     "old_id": "2446",
     "prompt": "According to the reading \"Mod02 FIRE Economics: Bayham Yoder WFE2021 share\", how do wildfires impact water quality?",
@@ -12516,18 +11724,6 @@ window.NR444_QUESTIONS = [
     "cleaning_note": "expanded to standalone exam-style prompt using source title"
   },
   {
-    "clean_id": 1058,
-    "old_id": "2455",
-    "prompt": "According to the reading \"Mod02 FIRE Economics: Social Sciences and the Economics of Moderation in Fuels Treatment\", what might be a potential application of the research findings discussed in the article?",
-    "response": "A potential application of the research findings discussed in the article could be in the formulation of policies and practices that enhance fire management strategies, ultimately leading to safer and more sustainable interactions with forest ecosystems.",
-    "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod02_FIRE_Economics\\Social Sciences and the Economics of Moderation in Fuels Treatment.pdf",
-    "source_rel": "Mod02_FIRE_Economics\\Social Sciences and the Economics of Moderation in Fuels Treatment.pdf",
-    "source_label": "Social Sciences and the Economics of Moderation in Fuels Treatment",
-    "module": "Mod02_FIRE_Economics",
-    "original_prompt": "What might be a potential application of the research findings discussed in the article?",
-    "cleaning_note": "expanded to standalone exam-style prompt using source title"
-  },
-  {
     "clean_id": 1059,
     "old_id": "2457",
     "prompt": "According to the reading \"Mod02 FIRE Economics: CA seminar Calkin\", what primary role does the government play in economic contexts related to wildland fire risk management?",
@@ -12537,18 +11733,6 @@ window.NR444_QUESTIONS = [
     "source_label": "CA seminar Calkin",
     "module": "Mod02_FIRE_Economics",
     "original_prompt": "What primary role does the government play in economic contexts related to wildland fire risk management?",
-    "cleaning_note": "expanded to standalone exam-style prompt using source title"
-  },
-  {
-    "clean_id": 1060,
-    "old_id": "2458",
-    "prompt": "According to the reading \"Mod02 FIRE Economics: Bayham Yoder WFE2021 share\", how can economics contribute to our understanding of wildfire management?",
-    "response": "Economics can contribute to our understanding of wildfire management by helping to analyze human behavior in relation to wildfires and by characterizing and quantifying the costs and benefits of different management strategies or policies. It provides tools and frameworks to evaluate how resources are allocated for mitigation, suppression, and response activities.",
-    "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod02_FIRE_Economics\\Bayham_Yoder_WFE2021_share.pdf",
-    "source_rel": "Mod02_FIRE_Economics\\Bayham_Yoder_WFE2021_share.pdf",
-    "source_label": "Bayham Yoder WFE2021 share",
-    "module": "Mod02_FIRE_Economics",
-    "original_prompt": "How can economics contribute to our understanding of wildfire management?",
     "cleaning_note": "expanded to standalone exam-style prompt using source title"
   },
   {
@@ -12698,8 +11882,8 @@ window.NR444_QUESTIONS = [
   {
     "clean_id": 1075,
     "old_id": "2485",
-    "prompt": "According to the reading \"Mod02 FIRE Economics: Constructing a Correct C+NVC Model voice\", what is the C+NVC model, and what does it represent in fire management?",
-    "response": "The C+NVC model, also known as Least Cost plus Loss (LC+L), is a basic fire economics model that seeks to balance the cost of fire management with the value gained from protection against fire damage. It represents the interplay between the costs incurred in fire suppression and preparedness versus the net value change (NVC) resulting from fire damage, allowing for informed decision-making regarding resource allocation in fire management.",
+    "prompt": "What is the C+NVC model, and what does it represent in fire management?",
+    "response": "The C+NVC model is a basic fire economics model that seeks to balance the cost of fire management with the value gained from protection against fire damage. It represents the interplay between the costs incurred in fire suppression and preparedness versus the net value change (NVC) resulting from fire damage, allowing for informed decision-making regarding resource allocation in fire management.",
     "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod02_FIRE_Economics\\Constructing a Correct C+NVC Model voice.pptx",
     "source_rel": "Mod02_FIRE_Economics\\Constructing a Correct C+NVC Model voice.pptx",
     "source_label": "Constructing a Correct C+NVC Model voice",
@@ -12792,18 +11976,6 @@ window.NR444_QUESTIONS = [
     "cleaning_note": "expanded to standalone exam-style prompt using source title"
   },
   {
-    "clean_id": 1085,
-    "old_id": "2502",
-    "prompt": "According to the reading \"Mod02 FIRE Economics: Social Sciences and the Economics of Moderation in Fuels Treatment\", what are the benefits of utilizing stochastic programming in forest planning?",
-    "response": "Benefits of utilizing stochastic programming in forest planning include improved decision-making under uncertainty, enhanced resource allocation efficiency, and the ability to manage complex variables associated with forest ecosystems and fire behavior.",
-    "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod02_FIRE_Economics\\Social Sciences and the Economics of Moderation in Fuels Treatment.pdf",
-    "source_rel": "Mod02_FIRE_Economics\\Social Sciences and the Economics of Moderation in Fuels Treatment.pdf",
-    "source_label": "Social Sciences and the Economics of Moderation in Fuels Treatment",
-    "module": "Mod02_FIRE_Economics",
-    "original_prompt": "What are the benefits of utilizing stochastic programming in forest planning?",
-    "cleaning_note": "expanded to standalone exam-style prompt using source title"
-  },
-  {
     "clean_id": 1087,
     "old_id": "2506",
     "prompt": "According to the reading \"Mod04 Fire Mgmt Behavior Econ: Can Behavioral Decision Theory Explain Risk Averse Fire Management Decisions\", what is the main concern regarding fire management decisions as discussed in the text?",
@@ -12864,18 +12036,6 @@ window.NR444_QUESTIONS = [
     "cleaning_note": "expanded to standalone exam-style prompt using source title"
   },
   {
-    "clean_id": 1092,
-    "old_id": "2514",
-    "prompt": "According to the reading \"Mod02 FIRE Economics: Toward a Unified Economic Theory of Fire Program A\", how does non-linear modeling improve fire program management efficiency?",
-    "response": "The non-linear modeling approach acknowledges the complex dependencies between program components, allowing for a better understanding of how they can interact synergistically. This improves decision-making regarding resource allocation and enhances overall fire management efficiency.",
-    "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod02_FIRE_Economics\\Toward_a_Unified_Economic_Theory_of_Fire_Program_A.pdf",
-    "source_rel": "Mod02_FIRE_Economics\\Toward_a_Unified_Economic_Theory_of_Fire_Program_A.pdf",
-    "source_label": "Toward a Unified Economic Theory of Fire Program A",
-    "module": "Mod02_FIRE_Economics",
-    "original_prompt": "How does non-linear modeling improve fire program management efficiency?",
-    "cleaning_note": "expanded to standalone exam-style prompt using source title"
-  },
-  {
     "clean_id": 1094,
     "old_id": "2517",
     "prompt": "According to the reading \"Mod03 FIRE Risk Uncertainty: Nick's presentation of Australia fire\", describe the challenges encountered during the planning officer transition",
@@ -12912,18 +12072,6 @@ window.NR444_QUESTIONS = [
     "cleaning_note": "expanded to standalone exam-style prompt using source title"
   },
   {
-    "clean_id": 1098,
-    "old_id": "2525",
-    "prompt": "According to the reading \"Mod07 BenefitCost: c11-2 8 01\", what does the term 'shadow price' refer to in this context?",
-    "response": "Shadow price refers to the implied price or marginal value of effectiveness as indicated by the Lagrangian multiplier, reflecting the willingness to pay for additional effectiveness.",
-    "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod07_BenefitCost\\c11-2_8_01.pdf",
-    "source_rel": "Mod07_BenefitCost\\c11-2_8_01.pdf",
-    "source_label": "c11-2 8 01",
-    "module": "Mod07_BenefitCost",
-    "original_prompt": "What does the term 'shadow price' refer to in this context?",
-    "cleaning_note": "expanded to standalone exam-style prompt using source title"
-  },
-  {
     "clean_id": 1099,
     "old_id": "2526",
     "prompt": "According to the reading \"Mod07 BenefitCost: c11-2 8 01\", how does the choice of discount rate affect the BCA?",
@@ -12933,18 +12081,6 @@ window.NR444_QUESTIONS = [
     "source_label": "c11-2 8 01",
     "module": "Mod07_BenefitCost",
     "original_prompt": "How does the choice of discount rate affect the BCA?",
-    "cleaning_note": "expanded to standalone exam-style prompt using source title"
-  },
-  {
-    "clean_id": 1100,
-    "old_id": "2528",
-    "prompt": "According to the reading \"Mod06 Fire policy: Managing the Impact of Wildfires on Communities and the Environment\", how does the report suggest increasing local capabilities for fire protection?",
-    "response": "The report suggests increasing local capabilities for fire protection by providing financial and technical assistance to state, local, and volunteer firefighting efforts. It emphasizes the need for community involvement in fire management and the development of local markets for small diameter wood as part of fuel reduction efforts.",
-    "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod06_Fire_policy\\Managing the Impact of Wildfires on Communities and the Environment.pdf",
-    "source_rel": "Mod06_Fire_policy\\Managing the Impact of Wildfires on Communities and the Environment.pdf",
-    "source_label": "Managing the Impact of Wildfires on Communities and the Environment",
-    "module": "Mod06_Fire_policy",
-    "original_prompt": "How does the report suggest increasing local capabilities for fire protection?",
     "cleaning_note": "expanded to standalone exam-style prompt using source title"
   },
   {
@@ -13020,30 +12156,6 @@ window.NR444_QUESTIONS = [
     "cleaning_note": "expanded to standalone exam-style prompt using source title"
   },
   {
-    "clean_id": 1108,
-    "old_id": "2538",
-    "prompt": "According to the reading \"Mod02 FIRE Economics: C13-1-31-01\", what challenges arise in calculating expected outcomes for forest management decisions?",
-    "response": "Calculating expected outcomes for forest management decisions can be challenging due to the complexity of numerous uncertain events and variables to consider. As the number of decision variables increases, the calculations become cumbersome, making it difficult to accurately predict economic impacts and outcomes.",
-    "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod02_FIRE_Economics\\C13-1-31-01.pdf",
-    "source_rel": "Mod02_FIRE_Economics\\C13-1-31-01.pdf",
-    "source_label": "C13-1-31-01",
-    "module": "Mod02_FIRE_Economics",
-    "original_prompt": "What challenges arise in calculating expected outcomes for forest management decisions?",
-    "cleaning_note": "expanded to standalone exam-style prompt using source title"
-  },
-  {
-    "clean_id": 1109,
-    "old_id": "2539",
-    "prompt": "According to the reading \"Mod07 BenefitCost: Solved Finance Problems to Accompany Chapter 9\", what factors do you need to consider when calculating the present value of an annuity?",
-    "response": "When calculating the present value of an annuity, you need to consider the annual payment amount (a), the interest rate (i), and the total number of payments (n). These elements are crucial for using the relevant PV formula.",
-    "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod07_BenefitCost\\Solved Finance Problems to Accompany Chapter 9.pdf",
-    "source_rel": "Mod07_BenefitCost\\Solved Finance Problems to Accompany Chapter 9.pdf",
-    "source_label": "Solved Finance Problems to Accompany Chapter 9",
-    "module": "Mod07_BenefitCost",
-    "original_prompt": "What factors do you need to consider when calculating the present value of an annuity?",
-    "cleaning_note": "expanded to standalone exam-style prompt using source title"
-  },
-  {
     "clean_id": 1110,
     "old_id": "2540",
     "prompt": "According to the reading \"Journal of Forestry, 2021, 439-453\", how does forest restoration differ from traditional timber production?",
@@ -13053,18 +12165,6 @@ window.NR444_QUESTIONS = [
     "source_label": "RegionalContributionRestoration",
     "module": "Mod09_Regional_Econ",
     "original_prompt": "How does forest restoration differ from traditional timber production?",
-    "cleaning_note": "expanded to standalone exam-style prompt using source title"
-  },
-  {
-    "clean_id": 1111,
-    "old_id": "2544",
-    "prompt": "According to the reading \"Mod06 Fire policy: WildfirePolicyCh10\", what is a classic problem in microeconomics concerning public goods provision?",
-    "response": "Determining the optimal level of public good provision is a classic problem in microeconomics, which revolves around estimating the true willingness of consumers to pay for these goods.",
-    "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod06_Fire_policy\\WildfirePolicyCh10.pdf",
-    "source_rel": "Mod06_Fire_policy\\WildfirePolicyCh10.pdf",
-    "source_label": "WildfirePolicyCh10",
-    "module": "Mod06_Fire_policy",
-    "original_prompt": "What is a classic problem in microeconomics concerning public goods provision?",
     "cleaning_note": "expanded to standalone exam-style prompt using source title"
   },
   {
@@ -13080,18 +12180,6 @@ window.NR444_QUESTIONS = [
     "cleaning_note": "expanded to standalone exam-style prompt using source title"
   },
   {
-    "clean_id": 1114,
-    "old_id": "2551",
-    "prompt": "According to the reading \"Mod02 FIRE Economics: Introduction\", how will the learning objectives of Module 2 guide students in understanding fire economics?",
-    "response": "The learning objectives of Module 2 are designed to guide students in comprehensively understanding critical aspects of fire economics, including the Sparhawk model, its errors, the implications of correlation vs. causation, and the correct application of the C+NVC model in practical fire management.",
-    "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod02_FIRE_Economics\\Introduction.docx",
-    "source_rel": "Mod02_FIRE_Economics\\Introduction.docx",
-    "source_label": "Introduction",
-    "module": "Mod02_FIRE_Economics",
-    "original_prompt": "How will the learning objectives of Module 2 guide students in understanding fire economics?",
-    "cleaning_note": "expanded to standalone exam-style prompt using source title"
-  },
-  {
     "clean_id": 1115,
     "old_id": "2557",
     "prompt": "According to the reading \"Mod02 FIRE Economics: C13-7-24-01abb\", what role does economics play in fire management?",
@@ -13101,30 +12189,6 @@ window.NR444_QUESTIONS = [
     "source_label": "C13-7-24-01abb",
     "module": "Mod02_FIRE_Economics",
     "original_prompt": "What role does economics play in fire management?",
-    "cleaning_note": "expanded to standalone exam-style prompt using source title"
-  },
-  {
-    "clean_id": 1116,
-    "old_id": "2558",
-    "prompt": "According to the reading \"Mod06 Fire policy: National Cohesive Strategy 2014\", how does the National Strategy approach the concept of wildfire management?",
-    "response": "The National Strategy takes a holistic approach by recognizing fire as a natural process while addressing the need to prepare for, respond to, and adapt to wildfires, ultimately aiming for a balance between managing natural resources and ensuring public safety.",
-    "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod06_Fire_policy\\National Cohesive Strategy 2014.pdf",
-    "source_rel": "Mod06_Fire_policy\\National Cohesive Strategy 2014.pdf",
-    "source_label": "National Cohesive Strategy 2014",
-    "module": "Mod06_Fire_policy",
-    "original_prompt": "How does the National Strategy approach the concept of wildfire management?",
-    "cleaning_note": "expanded to standalone exam-style prompt using source title"
-  },
-  {
-    "clean_id": 1117,
-    "old_id": "2562",
-    "prompt": "According to the reading \"Mod02 FIRE Economics: psw 2013 gonzalez-caban001 mavsar\", why is empirical evidence about fire management impacts essential?",
-    "response": "Empirical evidence about the impacts of fire management is crucial as it informs decision-making, helps establish effective management frameworks, and allows for better forecasting of fire risks. This knowledge ultimately aids in resource allocation and prioritizing strategies to minimize damages from fires.",
-    "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod02_FIRE_Economics\\psw_2013_gonzalez-caban001_mavsar.pdf",
-    "source_rel": "Mod02_FIRE_Economics\\psw_2013_gonzalez-caban001_mavsar.pdf",
-    "source_label": "psw 2013 gonzalez-caban001 mavsar",
-    "module": "Mod02_FIRE_Economics",
-    "original_prompt": "Why is empirical evidence about fire management impacts essential?",
     "cleaning_note": "expanded to standalone exam-style prompt using source title"
   },
   {
@@ -13200,42 +12264,6 @@ window.NR444_QUESTIONS = [
     "cleaning_note": "expanded to standalone exam-style prompt using source title"
   },
   {
-    "clean_id": 1124,
-    "old_id": "2576",
-    "prompt": "According to the reading \"Mod06 Fire policy: Module05Presentation\", why is interagency coordination important in fire management?",
-    "response": "Interagency coordination is essential in fire management to unify efforts, streamline communication, and apply consistent strategies across jurisdictions. It enhances resource sharing, improves response effectiveness during wildfire events, and promotes comprehensive approaches to managing fire risks in shared landscapes.",
-    "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod06_Fire_policy\\Module05Presentation.pptx",
-    "source_rel": "Mod06_Fire_policy\\Module05Presentation.pptx",
-    "source_label": "Module05Presentation",
-    "module": "Mod06_Fire_policy",
-    "original_prompt": "Why is interagency coordination important in fire management?",
-    "cleaning_note": "expanded to standalone exam-style prompt using source title"
-  },
-  {
-    "clean_id": 1125,
-    "old_id": "2581",
-    "prompt": "According to the reading \"Mod02 FIRE Economics: NR444 Definitions\", does fuels management fall under the definition of preparedness in fire management?",
-    "response": "No, fuels management is typically not included in the definition of preparedness. Preparedness focuses on the resources and expenses in preparation for potential fires, whereas fuels management is handled separately.",
-    "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod02_FIRE_Economics\\NR444 Definitions.docx",
-    "source_rel": "Mod02_FIRE_Economics\\NR444 Definitions.docx",
-    "source_label": "NR444 Definitions",
-    "module": "Mod02_FIRE_Economics",
-    "original_prompt": "Does fuels management fall under the definition of preparedness in fire management?",
-    "cleaning_note": "expanded to standalone exam-style prompt using source title"
-  },
-  {
-    "clean_id": 1126,
-    "old_id": "2582",
-    "prompt": "According to the reading \"Mod02 FIRE Economics: CA seminar Calkin\", what is the relevance of visualizing effectiveness in fire risk management?",
-    "response": "Visualizing effectiveness helps in understanding fire perimeter dynamics and in evaluating suppression strategies to ensure firefighter and public safety.",
-    "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod02_FIRE_Economics\\CA seminar Calkin.pptx",
-    "source_rel": "Mod02_FIRE_Economics\\CA seminar Calkin.pptx",
-    "source_label": "CA seminar Calkin",
-    "module": "Mod02_FIRE_Economics",
-    "original_prompt": "What is the relevance of visualizing effectiveness in fire risk management?",
-    "cleaning_note": "expanded to standalone exam-style prompt using source title"
-  },
-  {
     "clean_id": 1127,
     "old_id": "2584",
     "prompt": "According to the reading \"Mod04 Fire Mgmt Behavior Econ: Can Behavioral Decision Theory Explain Risk Averse Fire Management Decisions\", what are some suggested remedies to combat excessive risk aversion in fire management?",
@@ -13296,18 +12324,6 @@ window.NR444_QUESTIONS = [
     "cleaning_note": "expanded to standalone exam-style prompt using source title"
   },
   {
-    "clean_id": 1133,
-    "old_id": "2599",
-    "prompt": "According to the reading \"Mod07 BenefitCost: HWK Mod6\", how can one compare investments of different durations, specifically comparing 6-year and 12-year investments?",
-    "response": "To provide a valid comparison between investments of 6 years and 12 years, you may adjust the cash flows to their present values at a set interest rate, using the appropriate duration for each investment. This enables a more equitable analysis since it standardizes the time factor related to the cash flows.",
-    "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod07_BenefitCost\\HWK Mod6.docx",
-    "source_rel": "Mod07_BenefitCost\\HWK Mod6.docx",
-    "source_label": "HWK Mod6",
-    "module": "Mod07_BenefitCost",
-    "original_prompt": "How can one compare investments of different durations, specifically comparing 6-year and 12-year investments?",
-    "cleaning_note": "expanded to standalone exam-style prompt using source title"
-  },
-  {
     "clean_id": 1134,
     "old_id": "2600",
     "prompt": "According to the reading \"Forest Ecology and Management 317 (2014) 51-60\", how do wildland fire emissions impact the atmosphere?",
@@ -13317,18 +12333,6 @@ window.NR444_QUESTIONS = [
     "source_label": "Wildland fire emissions, carbon, and climate Emission factors",
     "module": "Mod08_Fire_Carbon",
     "original_prompt": "How do wildland fire emissions impact the atmosphere?",
-    "cleaning_note": "expanded to standalone exam-style prompt using source title"
-  },
-  {
-    "clean_id": 1135,
-    "old_id": "2601",
-    "prompt": "According to the reading \"Mod02 FIRE Economics: C13-1-31-01\", what types of data might be necessary to analyze the functions mentioned in the text?",
-    "response": "To analyze the suppression and net value change functions, data on fire occurrence rates, suppression costs, ecological impacts of fires, economic valuations of land, and historical management decisions would be necessary. This data would help create accurate models to inform decision-making.",
-    "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod02_FIRE_Economics\\C13-1-31-01.pdf",
-    "source_rel": "Mod02_FIRE_Economics\\C13-1-31-01.pdf",
-    "source_label": "C13-1-31-01",
-    "module": "Mod02_FIRE_Economics",
-    "original_prompt": "What types of data might be necessary to analyze the functions mentioned in the text?",
     "cleaning_note": "expanded to standalone exam-style prompt using source title"
   },
   {
@@ -13467,7 +12471,7 @@ window.NR444_QUESTIONS = [
     "clean_id": 1152,
     "old_id": "2649",
     "prompt": "According to the reading \"Mod02 FIRE Economics: Toward a Unified Economic Theory of Fire Program A\", what practical application does the concept of 'influence zones' have in the context of fire suppression?",
-    "response": "The concept of 'influence zones' is crucial for fire suppression resource allocation as it identifies areas around dispatch points where suppression resources can effectively reduce fire probabilities. This spatial representation allows for optimized deployment of resources to mitigate expected losses across the landscape.",
+    "response": "The concept of 'influence zones' is crucial for fire suppression resource allocation as it identifies areas around dispatch points where suppression resources can effectively reduce fire risk. This spatial representation allows for optimized deployment of resources to mitigate expected losses across the landscape.",
     "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod02_FIRE_Economics\\Toward_a_Unified_Economic_Theory_of_Fire_Program_A.pdf",
     "source_rel": "Mod02_FIRE_Economics\\Toward_a_Unified_Economic_Theory_of_Fire_Program_A.pdf",
     "source_label": "Toward a Unified Economic Theory of Fire Program A",
@@ -13485,30 +12489,6 @@ window.NR444_QUESTIONS = [
     "source_label": "Mod4HW",
     "module": "Mod05_Integrated_System",
     "original_prompt": "What importance does conducting fuel treatments hold in wildfire management?",
-    "cleaning_note": "expanded to standalone exam-style prompt using source title"
-  },
-  {
-    "clean_id": 1154,
-    "old_id": "2653",
-    "prompt": "According to the reading \"Mod02 FIRE Economics: NR444 Definitions\", what are the different fire economics models mentioned in the text?",
-    "response": "The different fire economics models mentioned include the Classic Sparhawk model, the Contemporary Sparhawk model, and the Ridehawk model. These models provide frameworks for analyzing fire economics and the costs associated with fire management.",
-    "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod02_FIRE_Economics\\NR444 Definitions.docx",
-    "source_rel": "Mod02_FIRE_Economics\\NR444 Definitions.docx",
-    "source_label": "NR444 Definitions",
-    "module": "Mod02_FIRE_Economics",
-    "original_prompt": "What are the different fire economics models mentioned in the text?",
-    "cleaning_note": "expanded to standalone exam-style prompt using source title"
-  },
-  {
-    "clean_id": 1155,
-    "old_id": "2654",
-    "prompt": "According to the reading \"Mod02 FIRE Economics: Dean Lueck and Jonathan Yoder\", what role does uncertainty play in the organization of wildfire suppression?",
-    "response": "Uncertainty regarding the boundaries of firesheds and firescapes complicates the decision-making process and can increase the costs associated with contracting and enforcing agreements among landowners.",
-    "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod02_FIRE_Economics\\Dean Lueck and Jonathan Yoder.pdf",
-    "source_rel": "Mod02_FIRE_Economics\\Dean Lueck and Jonathan Yoder.pdf",
-    "source_label": "Dean Lueck and Jonathan Yoder",
-    "module": "Mod02_FIRE_Economics",
-    "original_prompt": "What role does uncertainty play in the organization of wildfire suppression?",
     "cleaning_note": "expanded to standalone exam-style prompt using source title"
   },
   {
@@ -13584,18 +12564,6 @@ window.NR444_QUESTIONS = [
     "cleaning_note": "expanded to standalone exam-style prompt using source title"
   },
   {
-    "clean_id": 1162,
-    "old_id": "2669",
-    "prompt": "According to the reading \"Mod02 FIRE Economics: C13-7-24-01abb\", what does holding the suppression variable constant result in within the context of budgeting models?",
-    "response": "Holding the suppression variable constant allows the model to produce the traditional bowl shape associated with the C+NVC formulation. This provides a clearer understanding of the relationships and helps identify the optimal level of management effort.",
-    "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod02_FIRE_Economics\\C13-7-24-01abb.pdf",
-    "source_rel": "Mod02_FIRE_Economics\\C13-7-24-01abb.pdf",
-    "source_label": "C13-7-24-01abb",
-    "module": "Mod02_FIRE_Economics",
-    "original_prompt": "What does holding the suppression variable constant result in within the context of budgeting models?",
-    "cleaning_note": "expanded to standalone exam-style prompt using source title"
-  },
-  {
     "clean_id": 1163,
     "old_id": "2672",
     "prompt": "According to the reading \"Mod04 Fire Mgmt Behavior Econ: Suppresion firing\", how did the average size of fires with mapped suppression firing compare to those without?",
@@ -13610,7 +12578,7 @@ window.NR444_QUESTIONS = [
   {
     "clean_id": 1165,
     "old_id": "2684",
-    "prompt": "According to the reading \"Mod02 FIRE Economics: Constructing a Correct C+NVC Model voice\", can you explain the cost function in relation to suppression (S)?",
+    "prompt": "According to the reading \"Mod02 FIRE Economics: Constructing a Correct C+NVC Model\", can you explain the cost function in relation to suppression (S)?",
     "response": "The cost function increases linearly with the application of suppression (S), indicating that the cost of suppression rises at a constant rate. This function starts at a fixed cost, labeled FC, which includes costs incurred regardless of the level of S applied.",
     "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod02_FIRE_Economics\\Constructing a Correct C+NVC Model voice.pptx",
     "source_rel": "Mod02_FIRE_Economics\\Constructing a Correct C+NVC Model voice.pptx",
@@ -13764,18 +12732,6 @@ window.NR444_QUESTIONS = [
     "cleaning_note": "expanded to standalone exam-style prompt using source title"
   },
   {
-    "clean_id": 1178,
-    "old_id": "2712",
-    "prompt": "According to the reading \"Mod06 Fire policy: Managing the Impact of Wildfires on Communities and the Environment\", what training opportunities have been provided for community-based firefighters?",
-    "response": "Training opportunities for community-based firefighters have been facilitated through the National Interagency Training Center in Boise, Idaho, allowing rural firefighters to receive instruction that meets federal interagency standards. The Boise District has trained over 1,500 firefighters from various fire departments in recent years.",
-    "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod06_Fire_policy\\Managing the Impact of Wildfires on Communities and the Environment.pdf",
-    "source_rel": "Mod06_Fire_policy\\Managing the Impact of Wildfires on Communities and the Environment.pdf",
-    "source_label": "Managing the Impact of Wildfires on Communities and the Environment",
-    "module": "Mod06_Fire_policy",
-    "original_prompt": "What training opportunities have been provided for community-based firefighters?",
-    "cleaning_note": "expanded to standalone exam-style prompt using source title"
-  },
-  {
     "clean_id": 1179,
     "old_id": "2713",
     "prompt": "According to the reading \"PRINCIPLES OF FOREST Economics\", how do community interests affect local economic stability?",
@@ -13827,7 +12783,7 @@ window.NR444_QUESTIONS = [
     "clean_id": 1183,
     "old_id": "2717",
     "prompt": "According to the reading \"Mod02 FIRE Economics: Mod2HW\", what are some potential reasons why marginal returns might diminish with increased investment in firefighting efforts?",
-    "response": "Several reasons can account for diminishing marginal returns with increased investment in firefighting efforts. First, as you invest more, you may encounter increasing operational costs that do not proportionally translate into decreased fire risks. Second, existing facilities and equipment may reach maximum efficiency, meaning additional investments in similar assets yield lower returns. Third, there might be a saturation point in community engagement or public education; after a certain level of awareness is achieved, further investment leads to very little additional behavioral change regarding fire safety. Lastly, as fire services become over-resourced, coordination may decline, leading to inefficiencies.",
+    "response": "Marginal returns may diminish with increased investment in firefighting because the most effective and highest-priority suppression opportunities are usually addressed first. Early firefighting resources may have large benefits by keeping fires small, protecting high-value areas, or preventing rapid spread. After that point, additional crews, engines, aircraft, or equipment may produce smaller reductions in fire size or damage. This can happen because fire behavior is increasingly controlled by weather, fuels, topography, access, and fire intensity rather than by the number of resources assigned. Additional resources may also become redundant, wait for assignments, or create coordination and logistical burdens. In economic terms, each added unit of suppression effort may reduce expected loss or net value change by less than the previous unit, so the marginal benefit of added investment declines. The efficient investment level is reached when the marginal cost of additional firefighting effort equals the marginal reduction in expected fire loss. This framing is consistent with the fire economics idea that suppression is a management input intended to reduce net fire damages, but the optimal level is the one that minimizes total fire-related costs, not simply the largest possible suppression budget.",
     "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod02_FIRE_Economics\\Mod2HW.docx",
     "source_rel": "Mod02_FIRE_Economics\\Mod2HW.docx",
     "source_label": "Mod2HW",
@@ -13896,18 +12852,6 @@ window.NR444_QUESTIONS = [
     "cleaning_note": "expanded to standalone exam-style prompt using source title"
   },
   {
-    "clean_id": 1189,
-    "old_id": "2732",
-    "prompt": "According to the reading \"Mod06 Fire policy: WildfirePolicyCh10\", what role does information disclosure play in homeowners' decisions regarding fire hazards?",
-    "response": "Information disclosure about fire hazards can significantly influence homeowners' location decisions. For instance, policies requiring property sellers in high fire hazard areas to disclose such risks have been enacted in several states. This transparency can alter how buyers assess the value and risk of properties, thereby impacting purchasing decisions and development patterns in fire-prone regions.",
-    "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod06_Fire_policy\\WildfirePolicyCh10.pdf",
-    "source_rel": "Mod06_Fire_policy\\WildfirePolicyCh10.pdf",
-    "source_label": "WildfirePolicyCh10",
-    "module": "Mod06_Fire_policy",
-    "original_prompt": "What role does information disclosure play in homeowners' decisions regarding fire hazards?",
-    "cleaning_note": "expanded to standalone exam-style prompt using source title"
-  },
-  {
     "clean_id": 1190,
     "old_id": "2734",
     "prompt": "According to the reading \"Forest Ecology and Management 317 (2014) 51-60\", how are emission factors applicable in atmospheric chemical transport models?",
@@ -13953,18 +12897,6 @@ window.NR444_QUESTIONS = [
     "source_label": "Module6 notes",
     "module": "Mod07_BenefitCost",
     "original_prompt": "What role does cash flow analysis play in investment decisions?",
-    "cleaning_note": "expanded to standalone exam-style prompt using source title"
-  },
-  {
-    "clean_id": 1194,
-    "old_id": "2745",
-    "prompt": "According to the reading \"Mod07 BenefitCost: Solved Finance Problems to Accompany Chapter 9\", if the site preparation costs of $300 occur immediately for benefits of $100/year over 30 years starting in 5 years, what is the net present value?",
-    "response": "The net present value, considering an immediate cost of $300 and annual benefits of $100 for 30 years starting in 5 years at a discount rate of 4%, is calculated as follows: Present value of benefits is $1478.13, and subtracting the $300 cost gives a net present value of $1178.13.",
-    "source_file": "C:\\Users\\wei\\OneDrive - Colostate\\Teaching\\NR444\\Mod07_BenefitCost\\Solved Finance Problems to Accompany Chapter 9.pdf",
-    "source_rel": "Mod07_BenefitCost\\Solved Finance Problems to Accompany Chapter 9.pdf",
-    "source_label": "Solved Finance Problems to Accompany Chapter 9",
-    "module": "Mod07_BenefitCost",
-    "original_prompt": "If the site preparation costs of $300 occur immediately for benefits of $100/year over 30 years starting in 5 years, what is the net present value?",
     "cleaning_note": "expanded to standalone exam-style prompt using source title"
   },
   {
@@ -14014,5 +12946,605 @@ window.NR444_QUESTIONS = [
     "module": "Mod04_Fire_Mgmt_Behavior_Econ",
     "original_prompt": "What does the term 'sunk cost' refer to in economic decision-making?",
     "cleaning_note": "expanded to standalone exam-style prompt using source title"
+  },
+  {
+    "clean_id": 1199,
+    "old_id": "",
+    "prompt": "In federal wildland fire policy, why is firefighter and public safety treated as the first priority rather than one value among many?",
+    "response": "The policy treats safety as the first priority because no resource or property value is worth endangering people. Resource protection, property protection, and fire-management objectives must be considered only after firefighter and public safety are protected.",
+    "source_file": "1995InteragencyPolicy.pdf - Secretaries memorandum, pages 3-4",
+    "source_rel": "",
+    "source_label": "1995InteragencyPolicy.pdf",
+    "module": "Mod06_Fire_policy",
+    "original_prompt": "In federal wildland fire policy, why is firefighter and public safety treated as the first priority rather than one value among many?",
+    "cleaning_note": "added in teacher mode"
+  },
+  {
+    "clean_id": 1200,
+    "old_id": "",
+    "prompt": "How did the 1995 federal wildland fire policy shift federal fire management beyond a traditional suppression-only approach?",
+    "response": "It called for integrating fire into land-management planning and resource-management activities. The policy recognized that good management includes risk reduction and that managers must learn to use fire as a basic tool for achieving resource objectives, not simply suppress every fire automatically.",
+    "source_file": "1995InteragencyPolicy.pdf",
+    "source_rel": "",
+    "source_label": "1995InteragencyPolicy.pdf",
+    "module": "Mod06_Fire_policy",
+    "original_prompt": "How did the 1995 federal wildland fire policy shift federal fire management beyond a traditional suppression-only approach?",
+    "cleaning_note": "added in teacher mode"
+  },
+  {
+    "clean_id": 1201,
+    "old_id": "",
+    "prompt": "What implementation approach did the 1995 federal wildland fire policy expect agencies to use across jurisdictions?",
+    "response": "New resThe policy expected implementation to occur on a joint, interagency basis whenever possible. It called for broad involvement of resource managers, administrators, scientists, planners, fire-management staff, and coordination with federal, tribal, state, and local partners.ponse",
+    "source_file": "",
+    "source_rel": "",
+    "source_label": "1995InteragencyPolicy.pdf",
+    "module": "Mod06_Fire_policy",
+    "original_prompt": "What implementation approach did the 1995 federal wildland fire policy expect agencies to use across jurisdictions?",
+    "cleaning_note": "added in teacher mode"
+  },
+  {
+    "clean_id": 1202,
+    "old_id": "",
+    "prompt": "Why was the 1995 federal wildland fire policy reviewed and updated in 2001?",
+    "response": "The review found the 1995 policy was generally sound, but implementation was incomplete, especially in planning, interagency coordination, and interdisciplinary integration. The escape of the Cerro Grande Prescribed Fire in 2000 also highlighted the need to clarify policy, strengthen coordination, and improve implementation.",
+    "source_file": "",
+    "source_rel": "",
+    "source_label": "2001InteragencyReviewandUpdate.pdf",
+    "module": "Mod06_Fire_policy",
+    "original_prompt": "New question",
+    "cleaning_note": "added in teacher mode"
+  },
+  {
+    "clean_id": 1203,
+    "old_id": "",
+    "prompt": "What broad fire-management direction did the 2001 Federal Wildland Fire Management Policy give to federal agencies?",
+    "response": "It directed federal fire programs to provide for firefighter and public safety, protect and enhance land-management objectives and human welfare, integrate programs and disciplines, require interagency collaboration, emphasize the natural ecological role of fire, and contribute to ecosystem sustainability.",
+    "source_file": "",
+    "source_rel": "",
+    "source_label": "2001InteragencyReviewandUpdate.pdf",
+    "module": "Mod06_Fire_policy",
+    "original_prompt": "New question",
+    "cleaning_note": "added in teacher mode"
+  },
+  {
+    "clean_id": 1204,
+    "old_id": "",
+    "prompt": "How is the 2001 Federal Fire Policy different from the National Fire Plan?",
+    "response": "The 2001 Federal Fire Policy provides broad internal federal strategic direction for fire-management-related activities. The National Fire Plan is more operational and tactical, with strong emphasis on interagency and federal/non-federal implementation of risk reduction, preparedness, and community protection.",
+    "source_file": "",
+    "source_rel": "",
+    "source_label": "2001InteragencyReviewandUpdate.pdf",
+    "module": "Mod06_Fire_policy",
+    "original_prompt": "New question",
+    "cleaning_note": "added in teacher mode"
+  },
+  {
+    "clean_id": 1205,
+    "old_id": "",
+    "prompt": "Name four guiding principles of the 2001 Federal Wildland Fire Management Policy.",
+    "response": "Four valid examples are: firefighter and public safety is the first priority; wildland fire is an essential ecological process and natural change agent; fire management supports land and resource management plans; sound risk management is a foundation for fire activities; decisions should be based on best available science; and interagency coordination is essential.",
+    "source_file": "",
+    "source_rel": "",
+    "source_label": "2001InteragencyReviewandUpdate.pdf",
+    "module": "Mod06_Fire_policy",
+    "original_prompt": "New question",
+    "cleaning_note": "added in teacher mode"
+  },
+  {
+    "clean_id": 1206,
+    "old_id": "",
+    "prompt": "Under the 2001 policy, what determines the appropriate response to a wildland fire?",
+    "response": "The response is determined by the ecological, social, and legal consequences of the fire; firefighter and public safety; public welfare; natural and cultural resources; and the values to be protected. The policy moves away from judging response solely by ignition source or location",
+    "source_file": "",
+    "source_rel": "",
+    "source_label": "2001InteragencyReviewandUpdate.pdf",
+    "module": "Mod06_Fire_policy",
+    "original_prompt": "New question",
+    "cleaning_note": "added in teacher mode"
+  },
+  {
+    "clean_id": 1207,
+    "old_id": "",
+    "prompt": "When can wildland fire be used as a management tool under the 2001 policy?",
+    "response": "Wildland fire can be used to protect, maintain, and enhance resources and to function in its natural ecological role when allowed by an approved Fire Management Plan and when specific prescriptions in operational plans are followed.",
+    "source_file": "",
+    "source_rel": "",
+    "source_label": "2001InteragencyReviewandUpdate.pdf - 2001 policy, Use of Wildland Fire",
+    "module": "Mod06_Fire_policy",
+    "original_prompt": "New question",
+    "cleaning_note": "added in teacher mode"
+  },
+  {
+    "clean_id": 1208,
+    "old_id": "",
+    "prompt": "How does the 2001 policy set protection priorities during wildland fire incidents?",
+    "response": "Human life is the single overriding priority. After people are protected, priorities among communities, infrastructure, property, improvements, natural resources, and cultural resources are based on values to be protected, human health and safety, and protection costs. Once firefighters and other personnel are committed to an incident, they become the highest value to protect.",
+    "source_file": "",
+    "source_rel": "",
+    "source_label": "2001InteragencyReviewandUpdate.pdf - 2001 policy, Protection Priorities",
+    "module": "Mod06_Fire_policy",
+    "original_prompt": "New question",
+    "cleaning_note": "added in teacher mode"
+  },
+  {
+    "clean_id": 1209,
+    "old_id": "",
+    "prompt": "What does the 2001 policy require for areas with burnable vegetation?",
+    "response": "Every area with burnable vegetation must have an approved Fire Management Plan. The plan must define how wildland and prescribed fires will be managed consistent with the land-management plan, safety requirements, values to be protected, public health concerns, resource objectives, and environmental laws.",
+    "source_file": "",
+    "source_rel": "",
+    "source_label": "2001InteragencyReviewandUpdate.pdf - 2001 policy, Planning",
+    "module": "Mod06_Fire_policy",
+    "original_prompt": "New question",
+    "cleaning_note": "added in teacher mode"
+  },
+  {
+    "clean_id": 1210,
+    "old_id": "",
+    "prompt": "What are the federal operational roles in the wildland-urban interface under the 2001 policy, and who is primarily responsible for structural fire suppression?",
+    "response": "Federal operational roles include wildland firefighting, hazardous fuels reduction, cooperative prevention and education, and technical assistance. Structural fire suppression is primarily the responsibility of tribal, state, or local governments, although federal agencies may assist under formal agreements.",
+    "source_file": "",
+    "source_rel": "",
+    "source_label": "2001InteragencyReviewandUpdate.pdf - 2001 policy, Wildland Urban Interface",
+    "module": "Mod06_Fire_policy",
+    "original_prompt": "New question",
+    "cleaning_note": "added in teacher mode"
+  },
+  {
+    "clean_id": 1211,
+    "old_id": "",
+    "prompt": "Why do science and evaluation matter in federal wildland fire policy?",
+    "response": "Science matters because fire-management plans and programs should be based on sound biological, physical, and social science. Evaluation matters because agencies need systematic methods to measure effectiveness, assure accountability, resolve conflicts, identify resource shortages, and set priorities.",
+    "source_file": "",
+    "source_rel": "",
+    "source_label": "2001InteragencyReviewandUpdate.pdf - 2001 policy, Science and Evaluation",
+    "module": "Mod06_Fire_policy",
+    "original_prompt": "New question",
+    "cleaning_note": "added in teacher mode"
+  },
+  {
+    "clean_id": 1212,
+    "old_id": "",
+    "prompt": "What problem did the 2000 National Fire Plan report seek to address?",
+    "response": "It responded to the severe 2000 fire season by recommending actions to provide firefighting resources, reduce impacts on rural communities, reduce hazards in the wildland-urban interface, restore burned landscapes, and prepare land managers and firefighters for future extreme fire conditions.",
+    "source_file": "",
+    "source_rel": "",
+    "source_label": "National Fire Plan.pdf - Executive Summary",
+    "module": "Mod06_Fire_policy",
+    "original_prompt": "New question",
+    "cleaning_note": "added in teacher mode"
+  },
+  {
+    "clean_id": 1213,
+    "old_id": "",
+    "prompt": "What was the first priority identified in the 2000 National Fire Plan report?",
+    "response": "The first priority was to continue making all necessary firefighting resources available so that ongoing firefighting efforts could protect life and property.",
+    "source_file": "",
+    "source_rel": "",
+    "source_label": "National Fire Plan.pdf - Executive Summary, Key Point 1",
+    "module": "Mod06_Fire_policy",
+    "original_prompt": "New question",
+    "cleaning_note": "added in teacher mode"
+  },
+  {
+    "clean_id": 1214,
+    "old_id": "",
+    "prompt": "Why did the 2000 National Fire Plan report emphasize restoration of burned landscapes and communities?",
+    "response": "The report emphasized restoration because burned landscapes can create immediate risks to soils, watersheds, public health and safety, and community economies. Restoration actions included soil stabilization, watershed restoration, tree planting, revegetation, and assistance to affected communities.",
+    "source_file": "",
+    "source_rel": "",
+    "source_label": "National Fire Plan.pdf - Executive Summary, Key Point 2",
+    "module": "Mod06_Fire_policy",
+    "original_prompt": "New question",
+    "cleaning_note": "added in teacher mode"
+  },
+  {
+    "clean_id": 1215,
+    "old_id": "",
+    "prompt": "How did the 2000 National Fire Plan report connect past fire suppression to current fire risk?",
+    "response": "The report argued that decades of aggressive suppression disrupted natural fire cycles and allowed brush, small trees, dead material, and other fuels to accumulate. During drought and high-wind conditions, these fuels can contribute to hotter, faster, and more severe fires.",
+    "source_file": "",
+    "source_rel": "",
+    "source_label": "National Fire Plan.pdf - Background and Key Point 3",
+    "module": "Mod06_Fire_policy",
+    "original_prompt": "New question",
+    "cleaning_note": "added in teacher mode"
+  },
+  {
+    "clean_id": 1216,
+    "old_id": "",
+    "prompt": "What role did the 2000 National Fire Plan report assign to local communities?",
+    "response": "The report emphasized working directly with communities by expanding local participation, increasing local fire-protection capacity, using local labor where possible, and supporting outreach and education such as Firewise to reduce wildfire risk around homes and communities",
+    "source_file": "",
+    "source_rel": "",
+    "source_label": "National Fire Plan.pdf - Executive Summary, Key Point 4",
+    "module": "Mod06_Fire_policy",
+    "original_prompt": "New question",
+    "cleaning_note": "added in teacher mode"
+  },
+  {
+    "clean_id": 1217,
+    "old_id": "",
+    "prompt": "What did accountability mean in the 2000 National Fire Plan report?",
+    "response": "Accountability meant creating high-level coordination, assigning responsibility for implementation, monitoring progress, and reporting results. It was not only about spending money; it was also about ensuring that recommended work was completed and that agencies learned from implementation.",
+    "source_file": "",
+    "source_rel": "",
+    "source_label": "National Fire Plan.pdf - Executive Summary, Key Point 5",
+    "module": "Mod06_Fire_policy",
+    "original_prompt": "New question",
+    "cleaning_note": "added in teacher mode"
+  },
+  {
+    "clean_id": 1218,
+    "old_id": "",
+    "prompt": "What five major key points were identified in the 2003 USFS National Fire Plan summary?",
+    "response": "The five key points were firefighting resources, rehabilitation and restoration, hazardous fuels reduction, community assistance, and accountability.",
+    "source_file": "",
+    "source_rel": "",
+    "source_label": "National Fire Plan 2003.pdf - pages 3-4",
+    "module": "Mod06_Fire_policy",
+    "original_prompt": "New question",
+    "cleaning_note": "added in teacher mode"
+  },
+  {
+    "clean_id": 1219,
+    "old_id": "",
+    "prompt": "In the 2003 National Fire Plan summary, what types of preparedness resources were considered under the Most Efficient Level concept?",
+    "response": "The summary referred to preparedness needs such as personnel, training, equipment, facilities, firefighters, engines, aircraft, and other fire personnel. These needs were determined through fire and aviation management staff, forest supervisors, and fire management officers.",
+    "source_file": "",
+    "source_rel": "",
+    "source_label": "National Fire Plan 2003.pdf",
+    "module": "Mod06_Fire_policy",
+    "original_prompt": "New question",
+    "cleaning_note": "added in teacher mode"
+  },
+  {
+    "clean_id": 1220,
+    "old_id": "",
+    "prompt": "What is the difference between emergency rehabilitation and longer-term restoration in the 2003 National Fire Plan summary?",
+    "response": "Emergency rehabilitation was addressed through Burned Area Emergency Rehabilitation teams that identified immediate projects to protect life and property. Longer-term restoration involved continued work in burned areas after emergency needs were addressed, including projects proposed by forests for future funding.",
+    "source_file": "",
+    "source_rel": "",
+    "source_label": "National Fire Plan 2003.pdf - page 3",
+    "module": "Mod06_Fire_policy",
+    "original_prompt": "New question",
+    "cleaning_note": "added in teacher mode"
+  },
+  {
+    "clean_id": 1221,
+    "old_id": "",
+    "prompt": "What activities were included under community assistance in the 2003 National Fire Plan summary?",
+    "response": "Community assistance included working with communities to reduce fire risk, involving the public in NEPA processes for hazardous fuels reduction, creating jobs in restoration and fuels projects, providing defensible-space information, assisting volunteer and rural firefighters, and supporting economic action programs.",
+    "source_file": "",
+    "source_rel": "",
+    "source_label": "National Fire Plan 2003.pdf - page 4",
+    "module": "Mod06_Fire_policy",
+    "original_prompt": "New question",
+    "cleaning_note": "added in teacher mode"
+  },
+  {
+    "clean_id": 1222,
+    "old_id": "",
+    "prompt": "What were the main purposes of the Healthy Forests Restoration Act of 2003 for wildfire policy?",
+    "response": "HFRA aimed to reduce wildfire risk to communities, municipal water supplies, and other at-risk federal lands through collaborative planning and hazardous fuel reduction. It also supported biomass use, watershed protection, forest and rangeland health, detection of insects and disease, and restoration of ecosystem components.",
+    "source_file": "",
+    "source_rel": "",
+    "source_label": "HFRA.pdf - Section 2, Purposes",
+    "module": "Mod06_Fire_policy",
+    "original_prompt": "New question",
+    "cleaning_note": "added in teacher mode"
+  },
+  {
+    "clean_id": 1223,
+    "old_id": "",
+    "prompt": "Under HFRA, what makes a community an at-risk community for wildfire purposes?",
+    "response": "An at-risk community is generally an interface community or a group of homes and infrastructure within or adjacent to federal land, where conditions are conducive to a large-scale wildland fire event and where there is a significant threat to human life or property.",
+    "source_file": "",
+    "source_rel": "",
+    "source_label": "HFRA.pdf - Title I, Section 101",
+    "module": "Mod06_Fire_policy",
+    "original_prompt": "New question",
+    "cleaning_note": "added in teacher mode"
+  },
+  {
+    "clean_id": 1224,
+    "old_id": "",
+    "prompt": "What are the main elements of a Community Wildfire Protection Plan under HFRA?",
+    "response": "A Community Wildfire Protection Plan is developed collaboratively with local government, local fire departments, and the state forestry agency, in consultation with interested parties and federal agencies. It identifies and prioritizes areas for hazardous fuel reduction, recommends treatment types and methods, and recommends measures to reduce structural ignitability.",
+    "source_file": "",
+    "source_rel": "",
+    "source_label": "HFRA.pdf - Title I, Section 101",
+    "module": "Mod06_Fire_policy",
+    "original_prompt": "New question",
+    "cleaning_note": "added in teacher mode"
+  },
+  {
+    "clean_id": 1225,
+    "old_id": "",
+    "prompt": "How does HFRA define the wildland-urban interface when a Community Wildfire Protection Plan exists?",
+    "response": "When a Community Wildfire Protection Plan exists, the wildland-urban interface is the area within or adjacent to an at-risk community that the plan identifies in its recommendations to the Secretary.",
+    "source_file": "",
+    "source_rel": "",
+    "source_label": "HFRA.pdf - Title I, Section 101",
+    "module": "Mod06_Fire_policy",
+    "original_prompt": "New question",
+    "cleaning_note": "added in teacher mode"
+  },
+  {
+    "clean_id": 1226,
+    "old_id": "",
+    "prompt": "Give three examples of places where HFRA authorizes hazardous fuel reduction projects on federal land.",
+    "response": "Examples include federal land in wildland-urban interface areas; condition class 3 federal land near municipal water supply systems or streams feeding those systems; condition class 2 land in certain fire regimes near municipal watersheds; federal land threatened by windthrow, insect, or disease outbreaks; and certain threatened and endangered species habitats where wildfire is a threat or fire is important to recovery.",
+    "source_file": "",
+    "source_rel": "",
+    "source_label": "HFRA.pdf - Title I, Section 102",
+    "module": "Mod06_Fire_policy",
+    "original_prompt": "New question",
+    "cleaning_note": "added in teacher mode"
+  },
+  {
+    "clean_id": 1227,
+    "old_id": "",
+    "prompt": "How does HFRA connect hazardous fuel reduction priorities to Community Wildfire Protection Plans?",
+    "response": "HFRA directs the Secretary to give priority to projects that protect at-risk communities or watersheds or implement Community Wildfire Protection Plans. It also requires consideration of recommendations from at-risk communities that have developed such plans.",
+    "source_file": "",
+    "source_rel": "",
+    "source_label": "HFRA.pdf - Section 103, Prioritization",
+    "module": "Mod06_Fire_policy",
+    "original_prompt": "New question",
+    "cleaning_note": "added in teacher mode"
+  },
+  {
+    "clean_id": 1228,
+    "old_id": "",
+    "prompt": "Does HFRA eliminate environmental analysis for authorized hazardous fuel reduction projects?",
+    "response": "No. HFRA requires authorized hazardous fuel reduction projects to comply with NEPA and other applicable laws. It requires an environmental assessment or environmental impact statement, while also establishing special rules for alternatives analysis, public notice, meetings, and collaboration.",
+    "source_file": "",
+    "source_rel": "",
+    "source_label": "HFRA.pdf - Section 104, Environmental Analysis",
+    "module": "Mod06_Fire_policy",
+    "original_prompt": "New question",
+    "cleaning_note": "added in teacher mode"
+  },
+  {
+    "clean_id": 1229,
+    "old_id": "",
+    "prompt": "What was the purpose of the FLAME Fund created by the FLAME Act?",
+    "response": "The FLAME Fund was created as a supplemental funding source for catastrophic emergency wildland fire suppression activities on Department of the Interior and National Forest System lands, separate from regular annual suppression funding for predicted workloads.",
+    "source_file": "",
+    "source_rel": "",
+    "source_label": "",
+    "module": "Mod06_Fire_policy",
+    "original_prompt": "New question",
+    "cleaning_note": "added in teacher mode"
+  },
+  {
+    "clean_id": 1230,
+    "old_id": "",
+    "prompt": "For an individual incident, what criteria could support a FLAME Fund declaration?",
+    "response": "The declaration criteria included a fire of 300 or more acres, fire severity based on incident complexity or potential increased complexity, and the threat posed by the fire, including potential loss of lives, property, or critical resources.",
+    "source_file": "",
+    "source_rel": "",
+    "source_label": "Teacher added",
+    "module": "Mod06_Fire_policy",
+    "original_prompt": "New question",
+    "cleaning_note": "added in teacher mode"
+  },
+  {
+    "clean_id": 1231,
+    "old_id": "",
+    "prompt": "What did the FLAME Act require the Secretaries of Agriculture and the Interior to develop beyond a suppression funding mechanism?",
+    "response": "It required them to submit a cohesive wildland fire management strategy to Congress. The strategy was to include ways to allocate fire-management budget resources cost-effectively, reinvest in non-fire programs, use appropriate management response, assess community risk, and fund the highest-priority fuels reduction projects first.",
+    "source_file": "",
+    "source_rel": "",
+    "source_label": "FLAME ACT.pdf - Section 3",
+    "module": "Mod06_Fire_policy",
+    "original_prompt": "New question",
+    "cleaning_note": "added in teacher mode"
+  },
+  {
+    "clean_id": 1232,
+    "old_id": "",
+    "prompt": "What wildfire incidents did the FLAME Act require to be reviewed for cost containment?",
+    "response": "The Act required review, using independent panels, of each wildfire incident for which the Secretary concerned incurred expenses of more than $10 million.",
+    "source_file": "",
+    "source_rel": "",
+    "source_label": "FLAME ACT.pdf - Section 4",
+    "module": "Mod06_Fire_policy",
+    "original_prompt": "New question",
+    "cleaning_note": "added in teacher mode"
+  },
+  {
+    "clean_id": 1233,
+    "old_id": "",
+    "prompt": "What are key features of a fire-ready community under the FLAME Act?",
+    "response": "A fire-ready community is in a priority risk area, has a cooperative fire agreement defining federal, state, and local responsibilities, has local codes requiring fire-resistant home design and materials, has a Community Wildfire Protection Plan, and is engaged in a transparent collaborative process with diverse interests.",
+    "source_file": "",
+    "source_rel": "",
+    "source_label": "FLAME ACT.pdf - Section 5",
+    "module": "Mod06_Fire_policy",
+    "original_prompt": "New question",
+    "cleaning_note": "added in teacher mode"
+  },
+  {
+    "clean_id": 1234,
+    "old_id": "",
+    "prompt": "What is the basic vision of the National Cohesive Wildland Fire Management Strategy?",
+    "response": "The vision is to safely and effectively extinguish fire when needed, use fire where allowable, manage natural resources, and live with wildland fire as a nation.",
+    "source_file": "",
+    "source_rel": "",
+    "source_label": "National Cohesive Strategy 2014.pdf - Executive Summary",
+    "module": "Mod06_Fire_policy",
+    "original_prompt": "New question",
+    "cleaning_note": "added in teacher mode"
+  },
+  {
+    "clean_id": 1235,
+    "old_id": "",
+    "prompt": "What are the three national goals of the Cohesive Strategy?",
+    "response": "The three national goals are to restore and maintain landscapes, create fire-adapted communities, and improve wildfire response.",
+    "source_file": "",
+    "source_rel": "",
+    "source_label": "National Cohesive Strategy 2014.pdf - Executive Summary",
+    "module": "Mod06_Fire_policy",
+    "original_prompt": "New question",
+    "cleaning_note": "added in teacher mode"
+  },
+  {
+    "clean_id": 1236,
+    "old_id": "",
+    "prompt": "What four broad national challenges must be addressed to achieve the Cohesive Strategy goals?",
+    "response": "The four challenges are managing vegetation and fuels; protecting homes, communities, and other values at risk; managing human-caused ignitions; and responding to wildfire effectively and efficiently.",
+    "source_file": "",
+    "source_rel": "",
+    "source_label": "National Cohesive Strategy 2014.pdf - Executive Summary",
+    "module": "Mod06_Fire_policy",
+    "original_prompt": "New question",
+    "cleaning_note": "added in teacher mode"
+  },
+  {
+    "clean_id": 1237,
+    "old_id": "",
+    "prompt": "Why does the Cohesive Strategy reject a one-size-fits-all approach to wildfire policy?",
+    "response": "Wildfire risk and management opportunities vary by place and over time. The strategy recognizes spatial and temporal tradeoffs, the need to prioritize investments, and the need to tailor options to local and regional conditions rather than prescribe one national solution.",
+    "source_file": "",
+    "source_rel": "",
+    "source_label": "National Cohesive Strategy 2014.pdf - Executive Summary",
+    "module": "Mod06_Fire_policy",
+    "original_prompt": "New question",
+    "cleaning_note": "added in teacher mode"
+  },
+  {
+    "clean_id": 1238,
+    "old_id": "",
+    "prompt": "Why is collaboration across federal, state, local, tribal, non-governmental, and public stakeholders central to the Cohesive Strategy?",
+    "response": "Wildland fire crosses ownership and jurisdictional boundaries, so no single agency can manage the risk alone. The strategy was built through intergovernmental and stakeholder collaboration and depends on shared goals, information, capacity, and accountability across all lands.",
+    "source_file": "",
+    "source_rel": "",
+    "source_label": "National Cohesive Strategy 2014.pdf - Executive Summary and Chapter 1",
+    "module": "Mod06_Fire_policy",
+    "original_prompt": "New question",
+    "cleaning_note": "added in teacher mode"
+  },
+  {
+    "clean_id": 1239,
+    "old_id": "",
+    "prompt": "What does the Cohesive Strategy mean by accepting some increased short-term risk to reduce long-term wildfire risk?",
+    "response": "Some actions, such as prescribed fire, managed wildfire, or fuel treatments, can carry short-term operational, smoke, or escape risks. The strategy suggests that carefully prioritized investments and collective action may be needed to reduce larger long-term risks to landscapes, communities, responders, and costs.",
+    "source_file": "",
+    "source_rel": "",
+    "source_label": "National Cohesive Strategy 2014.pdf - Executive Summary",
+    "module": "Mod06_Fire_policy",
+    "original_prompt": "New question",
+    "cleaning_note": "added in teacher mode"
+  },
+  {
+    "clean_id": 1240,
+    "old_id": "",
+    "prompt": "What does the National Forest Management Act require regarding public participation in land-management planning?",
+    "response": "Answer: NFMA requires public participation in the development, review, and revision of land-management plans. Plans or revisions must be made available to the public near the affected unit for at least three months before final adoption, and the Secretary must publicize and hold public meetings or comparable participation processes.",
+    "source_file": "",
+    "source_rel": "",
+    "source_label": "NFMA1976.pdf - Section 6, National Forest System Resource Planning",
+    "module": "Mod06_Fire_policy",
+    "original_prompt": "New question",
+    "cleaning_note": "added in teacher mode"
+  },
+  {
+    "clean_id": 1241,
+    "old_id": "",
+    "prompt": "How does NFMA structure planning for each unit of the National Forest System?",
+    "response": "NFMA requires one integrated plan for each National Forest System unit. That plan must incorporate required features in one document or set of documents, include maps and descriptions, and be available to the public at convenient locations.",
+    "source_file": "",
+    "source_rel": "",
+    "source_label": "NFMA1976.pdf - Section 6",
+    "module": "Mod06_Fire_policy",
+    "original_prompt": "New question",
+    "cleaning_note": "added in teacher mode"
+  },
+  {
+    "clean_id": 1242,
+    "old_id": "",
+    "prompt": "Why are interdisciplinary teams important under NFMA?",
+    "response": "NFMA requires plans to be prepared by interdisciplinary teams using inventories of forest resources. This requirement reflects the idea that forest planning must integrate multiple resources and expertise rather than be driven by a single resource objective.",
+    "source_file": "",
+    "source_rel": "",
+    "source_label": "NFMA1976.pdf - Section 6",
+    "module": "Mod06_Fire_policy",
+    "original_prompt": "New question",
+    "cleaning_note": "added in teacher mode"
+  },
+  {
+    "clean_id": 1243,
+    "old_id": "",
+    "prompt": "When must National Forest System land-management plans be revised under NFMA?",
+    "response": "Plans must be revised when the Secretary finds that conditions in a unit have significantly changed, and in any case at least every 15 years. Revisions must include public involvement comparable to that required for plan development.",
+    "source_file": "",
+    "source_rel": "",
+    "source_label": "NFMA1976.pdf - Section 6",
+    "module": "Mod06_Fire_policy",
+    "original_prompt": "",
+    "cleaning_note": "added in teacher mode"
+  },
+  {
+    "clean_id": 1244,
+    "old_id": "",
+    "prompt": "What was the Leopold Report's primary goal for wildlife management in national parks?",
+    "response": "The report recommended that biotic associations within each park be maintained or, where necessary, recreated as nearly as possible in the condition that prevailed when the area was first visited by Euro-American settlers. It famously described a national park as a vignette of primitive America, while acknowledging that this goal could only be approached, not perfectly achieved.",
+    "source_file": "",
+    "source_rel": "",
+    "source_label": "leopold_report.pdf - The Goal of Park Management in the United States",
+    "module": "Mod06_Fire_policy",
+    "original_prompt": "New question",
+    "cleaning_note": "added in teacher mode"
+  },
+  {
+    "clean_id": 1245,
+    "old_id": "",
+    "prompt": "Why did the Leopold Report argue that protection alone is not always enough for national park wildlife management?",
+    "response": "The report argued that habitats and biotic communities are not static. Many parks are ecological islands affected by surrounding land use, altered fire regimes, missing predators, invasive species, and human use. Therefore, active management may be needed to maintain or restore desired ecological conditions.",
+    "source_file": "",
+    "source_rel": "",
+    "source_label": "leopold_report.pdf - Concept of Park Management",
+    "module": "Mod06_Fire_policy",
+    "original_prompt": "New question",
+    "cleaning_note": "added in teacher mode"
+  },
+  {
+    "clean_id": 1246,
+    "old_id": "",
+    "prompt": "What role did the Leopold Report assign to fire and scientific research in park management?",
+    "response": "The report treated fire as an essential management tool in some successional communities, such as savannas or prairies. It also stated that the need for management, the feasibility of methods, and evaluation of results must be based on current and continuing scientific research by qualified personnel.",
+    "source_file": "",
+    "source_rel": "",
+    "source_label": "leopold_report.pdf - Concept of Park Management",
+    "module": "Mod06_Fire_policy",
+    "original_prompt": "New question",
+    "cleaning_note": "added in teacher mode"
+  },
+  {
+    "clean_id": 1247,
+    "old_id": "",
+    "prompt": "What would fire policy study?",
+    "response": "Policy studies is the study of how public problems are defined, how governments or organizations decide what actions to take, and how those actions are implemented and evaluated. It looks beyond technical solutions and asks who has authority, what laws and institutions shape decisions, which stakeholders are affected, what values are prioritized, and whether a policy is practical, fair, effective, and accountable. In fire management, policy studies would examine questions such as how agencies coordinate across jurisdictions, how fuel treatment priorities are set, how communities are involved, how funding rules affect preparedness and suppression, and how competing goals such as firefighter safety, ecosystem health, property protection, and cost control are balanced.",
+    "source_file": "",
+    "source_rel": "",
+    "source_label": "Teacher added",
+    "module": "Mod06_Fire_policy",
+    "original_prompt": "New question",
+    "cleaning_note": "added in teacher mode"
+  },
+  {
+    "clean_id": 1248,
+    "old_id": "",
+    "prompt": "Would all fire policies must be followed strictly?",
+    "response": "Policies provide direction, but the level of flexibility depends on whether the policy is mandatory, discretionary, or guidance-based. Good policy implementation requires both compliance with required rules and professional judgment in situations where flexibility is allowed.",
+    "source_file": "",
+    "source_rel": "",
+    "source_label": "Teacher added",
+    "module": "Mod06_Fire_policy",
+    "original_prompt": "New question",
+    "cleaning_note": "added in teacher mode"
   }
 ];
