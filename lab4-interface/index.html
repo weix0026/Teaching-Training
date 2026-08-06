@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Interactive forest regulation and linear-programming lab for area control and volume control.">
+    <title>Forest Regulation Lab</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="app.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#lesson">Skip to lesson</a>
+    <header class="topbar">
+      <div class="brand-block">
+        <span class="course-mark" aria-hidden="true">FR</span>
+        <div>
+          <p class="eyebrow">Forest management · Lab 4</p>
+          <h1>Forest Regulation Studio</h1>
+        </div>
+      </div>
+      <div class="header-progress" aria-label="Lesson progress">
+        <span id="progressLabel">1 of 5</span>
+        <div class="progress-track"><span id="progressBar"></span></div>
+      </div>
+    </header>
+
+    <div class="app-layout">
+      <aside class="lesson-nav" aria-label="Lesson navigation">
+        <p class="nav-label">Explore the system</p>
+        <nav id="lessonNav"></nav>
+        <div class="source-note">
+          <span class="source-number">6,000</span>
+          <span>hectares in the Wisconsin aspen case</span>
+        </div>
+      </aside>
+
+      <main id="lesson" class="lesson" tabindex="-1"></main>
+
+      <aside class="control-room" aria-label="Interactive planning workspace">
+        <div class="control-heading">
+          <div>
+            <p class="eyebrow">Live control room</p>
+            <h2>Test a harvest rhythm</h2>
+          </div>
+          <button class="reset-button" id="resetPlan" type="button">Reset</button>
+        </div>
+
+        <div class="mode-switch" role="group" aria-label="Control method">
+          <button type="button" data-mode="area" class="active">Area control</button>
+          <button type="button" data-mode="volume">Volume control</button>
+        </div>
+
+        <div class="workspace-callout" id="workspaceCallout"></div>
+        <div class="period-planner" id="periodPlanner"></div>
+        <div class="workspace-summary" id="workspaceSummary"></div>
+        <button class="primary-button" id="loadExample" type="button">Load teaching example</button>
+      </aside>
+    </div>
+
+    <footer>
+      <span>Built from the Lab 4 Wisconsin aspen case</span>
+      <span>40-year rotation · five 4-year periods</span>
+    </footer>
+  </body>
+</html>
