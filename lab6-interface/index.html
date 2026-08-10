@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Interactive Lab 6 lesson for dynamic forest models using state and harvest variables.">
+    <title>Dynamic Forest Model Lab</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="app.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#lesson">Skip to lesson</a>
+    <header class="topbar">
+      <div class="brand">
+        <span class="brand-mark" aria-hidden="true">DM</span>
+        <div>
+          <p class="eyebrow">Forest management · Lab 6</p>
+          <h1>Dynamic Forest Model Studio</h1>
+        </div>
+      </div>
+      <div class="progress" aria-label="Lesson progress">
+        <span id="progressText">1 of 5</span>
+        <div><i id="progressBar"></i></div>
+      </div>
+    </header>
+
+    <div class="app-grid">
+      <aside class="lesson-nav" aria-label="Lesson navigation">
+        <p class="nav-heading">Follow the forest</p>
+        <nav id="lessonNav"></nav>
+        <div class="case-note">
+          <strong>500 ha</strong>
+          <span>four age classes, three-decade transition</span>
+        </div>
+      </aside>
+
+      <main class="lesson" id="lesson" tabindex="-1"></main>
+
+      <aside class="simulator" aria-label="Dynamic forest simulator">
+        <div class="sim-head">
+          <div>
+            <p class="eyebrow">Live transition lab</p>
+            <h2>Choose harvest → see state</h2>
+          </div>
+          <span class="period-badge" id="periodBadge">Decade 1</span>
+        </div>
+
+        <div class="variable-key">
+          <div><span class="key-a">A</span><p><strong>State</strong> area available now</p></div>
+          <div><span class="key-x">X</span><p><strong>Decision</strong> area harvested now</p></div>
+        </div>
+
+        <section class="sim-section">
+          <div class="section-title"><h3>Current state</h3><span>start of decade</span></div>
+          <div class="state-bars" id="stateBars"></div>
+        </section>
+
+        <section class="sim-section">
+          <div class="section-title"><h3>Harvest decisions</h3><span>X<sub>ij</sub> ≤ A<sub>ij</sub></span></div>
+          <div id="harvestControls"></div>
+        </section>
+
+        <section class="next-state-panel">
+          <div class="section-title"><h3>Calculated next state</h3><span id="nextPeriodLabel">A<sub>i2</sub></span></div>
+          <div class="next-state-grid" id="nextState"></div>
+        </section>
+
+        <div class="sim-metrics" id="simMetrics"></div>
+        <div class="sim-actions">
+          <button type="button" class="secondary-button" id="resetSim">Reset</button>
+          <button type="button" class="primary-button" id="commitPeriod">Commit decade</button>
+        </div>
+        <div class="history-strip" id="historyStrip" aria-label="Committed forest states"></div>
+      </aside>
+    </div>
+
+    <footer>
+      <span>Based on the Lab 6 Model III shortleaf pine case</span>
+      <span>10-year periods · clearcut + reforest</span>
+    </footer>
+  </body>
+</html>
