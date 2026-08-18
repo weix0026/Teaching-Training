@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Interactive practice for present and future value equations in NR 444.">
+  <title>Forest Finance Lab | NR 444</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to lesson</a>
+  <header class="site-header">
+    <div class="brand">
+      <span class="brand-mark" aria-hidden="true">▲</span>
+      <div><strong>Forest Finance Lab</strong><span>NR 444 · Module 7</span></div>
+    </div>
+    <div class="progress-wrap" aria-label="Course progress">
+      <span id="progressText">0 of 8 formulas explored</span>
+      <div class="progress-track"><span id="progressBar"></span></div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div>
+        <p class="eyebrow">BENEFIT–COST ANALYSIS</p>
+        <h1>Choose the cash-flow pattern.<br><em>Then</em> choose the equation.</h1>
+        <p class="lede">You do not need to memorize eight unrelated formulas. Follow three questions, see the cash flow on a timeline, and practice with forest-management decisions.</p>
+        <div class="hero-actions">
+          <button class="button primary" data-jump="finder">Start with the formula finder</button>
+          <button class="button ghost" data-jump="practice">Go to practice</button>
+        </div>
+      </div>
+      <div class="hero-card" aria-label="Three question method">
+        <span class="mini-label">THE 3-QUESTION METHOD</span>
+        <ol>
+          <li><b>How many?</b><span>One cash flow or a series?</span></li>
+          <li><b>Where?</b><span>Value now or in the future?</span></li>
+          <li><b>How often & how long?</b><span>Annual/periodic; terminal/perpetual?</span></li>
+        </ol>
+      </div>
+    </section>
+
+    <nav class="section-nav" aria-label="Lesson sections">
+      <button class="active" data-jump="finder">1 · Find a formula</button>
+      <button data-jump="formulas">2 · Formula field guide</button>
+      <button data-jump="practice">3 · Guided practice</button>
+      <button data-jump="challenge">4 · Mixed challenge</button>
+    </nav>
+
+    <section id="finder" class="panel finder-panel">
+      <div class="section-heading">
+        <div><p class="eyebrow">STEP 1</p><h2>Build the story</h2></div>
+        <p>Answer from left to right. The matching equation appears below.</p>
+      </div>
+      <div class="decision-grid">
+        <fieldset>
+          <legend><span>1</span> Number of occurrences</legend>
+          <label class="choice"><input type="radio" name="occurrences" value="single" checked><span><b>Single</b><small>One revenue or cost</small></span></label>
+          <label class="choice"><input type="radio" name="occurrences" value="series"><span><b>Series</b><small>Equal payments</small></span></label>
+        </fieldset>
+        <fieldset>
+          <legend><span>2</span> Value to estimate</legend>
+          <label class="choice"><input type="radio" name="valueTime" value="future" checked><span><b>Future</b><small>Value at year n</small></span></label>
+          <label class="choice"><input type="radio" name="valueTime" value="present"><span><b>Present</b><small>Value at year 0</small></span></label>
+        </fieldset>
+        <fieldset id="frequencyField" disabled>
+          <legend><span>3</span> Payment frequency</legend>
+          <label class="choice"><input type="radio" name="frequency" value="annual" checked><span><b>Annual</b><small>Every year, t = 1</small></span></label>
+          <label class="choice"><input type="radio" name="frequency" value="periodic"><span><b>Periodic</b><small>Every t years</small></span></label>
+        </fieldset>
+        <fieldset id="lengthField" disabled>
+          <legend><span>4</span> Length of series</legend>
+          <label class="choice"><input type="radio" name="length" value="terminal" checked><span><b>Terminal</b><small>Stops at year n</small></span></label>
+          <label class="choice"><input type="radio" name="length" value="perpetual"><span><b>Perpetual</b><small>Continues forever</small></span></label>
+        </fieldset>
+      </div>
+
+      <div class="result-card" aria-live="polite">
+        <div class="result-copy">
+          <span id="resultTag" class="pill">SINGLE · FUTURE</span>
+          <h3 id="resultName">Compound a single amount</h3>
+          <div id="resultFormula" class="big-formula">V<sub>n</sub> = V<sub>0</sub>(1 + i)<sup>n</sup></div>
+          <p id="resultWhy">Move one amount forward in time by compounding it for n years.</p>
+          <p id="resultExample" class="scenario"><b>Forestry cue:</b> What will today’s planting cost be equivalent to at harvest?</p>
+          <button id="markExplored" class="button small">Mark this formula explored</button>
+        </div>
+        <div>
+          <p class="mini-label">CASH-FLOW TIMELINE</p>
+          <div id="timeline" class="timeline" role="img" aria-label="Cash-flow timeline"></div>
+          <div class="legend"><span><i class="dot payment"></i>payment p</span><span><i class="dot value"></i>value sought</span></div>
+        </div>
+      </div>
+      <div id="finderNote" class="note" hidden></div>
+    </section>
+
+    <section id="formulas" class="panel">
+      <div class="section-heading">
+        <div><p class="eyebrow">STEP 2</p><h2>Formula field guide</h2></div>
+        <p>Open a card to see when to use it and a common mistake.</p>
+      </div>
+      <div id="formulaGrid" class="formula-grid"></div>
+      <aside class="symbol-key">
+        <h3>Read the symbols</h3>
+        <dl>
+          <div><dt>V<sub>0</sub></dt><dd>value at year 0 (present)</dd></div>
+          <div><dt>V<sub>n</sub></dt><dd>value at year n (future)</dd></div>
+          <div><dt>p</dt><dd>each equal payment</dd></div>
+          <div><dt>i</dt><dd>interest rate per year as a decimal</dd></div>
+          <div><dt>n</dt><dd>ending year / number of annual periods</dd></div>
+          <div><dt>t</dt><dd>years between periodic payments</dd></div>
+        </dl>
+        <p><b>Rate reminder:</b> 5% becomes <b>0.05</b> in an equation.</p>
+      </aside>
+    </section>
+
+    <section id="practice" class="panel practice-panel">
+      <div class="section-heading">
+        <div><p class="eyebrow">STEP 3</p><h2>Guided practice</h2></div>
+        <p>Classify first, calculate second. Use the hint whenever you need it.</p>
+      </div>
+      <div class="practice-top">
+        <div class="question-count">Question <b id="guidedNumber">1</b> of <b>8</b></div>
+        <div class="dots" id="guidedDots" aria-label="Question progress"></div>
+      </div>
+      <article class="question-card">
+        <p id="guidedContext" class="context-label"></p>
+        <h3 id="guidedQuestion"></h3>
+        <div class="two-column">
+          <div>
+            <p class="prompt-label">A. Which equation fits?</p>
+            <div id="guidedChoices" class="answer-choices"></div>
+          </div>
+          <div>
+            <p class="prompt-label">B. Calculate the value</p>
+            <label class="answer-input"><span>$</span><input id="guidedInput" type="number" inputmode="decimal" placeholder="Enter amount" step="0.01"></label>
+            <p class="rounding">Round to the nearest dollar.</p>
+          </div>
+        </div>
+        <div class="question-actions">
+          <button id="guidedHint" class="button ghost small">Show a hint</button>
+          <button id="guidedCheck" class="button primary small">Check my work</button>
+          <button id="guidedNext" class="button dark small" hidden>Next question</button>
+        </div>
+        <div id="guidedFeedback" class="feedback" aria-live="polite" hidden></div>
+      </article>
+    </section>
+
+    <section id="challenge" class="panel challenge-panel">
+      <div class="section-heading">
+        <div><p class="eyebrow">STEP 4</p><h2>Mixed forest finance challenge</h2></div>
+        <p>Five new questions are generated each round. No formula labels this time.</p>
+      </div>
+      <div class="challenge-layout">
+        <div>
+          <div class="score-ring"><span id="challengeScore">0</span><small>/ 5</small></div>
+          <p id="challengeStatus">Question 1 of 5</p>
+          <button id="newRound" class="button ghost small">Start a new round</button>
+        </div>
+        <article class="question-card compact">
+          <p id="challengeContext" class="context-label"></p>
+          <h3 id="challengeQuestion"></h3>
+          <div id="challengeChoices" class="answer-choices compact-choices"></div>
+          <label class="answer-input challenge-input"><span>$</span><input id="challengeInput" type="number" inputmode="decimal" placeholder="Nearest dollar" step="1"></label>
+          <div class="question-actions">
+            <button id="challengeCheck" class="button primary small">Submit answer</button>
+            <button id="challengeNext" class="button dark small" hidden>Continue</button>
+          </div>
+          <div id="challengeFeedback" class="feedback" aria-live="polite" hidden></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="takeaway">
+      <p class="eyebrow">WHEN YOU FEEL STUCK</p>
+      <h2>Draw the timeline. Label year 0 and year n. Mark every payment.</h2>
+      <p>The pattern on the timeline tells you which branch to follow; the equation is the last step.</p>
+      <button id="resetProgress" class="text-button">Reset saved progress</button>
+    </section>
+  </main>
+
+  <footer><span>NR 444 · Benefit–Cost Analysis</span><span>Values are instructional approximations.</span></footer>
+  <script src="app.js"></script>
+</body>
+</html>
