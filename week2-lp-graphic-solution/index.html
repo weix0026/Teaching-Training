@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Interactive two-variable linear programming graphic solution studio for F422 Week 2.">
+    <title>LP Graphic Solution Studio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="app.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#stage">Skip to graph</a>
+
+    <header class="topbar">
+      <div class="brand-block">
+        <span class="course-mark" aria-hidden="true">LP</span>
+        <div>
+          <p class="eyebrow">F422 &middot; Week 2</p>
+          <h1>Graphic Solution Studio</h1>
+        </div>
+      </div>
+      <label class="case-picker" for="caseSelect">
+        <span>Example</span>
+        <select id="caseSelect" aria-label="Select LP example"></select>
+      </label>
+    </header>
+
+    <div class="app-layout">
+      <aside class="lesson-nav" aria-label="Graphic solution sequence">
+        <p class="nav-label">Solution sequence</p>
+        <nav id="stepNav"></nav>
+        <div class="case-facts" id="caseFacts"></div>
+      </aside>
+
+      <main class="stage" id="stage" tabindex="-1">
+        <section class="stage-header">
+          <div>
+            <p class="eyebrow" id="caseSource">Lecture deck source</p>
+            <h2 id="caseTitle"></h2>
+            <p class="lead" id="caseSubtitle"></p>
+          </div>
+          <div class="status-chip" id="solutionStatus"></div>
+        </section>
+
+        <section class="graph-shell" aria-label="Interactive linear programming graph">
+          <div class="graph-title-row">
+            <div>
+              <p class="eyebrow">Live coordinate plane</p>
+              <h3 id="graphTitle">Constraint and objective view</h3>
+            </div>
+            <button class="secondary-button" id="autoSolve" type="button">Snap to optimum</button>
+          </div>
+          <div class="graph-canvas" id="graphCanvas"></div>
+        </section>
+
+        <section class="teaching-grid">
+          <article class="lesson-panel" id="lessonPanel"></article>
+          <article class="calculation-panel" id="calculationPanel"></article>
+        </section>
+      </main>
+
+      <aside class="control-room" aria-label="LP controls">
+        <section class="control-section" id="objectiveControls"></section>
+        <section class="control-section" id="constraintInspector"></section>
+        <section class="control-section" id="modelEditor"></section>
+        <section class="control-section source-sketch" id="sourceSketch"></section>
+      </aside>
+    </div>
+
+    <footer>
+      <span>Built from the Week 2 Introduction to LP lecture deck.</span>
+      <span>Two variables &middot; feasible region &middot; objective contours &middot; active constraints</span>
+    </footer>
+  </body>
+</html>
