@@ -1,0 +1,172 @@
+Characteristics of Model I
+
+1.         Decision variables for each land management unit each represent a management option for the unit over the entire planning horizon.
+
+2.         Decision variables for the formulation take the form:
+
+                   Xij= # of land units of management unit i assigned to jth prescription for stand i.
+
+3.         If rotation lengths can be short and the planning horizon is long, the number of decision variables for a single management unit can
+           be quite large. Some systematic way of specifying the options is needed.
+
+4.         Tables like the following are often been used to describe the decision variables. For this example the minimum rotation length is
+           two periods. Each "H" in the table represents a final harvest or the end of one rotation. Thinning options are not considered in this
+           example.
+
+
+                                                                         Alternative #
+     Period
+               1     2    3    4    5      6     7     8      9     10     11    12      13   14    15     16    17    18     19    20    21
+       1                                                                                      H     H      H     H     H      H     H     H
+       2                                                      H     H      H     H       H
+       3                                   H     H     H                                                                      H     H     H
+       4                       H    H                                            H       H                       H     H
+       5                  H                            H                   H                               H                              H
+       6             H              H            H                  H                    H          H                  H            H
+                    F422 Quantitative Methods in Forest Resource Management
+                                       Model I and Model II
+
+                                                 Model I
+
+Definitions of Variables:
+
+Xaq     =       the number of acres in age class a that are assigned to management sequence q.
+Aa      =       the number of acres in age class a.
+Vaq     =       the discounted net value per acre of managing a stand in age class a under management
+                sequence q.
+Yaqn    =       the yield per acre in period n from managing a stand in age class a under management
+                sequence q.
+Hn      =       the harvest level in period n.
+N       =       the number of planning periods.
+
+        Model Formulation:
+        Maximize     Σ Σ Vaq Xaq subject to
+                     aq
+
+        Area Constraints for Initial Conditions
+              Σ Xaq = Aa for all a
+              q
+
+        Harvest Level Definitions
+        Hn = Σ Σ Yaqn Xaq for n = 1 to N
+                aq
+
+        "Even Flow" Constraints (+ 10% per period)
+        Hn > .9 Hn-1
+                            for n = 1 to N and H0 is given
+        Hn < 1.1 Hn-1
+
+        Non-negativity Constraints
+        Xaq > 0 for all a, q
+
+Note that the harvest level definition constraints could be eliminated by substituting the expression for
+each harvest level into the harvest (even flow) constraints. The "even flow" constraints are only one type
+of harvest level constraint. Other forms are possible. Constraints dealing with other management
+requirements are also easily incorporated. Some of the more common ones include:
+
+                ·        budget limitations
+                ·        non-timber resource requirements
+                ·        ending inventory requirements
+
+
+
+
+                                                    1
+                                                 Model II
+
+Definition of variables:
+
+Xij     =       the number of acres that were regenerated in period i and harvested in period j.
+WiN     =       the number of acres regenerated in period i and left as part of the ending inventory.
+Ai      =       the number of acres present in period 1 that were regenerated in period i.
+M       =       period in which the oldest stand was regenerated.
+Z       =       minimum harvest age.
+Vij     =       discounted net value per acre of regenerating a stand in period i and then harvesting it in
+                period j.
+Yij     =       yield from harvesting a stand that was regenerated in period i and harvested in period j.
+EiN     =       discounted net value per acre of stand regenerated in period i and left as standing
+                inventory at the end of the planning period
+
+        Model Formulation:
+                     N      j-Z                   N
+        Maximize     Σ       Σ Vij Xij +          Σ EiN WiN
+                     j=1   i=M                    i=M
+
+        subject to
+
+        Area Constraints for Initial Conditions
+        N
+        Σ Xij + WiN = Ai    for all i
+        j=1
+
+        Bookkeeping Constraints (regeneration = harvest)
+        j-Z      N
+         Σ Xij = Σ Xjk + WjN for all j=1 to N
+        i=M     k=j+Z
+
+Note that this set of constraints assumes that all stands are regenerated immediately as fully stocked
+stands.
+
+        Harvest Level Definitions
+
+                 j-Z
+        Hn =     Σ Yij Xij    for j=1 to N
+                 i=M
+
+-       harvest constraints—limits, even-flow, etc.—would be the same
+        as those defined in Model I.
+
+        Non-negativity Constraints
+
+        Xij     >0
+        Wi      >0
+
+
+
+
+                                                     2
+More about Model II
+
+1.    Decision variables for each land management unit each represent a management option for
+      the unit over a single rotation.
+2.    Decision variables for the formulation take the form:
+              Xij= # of land units of regenerated in period i and final harvested in period j.
+      Note that:
+       a.     the first subscript will be negative for stands in the initial inventory.
+       b.     the difference between the subscripts can be used to determine the age at the final
+              harvest.
+       c.     more subscripts or additional variables are usually needed. For example, if all land
+              units are not identical after harvest, one might recognize two soil types (or site index
+              types) and use the variable sets Xij and Yij or add a soil type subscript (s) to make the
+              decision variable Xsij.
+3.    Model II formulations are similar to dynamic programming in that they break the decision
+      variables into parts. A corresponding DP network could be drawn to represent the Xij
+      variables. This network will often have multiple starting nodes (defined by i subscript).
+4.    Model II formulations aggregate acres that become identical after final harvesting.
+5.    Model II formulations will never have fewer constraints than a Model I formulation. For
+      problems with longer planning horizons, Model II formulations will likely have substantially
+      fewer variables, especially if planning horizons are long.
+6.    Model II formulations need additional constraints to conserve acreages across rotations. In
+      terms of the DP network, one constraint is needed for each period of final harvest. In effect,
+      each constraint simply states that the area flowing into the bare land node must equal the
+      area flowing out of the same bare land node.
+7.    As forestry problems are expanded to recognize additional facets, a key aspect is whether
+      each facet requires additional DP networks or existing networks can just be expanded. For
+      example, recognizing site index levels or location classes requires additional networks
+      because sites are not similar after harvest. Differences in stocking levels can likely be
+      incorporated into existing networks if after final harvest stocking impacts do not impact
+      natural regeneration. Site conversions are potential linkages between networks.
+8.    Some claim model I formulations are easier to interpret because decision variables track each
+      land unit for the entire planning horizon. Model II formulations offer some advantage in
+      interpretation as they often help point out multiple optimal solutions. Model II may help
+      make interpretations easier if there are fewer decision variables.
+9.    For detailed formulations where stand location relative to neighboring stands is critical, then
+      the only advantage of a model II formulation would be in its ability to more efficiently
+      represent a large number of management options for each individual stand. One must
+      certainly question how many stand level options are necessary to represent the problem.
+
+
+
+
+                                                 3
+

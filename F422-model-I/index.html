@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Explore Model I forest harvest scheduling: build prescriptions, trace coefficients, allocate forest area and solve a linear program using F422 course examples.">
+  <title>Model I · Forest Planning Studio · F422</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="model.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <a href="#main" class="skip">Skip to lesson</a>
+  <header class="masthead"><a class="brand" href="#concept"><span class="brand-mark">M<span>I</span></span><span><b>Forest Planning Studio</b><small>F422 / MODEL I</small></span></a><div class="mast-note">One forest. Many possible futures.</div><button class="text-button" id="resetAll">Reset exploration ↺</button></header>
+  <div class="layout">
+    <aside class="sidebar"><div class="eyebrow">THE LEARNING PATH</div><nav id="nav" aria-label="Lessons"></nav><div class="sidebar-foot"><span class="tiny-label">THE CENTRAL IDEA</span><p>Assign land to a complete prescription.</p><div class="mini-equation">Σ<sub>j</sub> X<sub>ij</sub> = A<sub>i</sub></div><small>Each hectare or acre is accounted for once.</small></div></aside>
+    <div class="workspace"><div class="casebar"><label for="dataset">COURSE EXAMPLE<select id="dataset"><option value="bridge">Three-decade bridge · 500 ha</option><option value="homework">Six-decade homework · 3,000 acres</option></select></label><p id="caseSummary"></p></div><main id="main" tabindex="-1"></main><footer>F422 · Quantitative Methods in Forest Resource Management<span>Based on your course materials · Runs entirely in your browser</span></footer></div>
+  </div>
+  <div id="announcement" class="sr-only" aria-live="polite"></div>
+</body>
+</html>

@@ -1,0 +1,1122 @@
+ppt/slides/slide1.xml
+Introduction to the Model I forest planning framework
+
+ppt/slides/slide2.xml
+Model I
+In forest planning,  Model I  is one of the foundational formulations used for  scheduling and managing timber harvests  to meet specific management objectives and achieve desired forest conditions. 
+The goal is to determine an optimal harvest schedule for a forest over a fixed planning horizon.
+Its unique feature is to use a large set of pre-identified prescriptions to build a LP model.  
+
+ppt/slides/slide3.xml
+Diagram for the original dynamic model
+J=1
+J=2
+J=3
+i=1
+i=2
+i=3
+i=4
+
+ppt/slides/slide4.xml
+All model I prescriptions
+Prescription 
+ID
+P1
+P2
+P3
+Volume harvested per ha in each period from forest with different initial age classes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Initial Age 1
+
+
+Initial Age 2
+
+
+Initial Age 3
+
+
+Initial Age 4
+
+
+
+
+
+
+P1
+P2
+P3
+P1
+P2
+P3
+P1
+P2
+P3
+P1
+P2
+P3
+1
+N
+N
+N
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+2
+N
+N
+C
+0
+0
+500
+0
+0
+600
+0
+0
+600
+0
+0
+600
+3
+N
+C
+N
+0
+250
+0
+0
+500
+0
+0
+600
+0
+0
+600
+0
+4
+N
+C
+C
+0
+250
+50
+0
+500
+50
+0
+600
+50
+0
+600
+50
+5
+C
+N
+N
+50
+0
+0
+250
+0
+0
+500
+0
+0
+600
+0
+0
+6
+C
+N
+C
+50
+0
+250
+250
+0
+250
+500
+0
+250
+600
+0
+250
+7
+C
+C
+N
+50
+50
+0
+250
+50
+0
+500
+50
+0
+600
+50
+0
+8
+C
+C
+C
+50
+50
+50
+250
+50
+50
+500
+50
+50
+600
+50
+50
+
+ppt/slides/slide5.xml
+All model I prescriptions
+Prescription ID
+P1
+P2
+P3
+Total volume/ha harvested within the planning horizon from forest of different initial age class
+
+
+
+
+
+
+
+Age 1
+Age 2
+Age 3
+Age 4
+1
+N
+N
+N
+0
+0
+0
+0
+2
+N
+N
+C
+500
+600
+600
+600
+3
+N
+C
+N
+250
+500
+600
+600
+4
+N
+C
+C
+300
+550
+650
+650
+5
+C
+N
+N
+?
+?
+?
+?
+6
+C
+N
+C
+?
+?
+?
+?
+7
+C
+C
+N
+?
+?
+?
+?
+8
+C
+C
+C
+150
+?
+?
+?
+C: clearcut; 
+N: “do nothing”
+
+ppt/slides/slide6.xml
+Model I decision variables
+For age class 1:
+X 11 , X 12 , X 13 , X 14 , X 15 , X 16 , X 17 , X 18
+For age class 2:
+X 21 , X 22 , X 23 , X 24 , X 25 , X 26 , X 27 , X 28
+For age class 3:
+X 31 , X 32 , X 33 , X 34 , X 35 , X 36 , X 37 , X 38
+For age class 4:
+X 41 , X 42 , X 43 , X 44 , X 45 , X 46 , X 47 , X 48
+
+
+
+
+
+
+
+ 
+
+ppt/slides/slide7.xml
+Reformulate the dynamic model
+Objective to maximize total timber production during the 3-decade:
+Max Z = 0X 11 +500 X 12 +250X 13 +300X 14 ……  +150X 18  + ……   0X 21 + … + (     )X 48
+
+
+ppt/slides/slide8.xml
+Other constraints
+X 11 + X 12 + X 13 + X 14 + X 15 + X 16 + X 17 + X 18 =100
+X 2 1 + X 2 2 + X 2 3 + X 2 4 + X 2 5 + X 2 6 + X 2 7 + X 2 8 =200
+X 3 1 + X 3 2 + X 3 3 + X 3 4 + X 3 5 + X 3 6 + X 3 7 + X 3 8 =50
+X 4 1 + X 4 2 + X 4 3 + X 4 4 + X 4 5 + X 4 6 + X 4 7 + X 4 8 =150
+
+
+ppt/slides/slide9.xml
+How to formulate even timber flow constraint?
+H 1 =???
+H 2 =???
+H 3 =???
+
+H 1 <= H 2
+H 2 <= H 3
+
+
+
+
+
+
+ppt/slides/slide10.xml
+The basic structure of Model I
+Management units: i.e., stand, stratum, … 
+Many candidate silviculture prescriptions designed for each unit depending on:
+Min/max rotation ages
+Thinning options
+Length of planning periods and planning horizons
+Each prescription represents a sequence of mgmt. activities across time, which can cross multiple rotations. 
+i.e., thin from bellow to BA 40 at decade 10, prescribed fire at decade 11, clearcut at decade 15, thin again at decade 19 and clearcut again at decade 25. 
+Forest planning becomes an optimal assignment problem: how many acres of each forest stratum should be managed by following each prescription?
+
+ppt/slides/slide11.xml
+An example used for homework 4
+Consider two forest types in a forest; 
+1000 acres of 40-year old poorly stocked mixed pine/fir forest. 
+2000 acres of  10-year old fully stocked pine forest, 
+E ach planning period is 10-year
+B oth forest types would be regenerated as fully stocked pine forest after a clearcut. 
+U se a discount rate of 0%.
+T he timber stumpage price is $25/cord from both forest types.
+Minimum harvest age:
+40-year for poorly stocked pine/fir forest
+30-year for fully stocked pine forest.
+N o upper limit for either forest type.
+All harvesting activities occur at the beginning of each 10-year period.
+Age
+Yield for poorly stocked mixed pine/fire forest
+(cords/acre)
+Yield for fully stocked pine forest
+(cords/acre)
+30
+5
+11
+40
+9
+18
+50
+13
+21
+60
+16
+24
+70
+19
+27
+80
+22
+29
+90
+25
+30
+Table 1: Yield table for poorly stocked pine/fir and fully stocked pine forest based on age.
+
+ppt/slides/slide12.xml
+Prescriptions built for the forest
+ 
+ 
+ 
+Poorly Stocked pine/fir, 
+currently at age 40
+
+
+
+
+
+
+ 
+ 
+Fully Stocked pine, 
+currently at age 10
+
+
+
+
+
+
+Prescription
+Sequence #
+ 
+Yield in Period (cords/acre)
+
+
+
+
+
+ 
+Net 
+Revenue
+($/acre)
+Prescription
+Sequence #
+ 
+Yield in Period (cords/acre)
+
+
+
+
+
+ 
+Net
+Revenue
+($/acre)
+
+ 
+1
+ 
+2
+ 
+3
+ 
+4
+ 
+5
+ 
+6
+
+
+ 
+1
+ 
+2
+ 
+3
+ 
+4
+ 
+5
+ 
+6
+
+ 
+1 
+ 
+0
+ 
+0
+ 
+0
+ 
+0
+ 
+0
+ 
+0
+ 
+0
+ 
+1 
+ 
+0
+ 
+0
+ 
+0
+ 
+0
+ 
+0
+ 
+0
+ 
+0
+ 
+2
+ 
+9
+ 
+0
+ 
+0
+ 
+0
+ 
+0
+ 
+0
+ 
+ 
+ 
+2
+ 
+0
+ 
+0
+ 
+11
+ 
+0
+ 
+0
+ 
+0
+ 
+275
+ 
+3
+ 
+9
+ 
+0
+ 
+0
+ 
+11
+ 
+0
+ 
+0
+ 
+500
+ 
+3
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+11
+ 
+ 
+ 
+4
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+18
+ 
+ 
+ 
+ 
+ 
+4
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+18
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+5
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+21
+ 
+ 
+ 
+5
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+21
+ 
+ 
+ 
+ 
+ 
+6
+ 
+0
+ 
+13
+ 
+0
+ 
+0
+ 
+0
+ 
+0
+ 
+ 
+ 
+6
+ 
+0
+ 
+0
+ 
+0
+ 
+0
+ 
+0
+ 
+24
+ 
+600
+ 
+7
+ 
+ 
+ 
+13
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+600
+ 
+ 
+ 
+ 
+ 
+ 
+N/A
+
+
+
+
+
+
+
+ 
+8
+ 
+ 
+ 
+13
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+775
+
+
+
+
+
+
+
+
+ 
+9
+ 
+0
+ 
+0
+ 
+16
+ 
+0
+ 
+0
+ 
+0
+ 
+400
+
+
+
+
+
+
+
+
+ 
+10
+ 
+0
+ 
+0
+ 
+16
+ 
+0
+ 
+0
+ 
+11
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+11
+ 
+0
+ 
+0
+ 
+0
+ 
+19
+ 
+0
+ 
+0
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+12
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+22
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+13
+ 
+0
+ 
+0
+ 
+0
+ 
+0
+ 
+0
+ 
+25
+ 
+ 
+
+
+
+
+
+
+
+
+
+ppt/slides/slide13.xml
+Mathematical formulations
+Define all  decision variables  including the definition of  subscripts   and write out the  Model I’s mathematical formulation  using  Table 2 .  The landowner’s objective is to maximize the total net revenue from managing the entire forest during the next 60 years. This Model I formulation should include  the following components . 
+the objective function
+constraints for initial available areas of each forest type 
+bookkeeping constraint to track the volume harvested during each decade
+non-declining even-flow constraints for timber harvesting
+non-negativity constraints for all decision variables
+
+ppt/slides/slide14.xml
+Let’s look at the Excel together
+
+ppt/slides/slide15.xml
+Characteristics of Model I
+1. Decision variables for each land management unit each represent a management option for the unit over the entire planning horizon.
+2. Decision variables for the formulation take the form:  	
+X ij = # of land units of management unit  i  assigned to  j th prescription for stand  i . 
+3. If rotation lengths can be short and the planning horizon is long, the number of decision variables for a single management unit can be quite large. Some systematic way of specifying the options is needed.
+4. Tables like the following are often used to describe the decision variables. In this example the minimum rotation length is two periods. Each "H" in the table represents a final harvest or the end of one rotation. Thinning options are not considered in this example.    
+
+ppt/slides/slide16.xml
+X 1,1
+X 1,21
+X 1,7
+X 1,5
+X 2,1
+X 2,21
+X 2,7
+X 2,5
+
+ppt/slides/slide17.xml
+A Model I example
+Suppose we have two forest management units  a  and  b  in a ponderosa pine forest. 
+Stand  a  is currently at age class 3 (median age 25) and poorly stocked; b is fully stocked and at age class 4 (median age 35). 
+Clearcut  will be scheduled at middle of a period followed by immediate regeneration. 
+Forest age will be tallied at the end of a period
+A 60-year planning horizon was divided into six 10-yr planning periods. 
+For unit a: the youngest (oldest) age to cut during the planning horizon is 40 (60) years; do nothing option is also available.
+For unit b: the youngest (oldest) age to cut during the planning horizon is 40 (50) years; do nothing option is also available.
+Both stands will be managed under a 50-year rotation after the last cut within the planning horizon. 
+
+ppt/slides/slide18.xml
+
+
+
+
+
+
+5
+
+15
+
+25
+
+35
+
+45
+
+55
+
+
+5
+
+15
+
+25
+
+35
+
+45
+
+55
+
+
+
+
+
+5
+
+15
+
+25
+
+35
+
+45
+
+55
+
+
+
+5
+
+15
+
+25
+
+35
+
+45
+
+55
+
+25
+
+ppt/slides/slide19.xml
+
+
+
+
+
+
+5
+
+15
+
+25
+
+35
+
+45
+
+55
+
+
+5
+
+15
+
+25
+
+35
+
+45
+
+55
+
+
+
+
+
+5
+
+15
+
+25
+
+35
+
+45
+
+55
+
+
+
+5
+
+15
+
+25
+
+35
+
+45
+
+55
+
+
+
+35
+
+ppt/slides/slide20.xml
+Model I prescriptions, assumptions and objectives
+Assume:
+200 acres of forest type A and 300 acres of forest type B
+For simplicity, timber yield per acre is equal to (Age Class*10) 
+Formulate a Model I based system to plan the management of a forest for six decades to: 
+achieve even flow of timber across decades; 
+try to maximize total timber production.
+
+
+ppt/slides/slide21.xml
+ 
+Decade 1
+Decade 2
+Decade 3
+Decade 4
+Decade 5
+Decade 6
+Comments
+Forest a (age tallied at the end of each period)
+
+
+
+
+
+
+
+Alt 1
+Age 35
+Age 45
+Age 55
+Age 65
+Age 75
+Age 85
+
+Alt 2
+Age 35
+Age 5
+Age 15
+Age 25
+Age 35
+Age 45
+ 
+Alt 3
+Age 35
+Age 5
+Age 15
+Age 25
+Age 35
+Age 5
+ 
+Alt 4
+Age 35
+Age 45
+Age 5
+Age 15
+Age 25
+Age 35
+ 
+Alt 5
+Age 35
+Age 45
+Age 55
+Age 5
+Age 15
+Age 25
+ 
+Forest b (age tallied at the end of each period)
+
+
+
+
+
+
+
+Alt 1
+Age 45
+Age 55
+Age 65
+Age 75
+Age 85
+Age 95
+
+Alt 2
+Age 5
+Age 15
+Age 25
+Age 35
+Age 5
+Age 15
+ 
+Alt 3
+Age 5
+Age 15
+Age 25
+Age 35
+Age 45
+Age 5
+ 
+Alt 4
+Age 45
+Age 5
+Age 15
+Age 25
+Age 35
+Age 45
+ 
+Alt 5
+Age 45
+Age 5
+Age 15
+Age 25
+Age 35
+Age 5
+ 
+
+ppt/slides/slide22.xml
+Constraints dealing with other management require­ments are also easily incorporated.  Some of the more common ones include
+budget limitations
+non-timber resource requirements
+ending inventory requirement
+
+EMBEDDED FILES: ['ppt/embeddings/oleObject1.bin', 'ppt/embeddings/oleObject2.bin']

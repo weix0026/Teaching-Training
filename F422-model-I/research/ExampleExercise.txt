@@ -1,0 +1,124 @@
+word/document.xml
+
+Decade 1
+Decade 2
+Decade 3
+Decade 4
+Decade 5
+Decade 6
+Acres  assigned to alternatives
+Forest  A
+Alt 1
+Age 2
+Age 3
+Age 4
+Age 5
+Age 6
+Age 7
+
+Alt 2
+Age 2
+Age 3
+Age 4
+Age 5
+Age 6
+Age 1
+
+Alt 3
+Age 2
+Age 3
+Age 4
+Age 5
+Age 1
+Age 2
+
+Alt 4
+Age 2
+Age 3
+Age 4
+Age 1
+Age 2
+Age 3
+
+Alt 5
+Age 2
+Age 3
+Age 4
+Age 1
+Age 2
+Age 1
+
+Alt 6
+Age 2
+Age 3
+Age 1
+Age 2
+Age 3
+Age 4
+
+Forest B
+Alt  1
+Age  3
+Age  4
+Age 1
+Age 2
+Age 3
+Age 1
+
+Alt  2
+Age  3
+Age  4
+Age 1
+Age 2
+Age 1
+Age 2
+
+Alt  3
+Age  3
+Age 1
+Age 2
+Age 3
+Age 4
+Age  5
+
+Alt  4
+Age  3
+Age 1
+Age 2
+Age 3
+Age 4
+Age 1
+
+Alt  5
+Age  3
+Age 1
+Age 2
+Age 3
+Age 1
+Age 2
+
+Alt  6
+Age  3
+Age 1
+Age 2
+Age 1
+Age 2
+Age 3
+
+Alt  7
+Age  3
+Age 1
+Age 2
+Age 1
+Age 2
+Age 1
+
+
+Assume :
+200 acres of forest  type  A and  300 acres of forest type B
+for simplicity ,   timber  yield  per acre is  equal to ( A ge  C lass *10) 
+Formulate a Model I  based system  to plan  the management of a  forest  for six decades t o: 
+achieve even flow of timber across decades; 
+try to maximize total timber production.
+
+EMBEDDED FILES: []

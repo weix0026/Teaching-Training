@@ -1,0 +1,46 @@
+                      F422 Quantitative Methods in Forest Resource Management
+                          Homework 4: Model I and II Formulation (Due 11/10/2010)
+
+Consider a situation in which there are two initial stands, one stand will be 10 years old in the first planning
+period and is fully stocked, and another type will be 40 years old in period one and is poorly stocked.
+    1. Assume planning periods are 10 years in length.
+    2. Assume that all stands are regenerated as fully stocked stands.
+    3. Ignore the time value of money by using a discount rate of i = 0%
+    4. Currently there are 1000 acres of the fully stocked stands and 5000 acres of the poorly stocked stands.
+    5. Minimum harvest age is 40 years for poorly stocked stands and 30 years for fully stocked stands.
+    6. All activities occur at beginning of planning interval.
+    7. Table 1 summarized all technically feasible management alternatives. Each row represents a feasible
+        alternative.
+
+                              Poorly Stocked, Age 40                   Fully Stocked, Age 10
+                           Yield in Period                         Yield in Period
+             Seq #                                    Net   Seq                                Net
+                      1   2     3    4    5    6                1 2 3 4 5 6
+                                                    revenue #                                revenue
+
+                 1                                     0     1                                 0
+                 2    9                                3     2           11                    4
+                 3    9              11                7     3           11             11     8
+                 4    9                   18           12    4                18               8
+                 5    9                        21      13    5                     21          10
+                 6        13                           5     6                          24     12
+                 7        13              11           9
+                 8        13                   18      13
+                 9              16                     7
+                 10             16             11      11
+                 11                  19                9
+                 12                       22           11
+                 13                            25      13
+
+Define the decision variables and write out both the model I (50 points) and II (50 points) formulations based on
+the information given in table above. The landowner’s objective is to maximize the total net revenue from
+manage this forest within the next 60 years. Both formulations should include the following constraints:
+
+            a.   constraints for initial available areas of each forest type
+            b.   bookkeeping constraint to track the volume harvested during each period
+            c.   non-declining even flow constraints for timber harvesting
+            d.   non-negativity constraints for decision variables
+
+The model II formulation should also include the bookkeeping constraints for “area harvest = area regenerated”
+during each period.
+

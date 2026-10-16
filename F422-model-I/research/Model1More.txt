@@ -1,0 +1,27 @@
+Characteristics of Model I
+
+1.         Decision variables for each land management unit each represent a management option for the unit over the entire planning horizon.
+
+2.         Decision variables for the formulation take the form:
+
+                   Xij= # of land units of management unit i assigned to jth prescription for stand i.
+
+3.         If rotation lengths can be short and the planning horizon is long, the number of decision variables for a single management unit can
+           be quite large. Some systematic way of specifying the options is needed.
+
+4.         Tables like the following are often been used to describe the decision variables. For this example the minimum rotation length is
+           two periods. Each "H" in the table represents a final harvest or the end of one rotation. Thinning options are not considered in this
+           example.
+
+
+                                                                         Alternative #
+     Period
+               1     2    3    4    5      6     7      8     9     10     11    12      13   14    15     16    17    18     19    20    21
+       1                                                                                      H     H      H     H     H      H     H     H
+       2                                                      H     H      H     H       H
+       3                                   H     H      H                                                                     H     H     H
+       4                       H    H                                            H       H                       H     H
+       5                  H                             H                  H                               H                              H
+       6             H              H            H                  H                    H          H                  H            H
+2
+
