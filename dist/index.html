@@ -1,0 +1,56 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="A simple worked explanation of deterministic optimization and sample average approximation.">
+<title>From one forecast to a sample of futures · F422</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><span>F422 / FOREST PLANNING</span><span>A SHORT EXPLANATION</span></header>
+<main>
+<section class="intro">
+<p class="eyebrow">DETERMINISTIC OPTIMIZATION &amp; SAA</p>
+<h1>Same decision.<br>Different ways to represent the future.</h1>
+<p class="lead">A deterministic model chooses a plan using fixed inputs. Sample average approximation (SAA) chooses a plan using its average outcome across sampled futures.</p>
+</section>
+<section>
+<div class="section-title"><span class="number">1</span><h2>Start with a decision we must make now.</h2></div>
+<p>A forest manager must choose between two harvest plans before knowing future fire conditions. The objective is to maximize total timber harvested over the planning horizon.</p>
+<div class="plans"><div><strong>Plan A</strong><p>Leave more timber to grow for later harvest.</p></div><div><strong>Plan B</strong><p>Harvest more timber earlier.</p></div></div>
+<p class="note">This small example uses invented harvest totals to explain the calculation. Both plans satisfy the same planning constraints.</p>
+</section>
+<section>
+<div class="section-title"><span class="number">2</span><h2>Deterministic: optimize for a fixed forecast.</h2></div>
+<p>Suppose the planning forecast assumes mild fire conditions. Treat that forecast as fixed, calculate the harvest for each plan, and choose the larger value.</p>
+<div class="table-wrap"><table><caption>Total harvest under the fixed forecast (thousand m³)</caption><thead><tr><th scope="col">Decision</th><th scope="col">Mild fire conditions</th></tr></thead><tbody><tr><th scope="row">Plan A</th><td><strong>120</strong></td></tr><tr><th scope="row">Plan B</th><td>100</td></tr></tbody></table></div>
+<p class="result">Choose <strong>Plan A</strong>, because 120 &gt; 100 under this forecast.</p>
+<p class="note">A deterministic forecast could instead use expected inputs or another specified set of conditions. The defining feature is that the inputs are treated as fixed.</p>
+</section>
+<section>
+<div class="section-title"><span class="number">3</span><h2>SAA: optimize the average across a sample.</h2></div>
+<p>Instead of fixing one forecast, sample possible futures from an assumed model of uncertainty. Suppose a small sample contains these three fire futures.</p>
+<div class="table-wrap"><table><caption>Total harvest for each plan in each sampled future (thousand m³)</caption><thead><tr><th scope="col">Decision</th><th scope="col">Future 1<br><span>Mild fires</span></th><th scope="col">Future 2<br><span>Moderate fires</span></th><th scope="col">Future 3<br><span>Severe fires</span></th><th scope="col" class="average">Sample average</th></tr></thead><tbody><tr><th scope="row">Plan A</th><td>120</td><td>90</td><td>30</td><td class="average">80</td></tr><tr><th scope="row">Plan B</th><td>100</td><td>85</td><td>70</td><td class="average"><strong>85</strong></td></tr></tbody></table></div>
+<div class="calculation"><p><strong>Plan A:</strong> (120 + 90 + 30) ÷ 3 = <strong>80</strong></p><p><strong>Plan B:</strong> (100 + 85 + 70) ÷ 3 = <strong>85</strong></p></div>
+<p class="result">Choose <strong>Plan B</strong>, because 85 &gt; 80 across this sample.</p>
+<p>Read across each row: keep the decision fixed, calculate what it produces in each future, then average those outcomes. Compare the row averages to choose the decision.</p>
+<p class="note">Each sampled draw has equal weight here. These three draws illustrate the arithmetic; they do not imply that mild, moderate, and severe fires are equally likely in reality.</p>
+</section>
+<section class="key">
+<p class="eyebrow">THE ESSENTIAL LOGIC</p>
+<h2>One decision now.<br>Several possible outcomes later.</h2>
+<div class="flow" aria-label="Sample futures, calculate each plan's average outcome, then choose one plan"><span>Sample futures</span><b aria-hidden="true">→</b><span>Average outcomes<br>for each plan</span><b aria-hidden="true">→</b><span>Choose one plan</span></div>
+<p>SAA does not choose Plan A after seeing mild fires and Plan B after seeing severe fires. The decision being made now must be the same across all sampled futures.</p>
+</section>
+<section class="closing">
+<div class="section-title"><span class="number">4</span><h2>Why “sample average approximation”?</h2></div>
+<p>We want to choose a plan with the highest <strong>expected harvest</strong>, but evaluating every possible future may be impractical. SAA approximates that expectation with an average over a sample.</p>
+<div class="comparison"><div><h3>Deterministic</h3><p>Choose the plan with the best outcome under fixed inputs.</p><div class="formula">maximize H(x, fixed forecast)</div></div><div><h3>SAA</h3><p>Choose the plan with the best average outcome across sampled futures.</p><div class="formula">maximize [H(x, future 1) + … + H(x, future N)] / N</div></div></div>
+<p class="note">Here, x is the plan chosen now, H is its total harvest, and N is the number of sampled futures.</p>
+<p class="last-word">The change is in how we evaluate a decision: one fixed forecast becomes an average across sampled futures. The selected plan may change, or it may stay the same.</p>
+</section>
+</main>
+<footer>F422 · Deterministic optimization &amp; sample average approximation</footer>
+</body>
+</html>
