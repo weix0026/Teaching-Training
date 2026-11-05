@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Explore how elasticity of substitution changes production surfaces and isoquants for preparedness and suppression investment.">
+  <title>Preparedness × Suppression · NR444</title>
+  <link rel="stylesheet" href="styles.css"><script defer src="app.js"></script>
+</head>
+<body>
+<header><a class="brand" href="./"><span class="brand-icon">↗</span> NR444 <span class="brand-divider">/</span> RESOURCE ECONOMICS</a><span class="header-note">INTERACTIVE FIELD NOTES <b>01</b></span></header>
+<main>
+  <section class="intro"><div><p class="eyebrow">THE ECONOMICS OF WILDFIRE MANAGEMENT</p><h1>Two investments.<br>One production function.</h1><p class="lede">Can preparedness replace suppression? Explore how the elasticity of substitution shapes the ways we produce protection.</p></div><div class="intro-aside"><span class="small-label">THE TWO INPUTS</span><p><i class="key preparedness"></i><b>P</b> Investment in preparedness</p><p><i class="key suppression"></i><b>S</b> Investment in suppression</p><small>Inputs and output are illustrative indices.</small></div></section>
+  <section class="workspace" aria-label="Production function explorer">
+    <aside class="controls">
+      <div class="section-heading"><span class="step">01</span><h2>Choose a technology</h2></div>
+      <p class="control-help">How easily can one input replace the other while holding output constant?</p>
+      <div class="presets" aria-label="Production function presets">
+        <button data-sigma="0"><span>Perfect complements</span><small>σ = 0</small></button>
+        <button data-sigma="0.3"><span>Low substitution</span><small>σ = 0.3</small></button>
+        <button data-sigma="1" class="active"><span>Cobb–Douglas</span><small>σ = 1</small></button>
+        <button data-sigma="2"><span>High substitution</span><small>σ = 2</small></button>
+        <button data-sigma="Infinity"><span>Perfect substitutes</span><small>σ → ∞</small></button>
+      </div>
+      <div class="slider-heading"><label for="sigma">Elasticity of substitution</label><output id="sigmaValue">1.00</output></div>
+      <input id="sigma" type="range" min="0.1" max="5" step="0.05" value="1"><div class="range-labels"><span>Harder to substitute</span><span>Easier</span></div>
+      <div class="control-divider"></div>
+      <div class="section-heading"><span class="step">02</span><h2>Explore an input mix</h2></div>
+      <div class="slider-heading"><label for="preparedness">Preparedness <b>P</b></label><output id="pValue">50</output></div><input id="preparedness" type="range" min="0" max="100" step="1" value="50">
+      <div class="slider-heading"><label for="suppression">Suppression <b>S</b></label><output id="sValue">50</output></div><input id="suppression" type="range" min="0" max="100" step="1" value="50">
+      <div class="result"><span>PROTECTION CAPACITY</span><strong id="qValue">50.0 <small>Q</small></strong><p id="mixNote">At this input mix</p></div>
+      <button id="reset" class="reset">↺ Reset explorer</button>
+    </aside>
+    <div class="visuals">
+      <div class="visual-heading"><div><p class="eyebrow">SAME TECHNOLOGY, TWO PERSPECTIVES</p><h2 id="technology">Cobb–Douglas</h2></div><span id="sigmaBadge" class="badge">σ = 1</span></div>
+      <div class="charts">
+        <section class="chart-panel"><div class="chart-title"><h3>Production surface</h3><span>3D VIEW</span></div><p>Height shows the output from each input mix.</p><div class="surface-wrap"><canvas id="surface" aria-label="Rotatable 3D production surface. Preparedness and suppression form the horizontal axes; protection capacity is the vertical axis." role="img"></canvas><button id="camera" title="Reset 3D view">↺ View</button></div><div class="chart-footer"><span>↔ Drag to rotate</span><span><i class="dot"></i> Your input mix</span></div></section>
+        <section class="chart-panel"><div class="chart-title"><h3>Isoquant map</h3><span>TOP VIEW</span></div><p>Every point on a curve produces the same output.</p><svg id="isoquants" viewBox="0 0 460 390" role="img" aria-label="Isoquant map with preparedness on the horizontal axis and suppression on the vertical axis"></svg><div class="chart-footer"><span>Click the map to select an input mix</span></div></section>
+      </div>
+      <div class="target-control"><div><label for="target">Trace an output level</label><p>The gold curve links the same level in both views.</p></div><input id="target" type="range" min="10" max="80" step="1" value="40"><output id="targetValue">Q = 40</output></div>
+      <div class="insight"><span class="insight-symbol">↳</span><div><h3 id="insightTitle">Balanced inputs, flexible trade-offs.</h3><p id="insightText"></p></div></div>
+    </div>
+  </section>
+  <section class="explain"><div><p class="eyebrow">BEHIND THE CURVES</p><h2>A common scale.<br>A different trade-off.</h2><p>All technologies pass through P = S = 50, Q = 50. Equal input weights and constant returns to scale keep the comparison focused on substitution.</p></div><div class="formula-box"><span class="small-label">CURRENT PRODUCTION FUNCTION</span><div id="formula" class="formula">Q = P<sup>½</sup>S<sup>½</sup></div><p id="formulaDetail"></p><details><summary>How to read elasticity and isoquants</summary><p>σ measures the percentage change in the input ratio S/P associated with a 1% change in the marginal rate of technical substitution, along an isoquant. It describes the flexibility of the technology, not its overall productivity.</p><p>With P on the horizontal axis, an isoquant’s slope is −MP<sub>P</sub>/MP<sub>S</sub>. Its absolute value is the amount of suppression that one extra unit of preparedness can replace locally, holding output fixed.</p><p>For finite σ &gt; 0, the CES function uses ρ = (σ − 1)/σ. Cobb–Douglas is the limit at σ = 1. The endpoint presets show the exact limiting functions.</p></details></div></section>
+  <section class="discussion"><span class="small-label">TRY THIS IN CLASS</span><h2>Keep the output. Change the mix.</h2><div><p><b>01</b> Set P = 20 and S = 80. Compare output across the five technologies.</p><p><b>02</b> Trace Q = 40. When can more suppression make up for less preparedness?</p><p><b>03</b> With perfect complements, increase just one input. What happens to output?</p></div></section>
+  <footer><span>NR444 · Production & substitution</span><p>Teaching model only. “Protection capacity” is an illustrative index, not a prediction of avoided wildfire damage. No costs, uncertainty, timing, or empirical calibration are included.</p></footer>
+</main>
+</body></html>
